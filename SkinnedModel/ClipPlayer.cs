@@ -110,8 +110,6 @@ namespace SkinnedModel
         }
         public void update(TimeSpan time, bool relative, Matrix root)
         {
-            if (playing)
-            {
                 if (relative)
                     currentTime += time;
                 else
@@ -159,7 +157,6 @@ namespace SkinnedModel
                 {
                     skinTransforms[i] = skinData.InverseBindPose[i] * worldTransforms[i];
                 }
-            }
         }
         public Matrix[] GetSkinTransforms()
         {

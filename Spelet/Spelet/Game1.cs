@@ -111,6 +111,7 @@ namespace Spelet
             LoadModels();
             
         }
+        #region loadFunctions
         private void LoadScenes()
         {
             //Laddar scenes och hämtar all content som behövs
@@ -209,6 +210,7 @@ namespace Spelet
                 new Plane(0, 1, 0, -1));
             shadowEffect = Content.Load<Effect>("Effects/ShadowEffect");
         }
+        #endregion
         protected override void UnloadContent()
         {
             exit();
@@ -727,21 +729,15 @@ namespace Spelet
         {
             if (m == pistolModel)
             {
-                clipPlayer.playing = false;
                 currentWep = m;
                 clipPlayer = new ClipPlayer(pistolSkinningData, fps);
-                clipPlayer.play(pistolClip, 1, 1000, false);
-                clipPlayer.playing = true;
-
+                clipPlayer.play(pistolClip, 1, 105, false);
             }
             else if (m == rifleModel)
             {
                 currentWep = m;
-                clipPlayer.playing = false;
-                currentWep = m;
                 clipPlayer = new ClipPlayer(rifleSkinningData, fps);
-                clipPlayer.play(rifleClip, 1, 1000, false);
-                clipPlayer.playing = true;
+                clipPlayer.play(rifleClip, 1, 105, false);
             }
         }
         private bool CheckClick()

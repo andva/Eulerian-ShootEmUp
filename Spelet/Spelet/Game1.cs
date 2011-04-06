@@ -682,11 +682,6 @@ namespace Spelet
                 }
                 if (currentWep == pistolModel)
                 {
-                    
-                    if (clipPlayer.inRange(1, 200))
-                    {
-                        ChangeWeapon(rifleModel);
-                    }
                     clipPlayer.play(pistolClip, 340, 380, false);
                 }
             }
@@ -719,7 +714,11 @@ namespace Spelet
 
             }
 
-            if (clipPlayer.inRange(380, 380))
+            if (clipPlayer.inRange(380, 380) && currentWep == rifleModel)
+            {
+                ChangeWeapon(pistolModel);
+            }
+            if (clipPlayer.inRange(380, 380) && currentWep == pistolModel)
             {
                 ChangeWeapon(rifleModel);
             }
@@ -728,13 +727,21 @@ namespace Spelet
         {
             if (m == pistolModel)
             {
+                clipPlayer.playing = false;
                 currentWep = m;
-                clipPlayer.ChangeModel(pistolSkinningData);
+                clipPlayer = new ClipPlayer(pistolSkinningData, fps);
+                clipPlayer.play(pistolClip, 1, 1000, false);
+                clipPlayer.playing = true;
+
             }
             else if (m == rifleModel)
             {
                 currentWep = m;
-                clipPlayer.ChangeModel(pistolSkinningData);
+                clipPlayer.playing = false;
+                currentWep = m;
+                clipPlayer = new ClipPlayer(rifleSkinningData, fps);
+                clipPlayer.play(rifleClip, 1, 1000, false);
+                clipPlayer.playing = true;
             }
         }
         private bool CheckClick()

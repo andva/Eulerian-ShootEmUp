@@ -18,6 +18,7 @@ namespace SkinnedModel
         TimeSpan startTimeSwitch, endTimeSwitch;
         bool isLooping;
         bool isSwitching;
+        public bool playing = true;
         float blend = 0;
 
         public ClipPlayer(SkinningData skd, float fps)
@@ -109,52 +110,55 @@ namespace SkinnedModel
         }
         public void update(TimeSpan time, bool relative, Matrix root)
         {
-            if (relative)
-                currentTime += time;
-            else
-                currentTime = time;
-
-            boneTransforms = GetTransformsFromTime(currentTime);
-            
-            if (currentTime >= endTime)
+            if (playing)
             {
-                if (isLooping)
-                {
-                    currentTime = startTime;
-                }
+                if (relative)
+                    currentTime += time;
                 else
-                {
-                    currentTime = endTime;
-                }
-            }
+                    currentTime = time;
 
-            if (isSwitching)
-            {
-                blend += 0.1f;
-                boneTransforms = BlendTransforms(boneTransforms,
-                                GetTransformsFromTime(startTimeSwitch));
-                if (blend > 1)
+                boneTransforms = GetTransformsFromTime(currentTime);
+
+                if (currentTime >= endTime)
                 {
-                    isSwitching = false;
-                    startTime = startTimeSwitch;
-                    endTime = endTimeSwitch;
-                    currentTime = startTime;
-                    blend = 0;
+                    if (isLooping)
+                    {
+                        currentTime = startTime;
+                    }
+                    else
+                    {
+                        currentTime = endTime;
+                    }
                 }
 
-            }
+                if (isSwitching)
+                {
+                    blend += 0.1f;
+                    boneTransforms = BlendTransforms(boneTransforms,
+                                    GetTransformsFromTime(startTimeSwitch));
+                    if (blend > 1)
+                    {
+                        isSwitching = false;
+                        startTime = startTimeSwitch;
+                        endTime = endTimeSwitch;
+                        currentTime = startTime;
+                        blend = 0;
+                    }
 
-            worldTransforms[0] = boneTransforms[0] * root;
+                }
 
-            for (int i = 1; i < worldTransforms.Length; i++)
-            {
-                int parent = skinData.SkeletonHierarchy[i];
-                worldTransforms[i] = boneTransforms[i] * worldTransforms[parent];
+                worldTransforms[0] = boneTransforms[0] * root;
 
-            }
-            for (int i = 0; i < skinTransforms.Length; i++)
-            {
-                skinTransforms[i] = skinData.InverseBindPose[i] * worldTransforms[i];
+                for (int i = 1; i < worldTransforms.Length; i++)
+                {
+                    int parent = skinData.SkeletonHierarchy[i];
+                    worldTransforms[i] = boneTransforms[i] * worldTransforms[parent];
+
+                }
+                for (int i = 0; i < skinTransforms.Length; i++)
+                {
+                    skinTransforms[i] = skinData.InverseBindPose[i] * worldTransforms[i];
+                }
             }
         }
         public Matrix[] GetSkinTransforms()
@@ -165,6 +169,5 @@ namespace SkinnedModel
         {
             this.fps = fps;
         }
-
     }
 }

@@ -89,7 +89,7 @@ namespace Spelet
             graphics.PreferMultiSampling = true;
             //showRealFPS();
             graphics.ApplyChanges();
-            Window.Title = "Valter är bäst!";
+            Window.Title = "Valter är bäst, alltid!!!";
             this.IsMouseVisible = true;
 
             base.Initialize();

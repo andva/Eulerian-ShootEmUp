@@ -42,6 +42,8 @@ namespace Spelet
         //Klass för att spela upp clip
         ClipPlayer clipPlayer;
 
+        ClipPlayer clipPlayerOther;
+
         SkinningData rifleSkinningData;
         SkinningData pistolSkinningData;
 
@@ -63,7 +65,7 @@ namespace Spelet
         Effect skySphereEffect, mapEffect, parallEffect, shadowEffect;
         Texture2D[] mapTexture = new Texture2D[2];
         Texture2D normalMap, heightMap;
-        public Model skySphere, rifleModel, pistolModel, rasmus, hampus, level, currentWep, parallLevel;
+        public Model skySphere, rifleModel, pistolModel, rasmus, hampus, level, currentWep;
         int amplitude = 0;
 
         Texture2D crossHair, HUD;
@@ -193,7 +195,9 @@ namespace Spelet
             hampus = Content.Load<Model>("Models/HampusEMBED");
             rifleModel = Content.Load<Model>("Models/rifleHands1");
             pistolModel = Content.Load<Model>("Models/pistolarms1");
+
             currentWep = rifleModel;
+
             pistolSkinningData = pistolModel.Tag as SkinningData;
             if (pistolSkinningData == null)
                 throw new InvalidOperationException
@@ -202,7 +206,7 @@ namespace Spelet
             if (rifleSkinningData == null)
                 throw new InvalidOperationException
                     ("This model does not contain a SkinningData tag. Har du satt SkinnedModelProcessor? ");
-            // fps = 60;
+
             clipPlayer = new ClipPlayer(rifleSkinningData, fps);
             rifleClip = rifleSkinningData.AnimationClips["Take 001"];
             pistolClip = pistolSkinningData.AnimationClips["Take 001"];
@@ -251,24 +255,17 @@ namespace Spelet
         private void DrawPlaying(GameTime gameTime)
         {
             graphics.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
-
             graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
             float t = (float)gameTime.TotalGameTime.Seconds;
+
             DrawLevel(level, Matrix.Identity, t);
-            skySphereEffect.Parameters["ViewMatrix"].SetValue(
-                                    nwClient.player.camera.view);
-            skySphereEffect.Parameters["ProjectionMatrix"].SetValue(
-                                    nwClient.player.camera.projection);
-            foreach (ModelMesh mesh in skySphere.Meshes)
-            {
-                mesh.Draw();
-            }
 
             OtherPlayer a = new OtherPlayer(10, 0, 100, 0, 10, 0);
 
-            graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
-            DrawStationary(a, Matrix.Identity);
-            //DrawShadow(a, Matrix.Identity);
+            //graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
+            //DrawStationary(a, Matrix.Identity);
+            DrawOtherPlayer(a, Matrix.Identity);
+            DrawShadow(a, Matrix.Identity);
             if (nwClient.connected)
             {
                 for (int i = 0; i < Constants.MAXPLAYERS; i++)
@@ -285,7 +282,6 @@ namespace Spelet
             device.Clear(ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);//Rensar djupet i bilden
 
             DrawGun(currentWep, Matrix.Identity);
-            
             Vector2 middle = new Vector2(device.Viewport.Width / 2 - 25, device.Viewport.Height / 2 - 25);
             spriteBatch.Begin();
             spriteBatch.Draw(crossHair, middle, Color.Cyan);
@@ -333,24 +329,36 @@ namespace Spelet
                 mesh.Draw();
             }
         }
-        private void DrawAnimatedStill(Model model, Matrix world)
+        private void DrawOtherPlayer(OtherPlayer otherPlayer, Matrix world)
         {
+            Model model = rasmus;
+            if (otherPlayer.model == Constants.HAMPUS)
+            {
+                model = hampus;
+            }
+            else if (otherPlayer.model == Constants.RASMUS)
+            {
+                model = rasmus;
+            }
+            foreach (ModelMesh mesh in model.Meshes)
+            {
+                foreach (ModelMeshPart part in mesh.MeshParts)
+                {
+                    part.Effect = shadowEffect;
+                }
+            }
+            GraphicsDevice.DepthStencilState = DepthStencilState.Default;
+            GraphicsDevice.BlendState = BlendState.Opaque;
             Matrix[] bones = clipPlayer.GetSkinTransforms();
             foreach (ModelMesh mesh in model.Meshes)
             {
-                foreach (SkinnedEffect effect in mesh.Effects)
+                foreach (Effect effect in mesh.Effects)
                 {
-                    effect.SetBoneTransforms(bones);
-
-                    effect.World = world;
-
-                    effect.View = nwClient.player.camera.view;
-                    effect.Projection = nwClient.player.camera.projection;
-
-                    effect.EnableDefaultLighting();
-
-                    effect.SpecularColor = new Vector3(0.25f);
-                    effect.SpecularPower = 16;
+                    effect.CurrentTechnique = effect.Techniques["Diffuse"];
+                    effect.Parameters["Bones"].SetValue(bones);
+                    effect.Parameters["View"].SetValue(nwClient.player.camera.view);
+                    effect.Parameters["Projection"].SetValue(nwClient.player.camera.projection);
+                    //effect.Parameters["Texture"].SetValue();
                 }
                 mesh.Draw();
             }
@@ -420,6 +428,7 @@ namespace Spelet
         }
         private void DrawLevel(Model model, Matrix world, float t)
         {
+            
             for(int i = 0; i < model.Meshes.Count; i++)
             {
                 ModelMesh mesh = model.Meshes.ElementAt(i);
@@ -444,6 +453,14 @@ namespace Spelet
                 status = t.ToString();
                 
             }
+            skySphereEffect.Parameters["ViewMatrix"].SetValue(
+                        nwClient.player.camera.view);
+            skySphereEffect.Parameters["ProjectionMatrix"].SetValue(
+                                    nwClient.player.camera.projection);
+            foreach (ModelMesh mesh in skySphere.Meshes)
+            {
+                mesh.Draw();
+            }
         }
         private void DrawShadow(OtherPlayer otherPlayer, Matrix world)
         {
@@ -466,17 +483,9 @@ namespace Spelet
             Matrix[] bones = new Matrix[models.Bones.Count];
             models.CopyAbsoluteBoneTransformsTo(bones);
 
-            DepthStencilState ds = GraphicsDevice.DepthStencilState;
-            BlendState bs = GraphicsDevice.BlendState;
-
             //set render states
             GraphicsDevice.DepthStencilState = DepthStencilState.DepthRead;
             GraphicsDevice.BlendState = BlendState.AlphaBlend;
-
-            // drawing code here..
-
-            // restore render states
-
 
             Matrix[] shadowBones = new Matrix[bones.Length];
             for (int i = 0; i < shadowBones.Length; i++)
@@ -488,28 +497,17 @@ namespace Spelet
             {
                 foreach (Effect effect in mesh.Effects)
                 {
-                    effect.CurrentTechnique = effect.Techniques["Shadow"];
+                    effect.CurrentTechnique = effect.Techniques["SkinnedModelTechnique"];
                     effect.Parameters["Bones"].SetValue(shadowBones);
                     effect.Parameters["View"].SetValue(nwClient.player.camera.view);
                     effect.Parameters["Projection"].SetValue(nwClient.player.camera.projection);
                 }
                 mesh.Draw();
             }
-            //GraphicsDevice.DepthStencilState.StencilEnable = false;
-            //GraphicsDevice.BlendState = BlendState.NonPremultiplied;
-            GraphicsDevice.DepthStencilState = ds;
-            GraphicsDevice.BlendState = bs;
 
             world = Matrix.CreateRotationY(otherPlayer.forwardDir) * Matrix.CreateTranslation(otherPlayer.position);
-            foreach (ModelMesh mesh in models.Meshes)
-            {
-                foreach (Effect effect in mesh.Effects)
-                {
-                    effect.CurrentTechnique = effect.Techniques["Shadow"];
-
-                }
-
-            }
+            GraphicsDevice.DepthStencilState = DepthStencilState.Default;
+            GraphicsDevice.BlendState = BlendState.Opaque;
         }
         #endregion
         protected void ShowScene(GameScene scene)

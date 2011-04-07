@@ -204,6 +204,7 @@ namespace Spelet_Host
                 openSlots[a] = false;
             }
             OtherPlayer player = new OtherPlayer(initialPosition.X, initialPosition.Y, initialPosition.Z, Constants.GUNMACHINE, a, 4);
+            player.forwardDir = 3;
             NetOutgoingMessage om = server.CreateMessage();
 
             om.Write(Constants.NewConnection);

@@ -42,8 +42,6 @@ namespace Spelet
         //Klass för att spela upp clip
         ClipPlayer clipPlayer;
 
-        ClipPlayer clipPlayerOther;
-
         SkinningData rifleSkinningData;
         SkinningData pistolSkinningData;
 
@@ -60,9 +58,11 @@ namespace Spelet
 
         //Translationsvektor för vapnet
         //Vector3 gunPos = new Vector3(1 / 3, 0, 2);
-        Vector3 gunPos = new Vector3(0.3f, 0.1f, 2f);
-
-        Effect skySphereEffect, mapEffect, parallEffect, shadowEffect;
+        //Borde läggas i vapenklass!
+        Vector3 riflePos = new Vector3(0.3f, 0.1f, 2f);
+        Vector3 pisolPos = new Vector3(0.3f, -1.0f, 1.5f);
+        Vector3 gunPos;
+        Effect skySphereEffect, mapEffect, shadowEffect;
         Texture2D[] mapTexture = new Texture2D[2];
         Texture2D normalMap, heightMap;
         public Model skySphere, rifleModel, pistolModel, rasmus, hampus, level, currentWep;
@@ -95,7 +95,6 @@ namespace Spelet
             this.IsMouseVisible = true;
 
             base.Initialize();
-
         }
         protected override void LoadContent()
         {
@@ -196,6 +195,7 @@ namespace Spelet
             rifleModel = Content.Load<Model>("Models/rifleHands1");
             pistolModel = Content.Load<Model>("Models/pistolarms1");
 
+            gunPos = riflePos;
             currentWep = rifleModel;
 
             pistolSkinningData = pistolModel.Tag as SkinningData;
@@ -242,7 +242,7 @@ namespace Spelet
 
             if (activeScene == playingScene)
             {
-                DrawPlaying(gameTime);
+                DrawPlayingScene(gameTime);
             }
             spriteBatch.Begin();
             spriteBatch.DrawString(smallFont, status, new Vector2(0, 10), Color.White);
@@ -252,7 +252,7 @@ namespace Spelet
             spriteBatch.End();
         }
         #region drawingFunctions
-        private void DrawPlaying(GameTime gameTime)
+        private void DrawPlayingScene(GameTime gameTime)
         {
             graphics.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
             graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
@@ -606,7 +606,6 @@ namespace Spelet
             nwClient.player.updatePlayer(timeDifference);
             KeyboardState keyState = Keyboard.GetState();
             MouseState mouseState = Mouse.GetState();
-            status = "Test:";
 
             if (nwClient.player != null)
             {
@@ -631,7 +630,7 @@ namespace Spelet
                 }
                 if(currentWep == pistolModel)
                 {
-                    clipPlayer.play(pistolClip, 1, 1000, false);
+                    clipPlayer.play(pistolClip, 2, 1000, false);
                 }
             }
             if (CheckClick() && canShoot && isShooting == false)
@@ -640,11 +639,11 @@ namespace Spelet
                 isShooting = true;
                 if(currentWep == rifleModel)
                 {
-                    clipPlayer.play(rifleClip, 106, 112, true);
+                    clipPlayer.play(rifleClip, 102, 124, true);
                 }
                 if(currentWep == pistolModel)
                 {
-                    clipPlayer.play(pistolClip, 106, 112, true);
+                    clipPlayer.play(pistolClip, 400, 430, true);
                 }
                 
             }
@@ -655,11 +654,11 @@ namespace Spelet
                 
                 if(currentWep == rifleModel)
                 {
-                    clipPlayer.play(rifleClip, 116, 123, false);
+                    clipPlayer.play(rifleClip, 116, 124, false);
                 }
                 if(currentWep == pistolModel)
                 {
-                    clipPlayer.play(pistolClip, 400, 430, true);
+                    clipPlayer.play(pistolClip, 200, 200, false);
                 }
             }
             if (keyState.IsKeyDown(Keys.R))
@@ -667,22 +666,23 @@ namespace Spelet
                 //Ladda om
                 if(currentWep == rifleModel)
                 {
-                    clipPlayer.play(rifleClip, 127, 283, false);
+                    clipPlayer.play(rifleClip, 125, 283, false);
                 }
                 if(currentWep == pistolModel)
                 {
-                    clipPlayer.play(pistolClip, 201, 400, true);
+                    clipPlayer.play(pistolClip, 200, 400, true);
                 }
             }
             if (keyState.IsKeyDown(Keys.Q) )
             {
+                //byt vapen
                 if (currentWep == rifleModel)
                 {
-                    clipPlayer.play(rifleClip, 340, 380, false);
+                    clipPlayer.play(rifleClip, 340, 379, false);
                 }
                 if (currentWep == pistolModel)
                 {
-                    clipPlayer.play(pistolClip, 340, 380, false);
+                    clipPlayer.play(pistolClip, 1, 1, false);
                 }
             }
 
@@ -690,35 +690,37 @@ namespace Spelet
             {
                 canShoot = false;
                 isRunning = true;
+                //Börja springa
                 if (currentWep == rifleModel)
                 {
-                    clipPlayer.play(rifleClip, 284, 308, false);
+                    clipPlayer.play(rifleClip, 284, 339, false);
                 }
                 if (currentWep == pistolModel)
                 {
-                    clipPlayer.play(pistolClip, 284, 308, false);
+                    clipPlayer.play(pistolClip, 200, 200, false);
                 }
             }
             if (keyState.IsKeyUp(Keys.LeftShift) && isRunning == true)
             {
                 isRunning = false;
                 canShoot = true;
+                //Sluta springa
                 if (currentWep == pistolModel)
                 {
                     clipPlayer.play(rifleClip, 309, 340, false);
                 }
                 if (currentWep == pistolModel)
                 {
-                    clipPlayer.play(pistolClip, 309, 340, false);
+                    clipPlayer.play(pistolClip, 200, 200, false);
                 }
 
             }
 
-            if (clipPlayer.inRange(380, 380) && currentWep == rifleModel)
+            if (clipPlayer.inRange(379, 379) && currentWep == rifleModel)
             {
                 ChangeWeapon(pistolModel);
             }
-            if (clipPlayer.inRange(380, 380) && currentWep == pistolModel)
+            if (clipPlayer.inRange(1, 1) && currentWep == pistolModel)
             {
                 ChangeWeapon(rifleModel);
             }
@@ -728,12 +730,14 @@ namespace Spelet
             if (m == pistolModel)
             {
                 currentWep = m;
+                gunPos = pisolPos;
                 clipPlayer = new ClipPlayer(pistolSkinningData, fps);
-                clipPlayer.play(pistolClip, 1, 105, false);
+                clipPlayer.play(pistolClip, 2, 200, false);
             }
             else if (m == rifleModel)
             {
                 currentWep = m;
+                gunPos = riflePos;
                 clipPlayer = new ClipPlayer(rifleSkinningData, fps);
                 clipPlayer.play(rifleClip, 1, 105, false);
             }

@@ -65,11 +65,11 @@ namespace ClassLibrary
             float zp = im.ReadFloat();
             Int32 id = im.ReadInt32();
             Int16 wep = im.ReadInt16();
-
+            float dir = im.ReadFloat();
             Player d = new Player(xp, yp, zp, wep, id, device);
+            d.forwardDir = d.camera.GetForwardDir();
             return d;
         }
-
         public static OtherPlayer MsgToOtherPlayer(NetIncomingMessage im)
         {
             bool alive = im.ReadBoolean();

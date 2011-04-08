@@ -26,7 +26,7 @@ namespace ClassLibrary
             : base(game)
         {
             Components.Add(new ImageComponent(game, background,
-                                            ImageComponent.DrawMode.Center));
+                                            ImageComponent.DrawMode.Stretch));
             menu = new TextMenuComponent(game, smallFont, largeFont);
             menu.SetMenuItems(items);
             Components.Add(menu);

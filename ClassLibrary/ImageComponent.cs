@@ -56,6 +56,19 @@ namespace ClassLibrary
                     break;
             }
         }
+        public ImageComponent(Game game, Texture2D texture, int height, int width)
+            : base(game)
+        {
+            this.texture = texture;
+            // Get the current spritebatch
+            spriteBatch = (SpriteBatch)
+                Game.Services.GetService(typeof(SpriteBatch));
+
+            // Create a rectangle with the size and position of the image
+            imageRect = new Rectangle(width, height, Game.Window.ClientBounds.Width,
+                Game.Window.ClientBounds.Height);
+        }
+        
 
         /// <summary>
         /// Allows the game component to draw itself.
@@ -63,8 +76,9 @@ namespace ClassLibrary
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Draw(GameTime gameTime)
         {
-            spriteBatch.Draw(texture, imageRect, Color.White);
+            
             base.Draw(gameTime);
+            spriteBatch.Draw(texture, imageRect, Color.White);
         }
     }
 }

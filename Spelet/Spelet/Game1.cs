@@ -108,9 +108,8 @@ namespace Spelet
             //Initierar clienten, skapar spelaren och kameran också!
             
             nwClient = new NWClient(device);
-            LoadScenes();
             LoadModels();
-            
+            LoadScenes(); 
         }
         #region loadFunctions
         private void LoadScenes()
@@ -192,6 +191,8 @@ namespace Spelet
         {
             rasmus = Content.Load<Model>("Models/RasmusEMBED");
             hampus = Content.Load<Model>("Models/HampusEMBED");
+            Globals.hampus = Content.Load<Model>("Models/HampusEMBED");
+            Globals.rasmus = Content.Load<Model>("Models/RasmusEMBED");
             rifleModel = Content.Load<Model>("Models/rifleHands1");
             pistolModel = Content.Load<Model>("Models/pistolarms1");
 
@@ -242,13 +243,12 @@ namespace Spelet
 
             if (activeScene == playingScene)
             {
-                //DrawPlayingScene(gameTime);
+                DrawPlayingScene(gameTime);
             }
             spriteBatch.Begin();
             spriteBatch.DrawString(smallFont, status, new Vector2(0, 10), Color.White);
             spriteBatch.DrawString(smallFont,"FPS: " + fps + " ", new Vector2(0, 40), Color.White);
             base.Draw(gameTime);
-
             spriteBatch.End();
         }
         #region drawingFunctions

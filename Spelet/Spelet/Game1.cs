@@ -131,7 +131,7 @@ namespace Spelet
             //Samma som ovan
             consoleScene = new ConsoleScene(this, smallFont, largeFont, startBackgroundTexture);
 
-            playingScene = new PlayingScene(this);
+            playingScene = new PlayingScene(this, crossHair, HUD);
 
             //Components är typ spelets komponenter :O används för att den ska rita ut allt o shit!
             Components.Add(consoleScene);
@@ -242,7 +242,7 @@ namespace Spelet
 
             if (activeScene == playingScene)
             {
-                DrawPlayingScene(gameTime);
+                //DrawPlayingScene(gameTime);
             }
             spriteBatch.Begin();
             spriteBatch.DrawString(smallFont, status, new Vector2(0, 10), Color.White);

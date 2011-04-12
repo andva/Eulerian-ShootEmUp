@@ -156,6 +156,7 @@ namespace Spelet
         }
         private void LoadSkySphere()
         {
+
             skySphereEffect = Content.Load<Effect>("Effects/SkySphere");
             skySphere = Content.Load<Model>("Models/SphereHighPoly");
             TextureCube SkyboxTexture = Content.Load<TextureCube>("Images/uffizi_cross");
@@ -170,14 +171,18 @@ namespace Spelet
                     part.Effect = skySphereEffect;
                 }
             }
+            Globals.skysphere = skySphere;
+            Globals.skySphereEffect = skySphereEffect;
         }
         private void LoadMap()
         {
             mapEffect = Content.Load<Effect>("Effects/MapShader");
+
             mapTexture[0] = Content.Load<Texture2D>("Images/color_map");
             mapTexture[1] = Content.Load<Texture2D>("Images/wallTile");
-            normalMap = Content.Load<Texture2D>("Images/normal_map");
-            heightMap = Content.Load<Texture2D>("Images/height_map");
+            Texture2D[] mEffect = new Texture2D[2];
+            mEffect[0] = Content.Load<Texture2D>("Images/normal_map");
+            mEffect[1] = Content.Load<Texture2D>("Images/height_map");
             level = Content.Load<Model>("Models/level3");
             foreach (ModelMesh mesh in level.Meshes)
             {
@@ -186,13 +191,15 @@ namespace Spelet
                     part.Effect = mapEffect;
                 }
             }
+            Globals.level.mapTexture = mapTexture;
+
+            Globals.level.effectTextures = mEffect;
+            Globals.levelEffect = mapEffect;
         }
         private void LoadKillers()
         {
             rasmus = Content.Load<Model>("Models/RasmusEMBED");
             hampus = Content.Load<Model>("Models/HampusEMBED");
-            Globals.hampus = Content.Load<Model>("Models/HampusEMBED");
-            Globals.rasmus = Content.Load<Model>("Models/RasmusEMBED");
             rifleModel = Content.Load<Model>("Models/rifleHands1");
             pistolModel = Content.Load<Model>("Models/pistolarms1");
 
@@ -214,6 +221,10 @@ namespace Spelet
             shadow = Matrix.CreateShadow(lightDir1,
                 new Plane(0, 1, 0, -1));
             shadowEffect = Content.Load<Effect>("Effects/ShadowEffect");
+            Globals.rifle = rifleModel;
+            Globals.hampus = hampus;
+            Globals.rasmus = rasmus;
+            Globals.pistol = pistolModel;
         }
         #endregion
         protected override void UnloadContent()
@@ -283,10 +294,10 @@ namespace Spelet
 
             DrawGun(currentWep, Matrix.Identity);
             Vector2 middle = new Vector2(device.Viewport.Width / 2 - 25, device.Viewport.Height / 2 - 25);
-            spriteBatch.Begin();
+            spriteBatch.Begin();/*
             spriteBatch.Draw(crossHair, middle, Color.Cyan);
             spriteBatch.Draw(HUD, new Rectangle(0, 0, Constants.SCRWIDTH, Constants.SCRHEIGHT), Color.White);
-
+            */
             spriteBatch.End();
         }
         private void DrawGun(Model model, Matrix world)

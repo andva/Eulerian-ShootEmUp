@@ -74,8 +74,6 @@ namespace Spelet
         float time = 0;
         TimeSpan PassedTime = new TimeSpan(0);
 
-        //Statusinfo
-        String status = "h";
 #endregion
         public Game1()
         {
@@ -192,7 +190,7 @@ namespace Spelet
                 }
             }
             Globals.level.mapTexture = mapTexture;
-
+            Globals.level.model = level;
             Globals.level.effectTextures = mEffect;
             Globals.levelEffect = mapEffect;
         }
@@ -225,6 +223,7 @@ namespace Spelet
             Globals.hampus = hampus;
             Globals.rasmus = rasmus;
             Globals.pistol = pistolModel;
+            Globals.clipPlayer = clipPlayer;
         }
         #endregion
         protected override void UnloadContent()
@@ -250,26 +249,18 @@ namespace Spelet
         }
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-
-            if (activeScene == playingScene)
-            {
-                DrawPlayingScene(gameTime);
-            }
             spriteBatch.Begin();
-            spriteBatch.DrawString(smallFont, status, new Vector2(0, 10), Color.White);
-            spriteBatch.DrawString(smallFont,"FPS: " + fps + " ", new Vector2(0, 40), Color.White);
             base.Draw(gameTime);
             spriteBatch.End();
         }
         #region drawingFunctions
         private void DrawPlayingScene(GameTime gameTime)
         {
-            graphics.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
+            /*graphics.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
             graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
             float t = (float)gameTime.TotalGameTime.Seconds;
 
-            DrawLevel(level, Matrix.Identity, t);
+            //DrawLevel(level, Matrix.Identity, t);
 
             OtherPlayer a = new OtherPlayer(10, 0, 100, 0, 10, 0);
 
@@ -294,51 +285,11 @@ namespace Spelet
 
             DrawGun(currentWep, Matrix.Identity);
             Vector2 middle = new Vector2(device.Viewport.Width / 2 - 25, device.Viewport.Height / 2 - 25);
-            spriteBatch.Begin();/*
+            spriteBatch.Begin();
             spriteBatch.Draw(crossHair, middle, Color.Cyan);
             spriteBatch.Draw(HUD, new Rectangle(0, 0, Constants.SCRWIDTH, Constants.SCRHEIGHT), Color.White);
-            */
-            spriteBatch.End();
-        }
-        private void DrawGun(Model model, Matrix world)
-        {
-            KeyboardState keyState = Keyboard.GetState();
-
-            if (keyState.IsKeyDown(Keys.LeftShift))
-            {
-                amplitude = 7;
-            }
-            else amplitude = 2;
-
-            float sinDisp = amplitude * (float)Math.Sin(time * amplitude) / 30;//sinus displacement
-            float cosDisp = amplitude * (float)Math.Cos(time * amplitude) / 30;//cossinus displacement
-
-            world = world * Matrix.CreateTranslation(gunPos) * 
-            Matrix.CreateTranslation(new Vector3(0.15f + cosDisp / 2, -12.2f - Math.Abs(sinDisp), -20 + cosDisp / 3)) *
-            Matrix.CreateTranslation(new Vector3(0f, 0f, nwClient.player.rifle.zRecoil)) *
-            Matrix.CreateScale(0.5f, 0.5f, 0.5f) *
-            Matrix.CreateRotationY(MathHelper.Pi) / 2 *
-            nwClient.player.camera.rotation * Matrix.CreateTranslation(nwClient.player.camera.position + 10 * nwClient.player.camera.rotatedTarget);
-            Matrix[] bones = clipPlayer.GetSkinTransforms();
-            foreach (ModelMesh mesh in model.Meshes)
-            {
-                foreach (SkinnedEffect effect in mesh.Effects)
-                {
-                    effect.SetBoneTransforms(bones);
-
-                    effect.World = world;
-
-                    effect.View = nwClient.player.camera.view;
-                    effect.Projection = nwClient.player.camera.projection;
-
-                    effect.EnableDefaultLighting();
-
-                    effect.SpecularColor = new Vector3(0.25f);
-                    effect.SpecularPower = 16;
-                }
-
-                mesh.Draw();
-            }
+            
+            spriteBatch.End();*/
         }
         private void DrawOtherPlayer(OtherPlayer otherPlayer, Matrix world)
         {
@@ -417,61 +368,6 @@ namespace Spelet
                 effect.SpecularPower = 16;
             }
             me.Draw();
-        }
-        private void DrawLevelBasic(Model model, Matrix world)
-        {
-            foreach (ModelMesh mesh in model.Meshes)
-            {
-                foreach (BasicEffect effect in mesh.Effects)
-                {
-                    effect.EnableDefaultLighting();
-                    effect.PreferPerPixelLighting = true;
-                    effect.World = world;
-                    // Use the matrices provided by the game camera
-                    effect.View = nwClient.player.camera.view;
-                    effect.Projection = nwClient.player.camera.projection;
-                    effect.SpecularColor = new Vector3(0.25f);
-                    effect.SpecularPower = 16;
-                }
-                mesh.Draw();
-
-            }
-        }
-        private void DrawLevel(Model model, Matrix world, float t)
-        {
-            
-            for(int i = 0; i < model.Meshes.Count; i++)
-            {
-                ModelMesh mesh = model.Meshes.ElementAt(i);
-                foreach(Effect effect in mesh.Effects)
-                {
-                    if (i == 0)
-                    {
-                        effect.CurrentTechnique = effect.Techniques["Bump"];
-                        effect.Parameters["N_Texture"].SetValue(normalMap);
-                    }
-                    if (i == 1)
-                    {
-                        effect.CurrentTechnique = effect.Techniques["Basic"];
-                    }
-                    
-                    effect.Parameters["Texture"].SetValue(mapTexture[i]);
-                    effect.Parameters["Projection"].SetValue(nwClient.player.camera.projection);
-                    effect.Parameters["View"].SetValue(nwClient.player.camera.view);
-                    effect.Parameters["lightDir1"].SetValue(new Vector3(-(float)Math.Sin(t/2),-(float)Math.Sin(t/2) , 5));
-                }
-                mesh.Draw();
-                status = t.ToString();
-                
-            }
-            skySphereEffect.Parameters["ViewMatrix"].SetValue(
-                        nwClient.player.camera.view);
-            skySphereEffect.Parameters["ProjectionMatrix"].SetValue(
-                                    nwClient.player.camera.projection);
-            foreach (ModelMesh mesh in skySphere.Meshes)
-            {
-                mesh.Draw();
-            }
         }
         private void DrawShadow(OtherPlayer otherPlayer, Matrix world)
         {
@@ -556,20 +452,16 @@ namespace Spelet
         {
             if (nwClient.connected)
             {
-                ShowScene(playingScene); 
-                status = "Connected!";
+                ShowScene(playingScene);
             }
             else if (CheckClick())
             {
                 int _s = consoleScene.SelectedMenuIndex;
-                status = Convert.ToString(consoleScene.serverList.CountServers());
                 if (_s != -1 && _s < consoleScene.serverList.CountServers())
                 {
                     string k = consoleScene.serverList.getIp(_s);
 
                     nwClient.TryConnectIp(k);
-                    
-                    status = "Trying to connect to: " + k;
                     nwClient.GetMsgs();
                 }
                 else
@@ -618,17 +510,13 @@ namespace Spelet
             KeyboardState keyState = Keyboard.GetState();
             MouseState mouseState = Mouse.GetState();
 
-            if (nwClient.player != null)
-            {
-                status += Convert.ToString(nwClient.player.forwardDir) + "\n";
-            }
             if (nwClient.players != null)
             {
                 foreach (OtherPlayer op in nwClient.players)
                 {
                     if (op != null)
                     {
-                        status += Convert.ToString(op.forwardDir) + "\n";
+                        ;
                     }
                 }
             }

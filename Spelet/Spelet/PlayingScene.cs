@@ -9,6 +9,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using SkinnedModel;
 
 namespace ClassLibrary
 {
@@ -23,6 +24,10 @@ namespace ClassLibrary
         Vector3 gunPos;
         float time;
         Vector2 middle;
+        Game g;
+        Boolean isRunning = false;
+        Boolean canShoot = true;
+        Boolean isShooting = false;
 
         public PlayingScene(Game game, Texture2D cross, Texture2D HUD)
             : base(game)
@@ -34,7 +39,36 @@ namespace ClassLibrary
             spriteBatch = (SpriteBatch)Game.Services.GetService(
                                 typeof(SpriteBatch));
             LoadModels();
+            g = game;
+        }
 
+        /// <summary>
+        /// Show the start scene
+        /// </summary>
+        public override void Show()
+        {
+            base.Show();
+            currentWep = modelRifle;
+            gunPos = riflePos;
+            Globals.clipPlayer.play(Globals.rifleClip, 100, 100, false);
+            g.IsMouseVisible = false;
+        }
+        public override void Hide()
+        {
+            base.Hide();
+        }
+        public override void Draw(GameTime gameTime)
+        {
+            time = (float)((gameTime.TotalGameTime.TotalMilliseconds / 2000) % 2 * Math.PI);
+            base.Game.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
+            //base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
+            DrawSkySphere();
+            base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
+            DrawLevel();
+            base.Game.GraphicsDevice.Clear(ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);//Rensar djupet i bilden
+            DrawGun();
+            spriteBatch.Draw(crossHair, middle, Color.Cyan);
+            base.Draw(gameTime);
         }
         private void LoadModels()
         {
@@ -43,6 +77,161 @@ namespace ClassLibrary
             modelPistol = Globals.pistol;
             modelRifle = Globals.rifle;
             level = Globals.level;
+        }
+        public override void Update(GameTime gameTime)
+        {
+            
+            base.Update(gameTime);
+        }
+        private void HandleImput(GameTime gameTime)
+        {
+            Globals.clipPlayer.update(gameTime.ElapsedGameTime, true, Matrix.Identity);
+            float timeDifference = (float)gameTime.ElapsedGameTime.TotalMilliseconds / 1000.0f;
+            Globals.player.updatePlayer(timeDifference);
+            KeyboardState keyState = Keyboard.GetState();
+            MouseState mouseState = Mouse.GetState();
+
+           /* if (Globals.players != null)
+            {
+                foreach (OtherPlayer op in Globals.players)
+                {
+                    if (op != null)
+                    {
+                        ;
+                    }
+                }
+            }*/
+            if (keyState.IsKeyDown(Keys.D1))
+            {
+                //Spela alla animationer
+                if (currentWep == Globals.rifle)
+                {
+                    Globals.clipPlayer.play(Globals.rifleClip, 1, 1000, false);
+                }
+                if (currentWep == Globals.pistol)
+                {
+                    Globals.clipPlayer.play(Globals.pistolClip, 2, 1000, false);
+                }
+            }
+            if (CheckClick() && canShoot && isShooting == false)
+            {
+                //Skjutanimation
+                isShooting = true;
+                if (currentWep == Globals.rifle)
+                {
+                    Globals.clipPlayer.play(Globals.rifleClip, 102, 124, true);
+                }
+                if (currentWep == Globals.pistol)
+                {
+                    Globals.clipPlayer.play(Globals.pistolClip, 400, 430, true);
+                }
+
+            }
+            if (!CheckClick() && isShooting == true)
+            {
+                //Sluta skjuta
+                isShooting = false;
+
+                if (currentWep == Globals.rifle)
+                {
+                    Globals.clipPlayer.play(Globals.rifleClip, 116, 124, false);
+                }
+                if (currentWep == Globals.pistol)
+                {
+                    Globals.clipPlayer.play(Globals.pistolClip, 200, 200, false);
+                }
+            }
+            if (keyState.IsKeyDown(Keys.R))
+            {
+                //Ladda om
+                if (currentWep == Globals.rifle)
+                {
+                    Globals.clipPlayer.play(Globals.rifleClip, 125, 283, false);
+                }
+                if (currentWep == Globals.pistol)
+                {
+                    Globals.clipPlayer.play(Globals.pistolClip, 200, 400, true);
+                }
+            }
+            if (keyState.IsKeyDown(Keys.Q))
+            {
+                //byt vapen
+                if (currentWep == Globals.rifle)
+                {
+                    Globals.clipPlayer.play(Globals.rifleClip, 340, 379, false);
+                }
+                if (currentWep == Globals.pistol)
+                {
+                    Globals.clipPlayer.play(Globals.pistolClip, 1, 1, false);
+                }
+            }
+
+            if (keyState.IsKeyDown(Keys.LeftShift) && isRunning == false)
+            {
+                canShoot = false;
+                isRunning = true;
+                //Börja springa
+                if (currentWep == Globals.rifle)
+                {
+                    Globals.clipPlayer.play(Globals.rifleClip, 284, 339, false);
+                }
+                if (currentWep == Globals.pistol)
+                {
+                    Globals.clipPlayer.play(Globals.pistolClip, 200, 200, false);
+                }
+            }
+            if (keyState.IsKeyUp(Keys.LeftShift) && isRunning == true)
+            {
+                isRunning = false;
+                canShoot = true;
+                //Sluta springa
+                if (currentWep == Globals.pistol)
+                {
+                    Globals.clipPlayer.play(Globals.rifleClip, 309, 340, false);
+                }
+                if (currentWep == Globals.pistol)
+                {
+                    Globals.clipPlayer.play(Globals.pistolClip, 200, 200, false);
+                }
+
+            }
+
+            if (Globals.clipPlayer.inRange(379, 379) && currentWep == Globals.rifle)
+            {
+                ChangeWeapon(Globals.pistol);
+            }
+            if (Globals.clipPlayer.inRange(1, 1) && currentWep == Globals.pistol)
+            {
+                ChangeWeapon(Globals.rifle);
+            }
+        }
+        private bool CheckClick()
+        {
+            // Get the Keyboard and GamePad state
+            MouseState ms = Mouse.GetState();
+
+            if (ms.LeftButton == ButtonState.Pressed)
+            {
+                return true;
+            }
+            return false;
+        }
+        private void ChangeWeapon(Model m)
+        {
+            if (m == Globals.pistol)
+            {
+                currentWep = m;
+                gunPos = pisolPos;
+                Globals.clipPlayer = new ClipPlayer(Globals.pistolSkinningData, 60);
+                Globals.clipPlayer.play(Globals.pistolClip, 2, 200, false);
+            }
+            else if (m == Globals.rifle)
+            {
+                currentWep = m;
+                gunPos = riflePos;
+                Globals.clipPlayer = new ClipPlayer(Globals.rifleSkinningData, 60);
+                Globals.clipPlayer.play(Globals.rifleClip, 1, 105, false);
+            }
         }
         private void DrawLevel()
         {
@@ -123,33 +312,6 @@ namespace ClassLibrary
                 mesh.Draw();
             }
         }
-        /// <summary>
-        /// Show the start scene
-        /// </summary>
-        public override void Show()
-        {
-            base.Show();
-            currentWep = modelRifle;
-            gunPos = riflePos;
-        }
-        public override void Hide()
-        {
-            base.Hide();
-        }
-        public override void Draw(GameTime gameTime)
-        {
-            time = (float)((gameTime.TotalGameTime.TotalMilliseconds / 2000) % 2 * Math.PI);
-            base.Game.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
-            //base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
-            DrawSkySphere();
-            base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
-            DrawLevel();
-            base.Game.GraphicsDevice.Clear(ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);//Rensar djupet i bilden
-            DrawGun();
-            spriteBatch.Draw(crossHair, middle, Color.Cyan);
-            base.Draw(gameTime);
-        }
-
         private void DrawOtherPlayer(OtherPlayer otherPlayer, Matrix world)
         {
             Model model = Globals.hampus;

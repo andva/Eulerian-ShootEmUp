@@ -25,5 +25,7 @@ namespace ClassLibrary
         public static Level level;
         public static Player player;
         public static ClipPlayer clipPlayer;
+        public static AnimationClip rifleClip, pistolClip;
+        public static SkinningData pistolSkinningData, rifleSkinningData;
     }
 }

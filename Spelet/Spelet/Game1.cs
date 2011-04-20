@@ -145,7 +145,7 @@ namespace Spelet
             LoadMap();
             LoadKillers();
             LoadHUD();
-            
+            LoadGlobals();
         }
         private void LoadHUD()
         {
@@ -219,11 +219,19 @@ namespace Spelet
             shadow = Matrix.CreateShadow(lightDir1,
                 new Plane(0, 1, 0, -1));
             shadowEffect = Content.Load<Effect>("Effects/ShadowEffect");
+           
+        }
+        private void LoadGlobals()
+        {
+            Globals.rifleClip = rifleClip;
+            Globals.pistolClip = pistolClip;
             Globals.rifle = rifleModel;
             Globals.hampus = hampus;
             Globals.rasmus = rasmus;
             Globals.pistol = pistolModel;
             Globals.clipPlayer = clipPlayer;
+            Globals.pistolSkinningData = pistolSkinningData;
+            Globals.rifleSkinningData = rifleSkinningData;
         }
         #endregion
         protected override void UnloadContent()
@@ -423,11 +431,7 @@ namespace Spelet
             activeScene = scene;
             scene.Show();
             activeScene.Show();
-            if (scene == playingScene)//vad gör denna? MousePos sköts annars helt från cameraklassen
-            {
-                this.IsMouseVisible = false;
-                clipPlayer.play(rifleClip, 100, 100, false);
-            }
+
         }
         #region handleInput
         private void HandleScenesInput(GameTime gameTime)
@@ -444,7 +448,7 @@ namespace Spelet
             }
             if(activeScene == playingScene)
             {
-                HandlePlayingSceneInput(gameTime);
+                //HandlePlayingSceneInput(gameTime);
             }
 
         }
@@ -502,7 +506,7 @@ namespace Spelet
                 }
             }
         }
-        private void HandlePlayingSceneInput(GameTime gameTime)
+        /*private void HandlePlayingSceneInput(GameTime gameTime)
         {
             clipPlayer.update(gameTime.ElapsedGameTime, true, Matrix.Identity);
             timeDifference = (float)gameTime.ElapsedGameTime.TotalMilliseconds / 1000.0f;
@@ -640,7 +644,7 @@ namespace Spelet
                 clipPlayer = new ClipPlayer(rifleSkinningData, fps);
                 clipPlayer.play(rifleClip, 1, 105, false);
             }
-        }
+        }*/
         private bool CheckClick()
         {
             // Get the Keyboard and GamePad state

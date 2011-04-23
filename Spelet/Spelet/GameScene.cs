@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Xna.Framework;
-
+using Microsoft.Xna.Framework.Input;
 namespace ClassLibrary
 {
     public abstract class GameScene : DrawableGameComponent
@@ -78,6 +78,18 @@ namespace ClassLibrary
             }
             base.Draw(gameTime);
         }
+        public bool CheckClick()
+        {
+            // Get the Keyboard and GamePad state
+            MouseState ms = Mouse.GetState();
+
+            if (ms.LeftButton == ButtonState.Pressed)
+            {
+                return true;
+            }
+            return false;
+        }
+
     }
 }
 

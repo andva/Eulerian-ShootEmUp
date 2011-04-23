@@ -33,6 +33,10 @@ namespace ClassLibrary
             spriteBatch = (SpriteBatch)Game.Services.GetService(
                                 typeof(SpriteBatch));
         }
+        public override void Update(GameTime gameTime)
+        {
+            base.Update(gameTime);
+        }
 
         /// <summary>
         /// Show the start scene

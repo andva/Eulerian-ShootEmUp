@@ -25,19 +25,19 @@ namespace Spelet
         NWClient nwClient;
         SpriteFont smallFont, largeFont;
         Vector3 lightDir1 = new Vector3(1, 1, 1);
-        Matrix shadow;
+        
 
         //Startmeny
         StartScene startScene;
-
         //Serverlistan
         ConsoleScene consoleScene;
-
         //själva scenen där man spelar vårt awsc000la sp3l! ;)
         PlayingScene playingScene;
-
         //Aktiv scen
         GameScene activeScene;
+
+        KeyboardState prevKS;
+        KeyboardState nowKS;
 
         //Klass för att spela upp clip
         ClipPlayer clipPlayer;
@@ -48,11 +48,6 @@ namespace Spelet
         //Klass för animationsklipp
         AnimationClip rifleClip;
         AnimationClip pistolClip;
-
-        //Rasmus Skit
-        Boolean isRunning = false;
-        Boolean canShoot = true;
-        Boolean isShooting = false;
 
         float fps;
 
@@ -66,7 +61,6 @@ namespace Spelet
         Texture2D[] mapTexture = new Texture2D[2];
         Texture2D normalMap, heightMap;
         public Model skySphere, rifleModel, pistolModel, rasmus, hampus, level, currentWep;
-        int amplitude = 0;
 
         Texture2D crossHair, HUD;
         Texture2D startBackgroundTexture;
@@ -80,6 +74,9 @@ namespace Spelet
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
+
+
+        #region loadFunctions
         protected override void Initialize()
         {
             //Sätter upplösning och fullskärmsläge
@@ -87,9 +84,8 @@ namespace Spelet
             graphics.PreferredBackBufferHeight = Constants.SCRHEIGHT;
             graphics.IsFullScreen = false;
             graphics.PreferMultiSampling = true;
-            //showRealFPS();
             graphics.ApplyChanges();
-            Window.Title = "Axel är bäst, alltid!!!";
+            Window.Title = "Valter är bäst, såklart!!!!";
             this.IsMouseVisible = true;
 
             base.Initialize();
@@ -98,18 +94,16 @@ namespace Spelet
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            
+
             Services.AddService(typeof(SpriteBatch), spriteBatch);
 
             device = graphics.GraphicsDevice;
-            
+
             //Initierar clienten, skapar spelaren och kameran också!
-            
             nwClient = new NWClient(device);
             LoadModels();
-            LoadScenes(); 
+            LoadScenes();
         }
-        #region loadFunctions
         private void LoadScenes()
         {
             //Laddar scenes och hämtar all content som behövs
@@ -169,8 +163,7 @@ namespace Spelet
                     part.Effect = skySphereEffect;
                 }
             }
-            Globals.skysphere = skySphere;
-            Globals.skySphereEffect = skySphereEffect;
+
         }
         private void LoadMap()
         {
@@ -189,10 +182,7 @@ namespace Spelet
                     part.Effect = mapEffect;
                 }
             }
-            Globals.level.mapTexture = mapTexture;
-            Globals.level.model = level;
             Globals.level.effectTextures = mEffect;
-            Globals.levelEffect = mapEffect;
         }
         private void LoadKillers()
         {
@@ -216,8 +206,7 @@ namespace Spelet
             clipPlayer = new ClipPlayer(rifleSkinningData, fps);
             rifleClip = rifleSkinningData.AnimationClips["Take 001"];
             pistolClip = pistolSkinningData.AnimationClips["Take 001"];
-            shadow = Matrix.CreateShadow(lightDir1,
-                new Plane(0, 1, 0, -1));
+            
             shadowEffect = Content.Load<Effect>("Effects/ShadowEffect");
            
         }
@@ -232,12 +221,15 @@ namespace Spelet
             Globals.clipPlayer = clipPlayer;
             Globals.pistolSkinningData = pistolSkinningData;
             Globals.rifleSkinningData = rifleSkinningData;
+            Globals.level.mapTexture = mapTexture;
+            Globals.level.model = level;
+            Globals.shadowEffect = shadowEffect;
+            Globals.levelEffect = mapEffect;
+            Globals.skysphere = skySphere;
+            Globals.skySphereEffect = skySphereEffect;
         }
         #endregion
-        protected override void UnloadContent()
-        {
-            exit();
-        }
+        
         protected override void Update(GameTime gameTime)
         {
             timeDifference = (float)gameTime.ElapsedGameTime.TotalSeconds;
@@ -247,95 +239,24 @@ namespace Spelet
 
             nwClient.UpdatePos(timeDifference);
             nwClient.GetMsgs();
-            KeyboardState keyState = Keyboard.GetState();
-            if (keyState.IsKeyDown(Keys.Escape))
-                this.Exit();
+            
+
 
             HandleScenesInput(gameTime);
 
             base.Update(gameTime);
         }
+        
+        #region drawingFunctions
         protected override void Draw(GameTime gameTime)
         {
             spriteBatch.Begin();
             base.Draw(gameTime);
             spriteBatch.End();
         }
-        #region drawingFunctions
-        private void DrawPlayingScene(GameTime gameTime)
-        {
-            /*graphics.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
-            graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
-            float t = (float)gameTime.TotalGameTime.Seconds;
-
-            //DrawLevel(level, Matrix.Identity, t);
-
-            OtherPlayer a = new OtherPlayer(10, 0, 100, 0, 10, 0);
-
-            //graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
-            //DrawStationary(a, Matrix.Identity);
-            DrawOtherPlayer(a, Matrix.Identity);
-            DrawShadow(a, Matrix.Identity);
-            if (nwClient.connected)
-            {
-                for (int i = 0; i < Constants.MAXPLAYERS; i++)
-                {
-                    if (nwClient.players[i] != null)
-                    {
-                        if (nwClient.players[i].isAlive())
-                        {
-                            DrawStationary(nwClient.players[i], Matrix.Identity);
-                        }
-                    }
-                }
-            }
-            device.Clear(ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);//Rensar djupet i bilden
-
-            DrawGun(currentWep, Matrix.Identity);
-            Vector2 middle = new Vector2(device.Viewport.Width / 2 - 25, device.Viewport.Height / 2 - 25);
-            spriteBatch.Begin();
-            spriteBatch.Draw(crossHair, middle, Color.Cyan);
-            spriteBatch.Draw(HUD, new Rectangle(0, 0, Constants.SCRWIDTH, Constants.SCRHEIGHT), Color.White);
-            
-            spriteBatch.End();*/
-        }
-        private void DrawOtherPlayer(OtherPlayer otherPlayer, Matrix world)
-        {
-            Model model = rasmus;
-            if (otherPlayer.model == Constants.HAMPUS)
-            {
-                model = hampus;
-            }
-            else if (otherPlayer.model == Constants.RASMUS)
-            {
-                model = rasmus;
-            }
-            foreach (ModelMesh mesh in model.Meshes)
-            {
-                foreach (ModelMeshPart part in mesh.MeshParts)
-                {
-                    part.Effect = shadowEffect;
-                }
-            }
-            GraphicsDevice.DepthStencilState = DepthStencilState.Default;
-            GraphicsDevice.BlendState = BlendState.Opaque;
-            Matrix[] bones = clipPlayer.GetSkinTransforms();
-            foreach (ModelMesh mesh in model.Meshes)
-            {
-                foreach (Effect effect in mesh.Effects)
-                {
-                    effect.CurrentTechnique = effect.Techniques["Diffuse"];
-                    effect.Parameters["Bones"].SetValue(bones);
-                    effect.Parameters["View"].SetValue(nwClient.player.camera.view);
-                    effect.Parameters["Projection"].SetValue(nwClient.player.camera.projection);
-                    //effect.Parameters["Texture"].SetValue();
-                }
-                mesh.Draw();
-            }
-        }
         private void DrawStationary(OtherPlayer otherPlayer, Matrix world)
         {
-            Model models = rasmus;
+            /*Model models = rasmus;
             if (otherPlayer.model == Constants.HAMPUS)
             {
                 models = hampus;
@@ -375,70 +296,27 @@ namespace Spelet
                 effect.SpecularColor = new Vector3(0.25f);
                 effect.SpecularPower = 16;
             }
-            me.Draw();
-        }
-        private void DrawShadow(OtherPlayer otherPlayer, Matrix world)
-        {
-            Model models = rasmus;
-            if (otherPlayer.model == Constants.HAMPUS)
-            {
-                models = hampus;
-            }
-            else if (otherPlayer.model == Constants.RASMUS)
-            {
-                models = rasmus;
-            }
-            foreach (ModelMesh mesh in models.Meshes)
-            {
-                foreach (ModelMeshPart part in mesh.MeshParts)
-                {
-                    part.Effect = shadowEffect;
-                }
-            }
-            Matrix[] bones = new Matrix[models.Bones.Count];
-            models.CopyAbsoluteBoneTransformsTo(bones);
-
-            //set render states
-            GraphicsDevice.DepthStencilState = DepthStencilState.DepthRead;
-            GraphicsDevice.BlendState = BlendState.AlphaBlend;
-
-            Matrix[] shadowBones = new Matrix[bones.Length];
-            for (int i = 0; i < shadowBones.Length; i++)
-            {
-                shadowBones[i] = bones[i] * shadow;
-            }
-
-            foreach (ModelMesh mesh in models.Meshes)
-            {
-                foreach (Effect effect in mesh.Effects)
-                {
-                    effect.CurrentTechnique = effect.Techniques["SkinnedModelTechnique"];
-                    effect.Parameters["Bones"].SetValue(shadowBones);
-                    effect.Parameters["View"].SetValue(nwClient.player.camera.view);
-                    effect.Parameters["Projection"].SetValue(nwClient.player.camera.projection);
-                }
-                mesh.Draw();
-            }
-
-            world = Matrix.CreateRotationY(otherPlayer.forwardDir) * Matrix.CreateTranslation(otherPlayer.position);
-            GraphicsDevice.DepthStencilState = DepthStencilState.Default;
-            GraphicsDevice.BlendState = BlendState.Opaque;
+            me.Draw();*/
         }
         #endregion
-        protected void ShowScene(GameScene scene)
-        {
-            activeScene.Hide();
-            activeScene = scene;
-            scene.Show();
-            activeScene.Show();
 
-        }
         #region handleInput
         private void HandleScenesInput(GameTime gameTime)
         {
-            
+            nowKS = Keyboard.GetState();
+
+
+            if (nowKS.IsKeyUp(Keys.Escape) && prevKS.IsKeyDown(Keys.Escape))
+            {
+                if (activeScene == playingScene)
+                    ShowScene(startScene);
+                else
+                    this.Exit();
+            }
+
+            prevKS = nowKS;
             // Handle Start Scene Input
-            if(activeScene == startScene)
+            if (activeScene == startScene)
             {
                 HandleStartSceneInput();
             }
@@ -446,11 +324,33 @@ namespace Spelet
             {
                 HandleConsoleSceneInput();
             }
-            if(activeScene == playingScene)
-            {
-                //HandlePlayingSceneInput(gameTime);
-            }
 
+        }
+        private void HandleStartSceneInput()
+        {
+            if (CheckClick())
+            {
+                switch (startScene.SelectedMenuIndex)
+                {
+                    case 0:
+                        if (!Functions.IsServerRunning())
+                            Functions.RunServerFromPath();
+                        if (nwClient.connected)
+                        {
+                            ShowScene(playingScene);
+                        }
+                        break;
+                    case 1:
+                        ShowScene(consoleScene);
+                        break;
+                    case 2:
+                        ShowScene(playingScene);
+                        break;
+                    case 3:
+                        this.Exit();
+                        break;
+                }
+            }
         }
         private void HandleConsoleSceneInput()
         {
@@ -481,170 +381,6 @@ namespace Spelet
                 }
             }
         }
-        private void HandleStartSceneInput()
-        {
-            if (CheckClick())
-            {
-                switch (startScene.SelectedMenuIndex)
-                {
-                    case 0:
-                        if(!Functions.IsServerRunning())
-                            Functions.RunServerFromPath();
-                        nwClient.TryConnectLocal();
-                        if (nwClient.connected)
-                        {
-                            ShowScene(playingScene);
-                        }
-                        break;
-                    case 1:
-                        ShowScene(consoleScene);
-                        break;
-                    case 2:
-                        ShowScene(playingScene);
-                        break;
-
-                }
-            }
-        }
-        /*private void HandlePlayingSceneInput(GameTime gameTime)
-        {
-            clipPlayer.update(gameTime.ElapsedGameTime, true, Matrix.Identity);
-            timeDifference = (float)gameTime.ElapsedGameTime.TotalMilliseconds / 1000.0f;
-            nwClient.player.updatePlayer(timeDifference);
-            KeyboardState keyState = Keyboard.GetState();
-            MouseState mouseState = Mouse.GetState();
-
-            if (nwClient.players != null)
-            {
-                foreach (OtherPlayer op in nwClient.players)
-                {
-                    if (op != null)
-                    {
-                        ;
-                    }
-                }
-            }
-            if (keyState.IsKeyDown(Keys.D1))
-            {
-                //Spela alla animationer
-                if(currentWep == rifleModel)
-                {
-                    clipPlayer.play(rifleClip, 1, 1000, false);
-                }
-                if(currentWep == pistolModel)
-                {
-                    clipPlayer.play(pistolClip, 2, 1000, false);
-                }
-            }
-            if (CheckClick() && canShoot && isShooting == false)
-            {
-                //Skjutanimation
-                isShooting = true;
-                if(currentWep == rifleModel)
-                {
-                    clipPlayer.play(rifleClip, 102, 124, true);
-                }
-                if(currentWep == pistolModel)
-                {
-                    clipPlayer.play(pistolClip, 400, 430, true);
-                }
-                
-            }
-            if (!CheckClick() && isShooting == true)
-            {
-                //Sluta skjuta
-                isShooting = false;
-                
-                if(currentWep == rifleModel)
-                {
-                    clipPlayer.play(rifleClip, 116, 124, false);
-                }
-                if(currentWep == pistolModel)
-                {
-                    clipPlayer.play(pistolClip, 200, 200, false);
-                }
-            }
-            if (keyState.IsKeyDown(Keys.R))
-            {
-                //Ladda om
-                if(currentWep == rifleModel)
-                {
-                    clipPlayer.play(rifleClip, 125, 283, false);
-                }
-                if(currentWep == pistolModel)
-                {
-                    clipPlayer.play(pistolClip, 200, 400, true);
-                }
-            }
-            if (keyState.IsKeyDown(Keys.Q) )
-            {
-                //byt vapen
-                if (currentWep == rifleModel)
-                {
-                    clipPlayer.play(rifleClip, 340, 379, false);
-                }
-                if (currentWep == pistolModel)
-                {
-                    clipPlayer.play(pistolClip, 1, 1, false);
-                }
-            }
-
-            if (keyState.IsKeyDown(Keys.LeftShift) && isRunning == false)
-            {
-                canShoot = false;
-                isRunning = true;
-                //Börja springa
-                if (currentWep == rifleModel)
-                {
-                    clipPlayer.play(rifleClip, 284, 339, false);
-                }
-                if (currentWep == pistolModel)
-                {
-                    clipPlayer.play(pistolClip, 200, 200, false);
-                }
-            }
-            if (keyState.IsKeyUp(Keys.LeftShift) && isRunning == true)
-            {
-                isRunning = false;
-                canShoot = true;
-                //Sluta springa
-                if (currentWep == pistolModel)
-                {
-                    clipPlayer.play(rifleClip, 309, 340, false);
-                }
-                if (currentWep == pistolModel)
-                {
-                    clipPlayer.play(pistolClip, 200, 200, false);
-                }
-
-            }
-
-            if (clipPlayer.inRange(379, 379) && currentWep == rifleModel)
-            {
-                ChangeWeapon(pistolModel);
-            }
-            if (clipPlayer.inRange(1, 1) && currentWep == pistolModel)
-            {
-                ChangeWeapon(rifleModel);
-            }
-        }
-        private void ChangeWeapon(Model m)
-        {
-            if (m == pistolModel)
-            {
-                currentWep = m;
-                gunPos = pisolPos;
-                clipPlayer = new ClipPlayer(pistolSkinningData, fps);
-                clipPlayer.play(pistolClip, 2, 200, false);
-            }
-            else if (m == rifleModel)
-            {
-                currentWep = m;
-                gunPos = riflePos;
-                clipPlayer = new ClipPlayer(rifleSkinningData, fps);
-                clipPlayer.play(rifleClip, 1, 105, false);
-            }
-        }*/
         private bool CheckClick()
         {
             // Get the Keyboard and GamePad state
@@ -656,8 +392,20 @@ namespace Spelet
             }
             return false;
         }
+        protected void ShowScene(GameScene scene)
+        {
+            activeScene.Hide();
+            activeScene = scene;
+            scene.Show();
+            activeScene.Show();
+        }
         #endregion
 
+        #region quit Code
+        protected override void UnloadContent()
+        {
+            exit();
+        }
         private void exit()
         {
             nwClient.LeaveMsg();
@@ -667,5 +415,6 @@ namespace Spelet
             // Add any code that must execute before the game ends.
             exit();
         }
+        #endregion
     }
 }

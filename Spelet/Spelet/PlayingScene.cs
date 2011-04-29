@@ -278,7 +278,8 @@ namespace ClassLibrary
             Matrix.CreateTranslation(new Vector3(0f, 0f, Globals.player.rifle.zRecoil)) *
             Matrix.CreateScale(0.5f, 0.5f, 0.5f) *
             Matrix.CreateRotationY(MathHelper.Pi) / 2 *
-            Globals.player.camera.rotation * Matrix.CreateTranslation(Globals.player.camera.position + 10 * Globals.player.camera.rotatedTarget);
+            Globals.player.camera.rotation * 
+            Matrix.CreateTranslation(Globals.player.camera.position + 10 * Globals.player.camera.rotatedTarget);
             Matrix[] bones = Globals.clipPlayer.GetSkinTransforms();
             foreach (ModelMesh mesh in currentWep.Meshes)
             {
@@ -300,7 +301,7 @@ namespace ClassLibrary
                 mesh.Draw();
             }
         }
-        private void DrawOtherPlayer(OtherPlayer otherPlayer, Matrix world)
+        private void DrawOtherPlayer(OtherPlayer otherPlayer, Matrix w)
         {
             Model model = Globals.hampus;
             if (otherPlayer.model == Constants.HAMPUS)
@@ -318,13 +319,13 @@ namespace ClassLibrary
                     part.Effect = Globals.shadowEffect;
                 }
             }
-            world = Matrix.CreateRotationY(otherPlayer.forwardDir) * Matrix.CreateTranslation(otherPlayer.position);
+            //w = Matrix.CreateRotationY(otherPlayer.forwardDir) * Matrix.CreateTranslation(otherPlayer.position);
             base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.Default;
             base.Game.GraphicsDevice.BlendState = BlendState.Opaque;
-            Matrix[] bones = Globals.clipPlayer.GetSkinTransforms();
+            Matrix[] bones = Globals.clipPlayer.GetSkinTransforms(); //FÖRSTÖRS HÄR!! Fixa en till clip-player!
             for(int i = 0; i < bones.Length; i++)
             {
-                bones[i] = bones[i] * world;
+                bones[i] = bones[i] * w;
             }
             foreach (ModelMesh mesh in model.Meshes)
             {
@@ -363,7 +364,7 @@ namespace ClassLibrary
             base.Game.GraphicsDevice.BlendState = BlendState.Opaque;
 
         }
-        private void DrawShadow(OtherPlayer otherPlayer, Matrix world)
+        private void DrawShadow(OtherPlayer otherPlayer, Matrix w)
         {
             Model models = Globals.rasmus;
             if (otherPlayer.model == Constants.HAMPUS)
@@ -389,10 +390,10 @@ namespace ClassLibrary
             base.Game.GraphicsDevice.BlendState = BlendState.AlphaBlend;
 
             Matrix[] shadowBones = new Matrix[bones.Length];
-            world = Matrix.CreateRotationY(otherPlayer.forwardDir) * Matrix.CreateTranslation(otherPlayer.position);
+            w = Matrix.CreateRotationY(otherPlayer.forwardDir) * Matrix.CreateTranslation(otherPlayer.position);
             for (int i = 0; i < shadowBones.Length; i++)
             {
-                shadowBones[i] = bones[i] * world * shadow ;
+                shadowBones[i] = bones[i] * w * shadow ;
             }
 
             foreach (ModelMesh mesh in models.Meshes)

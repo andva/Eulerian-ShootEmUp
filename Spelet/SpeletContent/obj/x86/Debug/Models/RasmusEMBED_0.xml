@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\RasmusEMBED.fbx</SourceFilename>
+      <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\RasmusEMBED.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -69,7 +69,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>lambert3</Name>
       <Identity>
-        <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\RasmusEMBED.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\RasmusEMBED.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -102,7 +102,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>rasmusHead:Texture5</Name>
       <Identity>
-        <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\RasmusEMBED.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\RasmusEMBED.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -129,9 +129,9 @@
     </Resource>
   </Resources>
   <ExternalReferences>
-    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Hair_Texture.png</ExternalReference>
-    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Hair_Normal.png</ExternalReference>
-    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Body_Texture.png</ExternalReference>
-    <ExternalReference ID="#External4" TargetType="Graphics:TextureContent">..\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Body_Normal.png</ExternalReference>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Hair_Texture.png</ExternalReference>
+    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Hair_Normal.png</ExternalReference>
+    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Body_Texture.png</ExternalReference>
+    <ExternalReference ID="#External4" TargetType="Graphics:TextureContent">..\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Body_Normal.png</ExternalReference>
   </ExternalReferences>
 </XnaContent>

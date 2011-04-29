@@ -56,3 +56,13 @@ C:\Users\Axel\Documents\Axel\Git_projekt\ClassLibrary\bin\Debug\Lidgren.Network.
 C:\Users\Axel\Documents\Axel\Git_projekt\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Axel\Documents\Axel\Git_projekt\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Users\Axel\Documents\Axel\Git_projekt\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\bin\Debug\Lidgren.Network.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\bin\Debug\SkinnedModel.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\bin\Debug\SkinnedModel.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\bin\Debug\Lidgren.Network.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\bin\Debug\Lidgren.Network.xml
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\ClassLibrary\obj\Debug\ClassLibrary.pdb

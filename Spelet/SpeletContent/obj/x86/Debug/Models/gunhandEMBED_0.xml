@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>group2</Name>
     <Identity>
-      <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\gunhandEMBED.fbx</SourceFilename>
+      <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\gunhandEMBED.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>6.123234E-17 0 1 0 0 1 0 0 -1 0 6.123234E-17 0 0 0 0 1</Transform>
@@ -86,7 +86,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>lambert6</Name>
       <Identity>
-        <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\gunhandEMBED.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\gunhandEMBED.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -113,7 +113,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>BerettaTexturedUV2:lambert2</Name>
       <Identity>
-        <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\gunhandEMBED.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\gunhandEMBED.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -133,8 +133,8 @@
     </Resource>
   </Resources>
   <ExternalReferences>
-    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\FBX\D92C22BD\gunhandEMBED.fbm\hampusFULLtexture1.png</ExternalReference>
-    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\FBX\D92C22BD\gunhandEMBED.fbm\hampusFULLnormal1.png</ExternalReference>
-    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\FBX\D92C22BD\gunhandEMBED.fbm\pistolUV1.png</ExternalReference>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\FBX\ACDD2A3F\gunhandEMBED.fbm\hampusFULLtexture1.png</ExternalReference>
+    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\FBX\ACDD2A3F\gunhandEMBED.fbm\hampusFULLnormal1.png</ExternalReference>
+    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\FBX\ACDD2A3F\gunhandEMBED.fbm\pistolUV1.png</ExternalReference>
   </ExternalReferences>
 </XnaContent>

@@ -34,6 +34,8 @@ namespace ClassLibrary
         public bool isShooting;
         public bool animation;
 
+        Vector3 gunPos = new Vector3(0.3f, 0.1f, 2f);
+
         public Weapon(Camera cam)
         {
             camera = cam;
@@ -43,6 +45,7 @@ namespace ClassLibrary
             timer = 0.0f;
             isShooting = false;
             animation = false;
+            
 
         }
 
@@ -100,6 +103,50 @@ namespace ClassLibrary
                 //Sluta skjuta
                 animation = false;
                 Globals.clipPlayer.play(Globals.rifleClip, 116, 124, false);
+            }
+        }
+
+        public void DrawGun(float time)
+        {
+            model = Globals.rifle;
+            KeyboardState keyState = Keyboard.GetState();
+            Matrix world = Matrix.Identity;
+            int amplitude = 0;
+            if (keyState.IsKeyDown(Keys.LeftShift))
+            {
+                amplitude = 7;
+            }
+            else amplitude = 2;
+
+            float sinDisp = amplitude * (float)Math.Sin(time * amplitude) / 30;//sinus displacement
+            float cosDisp = amplitude * (float)Math.Cos(time * amplitude) / 30;//cossinus displacement
+
+            world = world * Matrix.CreateTranslation(gunPos) *
+            Matrix.CreateTranslation(new Vector3(0.15f + cosDisp / 2, -12.2f - Math.Abs(sinDisp), -20 + cosDisp / 3)) *
+            Matrix.CreateTranslation(new Vector3(0f, 0f, Globals.player.rifle.zRecoil)) *
+            Matrix.CreateScale(0.5f, 0.5f, 0.5f) *
+            Matrix.CreateRotationY(MathHelper.Pi) / 2 *
+            Globals.player.camera.rotation *
+            Matrix.CreateTranslation(Globals.player.camera.position + 10 * Globals.player.camera.direction);
+            Matrix[] bones = Globals.clipPlayer.GetSkinTransforms();
+            foreach (ModelMesh mesh in model.Meshes)
+            {
+                foreach (SkinnedEffect effect in mesh.Effects)
+                {
+                    effect.SetBoneTransforms(bones);
+
+                    effect.World = world;
+
+                    effect.View = Globals.player.camera.view;
+                    effect.Projection = Globals.player.camera.projection;
+
+                    effect.EnableDefaultLighting();
+
+                    effect.SpecularColor = new Vector3(0.25f);
+                    effect.SpecularPower = 16;
+                }
+
+                mesh.Draw();
             }
         }
     }

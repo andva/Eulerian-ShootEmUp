@@ -4,3 +4,4 @@ D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\SpeletContent\obj\x86\D
 C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\Programmering\Euler\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache

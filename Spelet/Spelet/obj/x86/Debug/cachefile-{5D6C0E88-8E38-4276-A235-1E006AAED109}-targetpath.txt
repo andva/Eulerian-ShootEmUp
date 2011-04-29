@@ -10,6 +10,8 @@ Content\Images\floor2.xnb
 Content\Images\color_map.xnb
 Content\Images\height_map.xnb
 Content\Images\normal_map.xnb
+Content\Images\hampusTXT.xnb
+Content\Images\heightmap.xnb
 Content\menuLarge.xnb
 Content\menuSmall.xnb
 Content\Effects\SkySphere.xnb
@@ -34,12 +36,13 @@ Content\Models\rifleHandsFuck.xnb
 Content\Models\rifleHands1.xnb
 Content\Models\level3.xnb
 Content\Models\HampusAnimated1.xnb
-Content\FBX\D92C22BD\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
-Content\FBX\D92C22BD\gunhandEMBED.fbm\pistolUV1_0.xnb
-Content\FBX\B6AE2266\HampusEMBED.fbm\hairtexture3_0.xnb
-Content\FBX\B6AE2266\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
-Content\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
-Content\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+Content\Audio\gunshot.xnb
+Content\FBX\ACDD2A3F\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
+Content\FBX\ACDD2A3F\gunhandEMBED.fbm\pistolUV1_0.xnb
+Content\FBX\82DD29E8\HampusEMBED.fbm\hairtexture3_0.xnb
+Content\FBX\82DD29E8\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
+Content\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+Content\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
 Content\textures\Bushmaster ACRTexture_0.xnb
 Content\textures\arms_texture_0.xnb
 Content\textures\V2_Batman_Cape_D2_0.xnb
@@ -48,6 +51,3 @@ Content\textures\rutTile_0.xnb
 Content\textures\wallTile_0.xnb
 Content\images\hairtexture3_0.xnb
 Content\images\hampusFULLtexture1_0.xnb
-Content\Audio\gunshot.xnb
-Content\Images\hampusTXT.xnb
-Content\Images\heightmap.xnb

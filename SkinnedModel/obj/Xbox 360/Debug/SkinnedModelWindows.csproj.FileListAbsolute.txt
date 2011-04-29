@@ -34,3 +34,9 @@ C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModel\obj\Xbox 360\Debug\Resolve
 C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModel\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.dll
 C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.pdb

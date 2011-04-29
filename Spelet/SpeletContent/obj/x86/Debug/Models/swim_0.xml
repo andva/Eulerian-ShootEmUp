@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\swim.fbx</SourceFilename>
+      <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\swim.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -21943,7 +21943,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Bushmaster_ACR5Textureralle:Bushmaster_ACRTexture_1Material</Name>
       <Identity>
-        <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\swim.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\swim.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -21964,7 +21964,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>lambert2</Name>
       <Identity>
-        <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\swim.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\swim.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

@@ -104,6 +104,7 @@ namespace Spelet
             device = graphics.GraphicsDevice;
 
             //Initierar clienten, skapar spelaren och kameran också!
+            LoadKillers();
             nwClient = new NWClient(device);
             LoadModels();
             LoadScenes();
@@ -141,7 +142,7 @@ namespace Spelet
         {
             LoadSkySphere();
             LoadMap();
-            LoadKillers();
+            
             LoadHUD();
             LoadGlobals();
         }

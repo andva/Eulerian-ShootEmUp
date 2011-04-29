@@ -46,3 +46,15 @@ D:\Programmering\Euler\Spelet_Host\bin\Debug\SkinnedModel.pdb
 D:\Programmering\Euler\Spelet_Host\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\Programmering\Euler\Spelet_Host\obj\x86\Debug\Spelet_Host.exe
 D:\Programmering\Euler\Spelet_Host\obj\x86\Debug\Spelet_Host.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\bin\Debug\Spelet_Host.exe
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\bin\Debug\Spelet_Host.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\bin\Debug\ClassLibrary.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\bin\Debug\Lidgren.Network.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\bin\Debug\SkinnedModel.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\bin\Debug\ClassLibrary.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\bin\Debug\Lidgren.Network.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\bin\Debug\Lidgren.Network.xml
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\bin\Debug\SkinnedModel.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\obj\x86\Debug\Spelet_Host.exe
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet_Host\obj\x86\Debug\Spelet_Host.pdb

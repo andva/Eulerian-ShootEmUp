@@ -47,3 +47,10 @@ C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModelPipeline\bin\x86\Debug\Skin
 C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
 C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb

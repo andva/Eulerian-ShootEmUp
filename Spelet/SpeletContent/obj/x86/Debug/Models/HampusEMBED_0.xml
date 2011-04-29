@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
-      <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\HampusEMBED.fbx</SourceFilename>
+      <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\HampusEMBED.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -69,7 +69,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>lambert5</Name>
       <Identity>
-        <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\HampusEMBED.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\HampusEMBED.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -96,7 +96,7 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>lambert6</Name>
       <Identity>
-        <SourceFilename>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\Models\HampusEMBED.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\HampusEMBED.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -122,8 +122,8 @@
     </Resource>
   </Resources>
   <ExternalReferences>
-    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\FBX\B6AE2266\HampusEMBED.fbm\hairtexture3.png</ExternalReference>
-    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\FBX\B6AE2266\HampusEMBED.fbm\hampusFULLtexture1.png</ExternalReference>
-    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\FBX\B6AE2266\HampusEMBED.fbm\hampusFULLnormal1.png</ExternalReference>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\FBX\82DD29E8\HampusEMBED.fbm\hairtexture3.png</ExternalReference>
+    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\FBX\82DD29E8\HampusEMBED.fbm\hampusFULLtexture1.png</ExternalReference>
+    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\FBX\82DD29E8\HampusEMBED.fbm\hampusFULLnormal1.png</ExternalReference>
   </ExternalReferences>
 </XnaContent>

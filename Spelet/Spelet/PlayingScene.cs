@@ -17,10 +17,9 @@ namespace ClassLibrary
     {
         SpriteBatch spriteBatch = null;
         Texture2D crossHair;
-        Model modelHampus, modelRasmus, modelPistol, modelRifle, currentWep;
+        Model modelHampus, modelRasmus, modelRifle;
         Level level;
         Vector3 riflePos = new Vector3(0.3f, 0.1f, 2f);
-        Vector3 pisolPos = new Vector3(0.3f, -1.0f, 1.5f);
         Vector3 gunPos;
         float time;
         Vector2 middle;
@@ -51,7 +50,6 @@ namespace ClassLibrary
         public override void Show()
         {
             base.Show();
-            currentWep = modelRifle;
             gunPos = riflePos;
             Globals.clipPlayer.play(Globals.rifleClip, 100, 100, false);
             g.IsMouseVisible = false;
@@ -65,7 +63,6 @@ namespace ClassLibrary
         {
             modelHampus = Globals.hampus;
             modelRasmus = Globals.rasmus;
-            modelPistol = Globals.pistol;
             modelRifle = Globals.rifle;
             level = Globals.level;
             shadow = Matrix.CreateShadow(lightDir1,
@@ -87,38 +84,18 @@ namespace ClassLibrary
             if (keyState.IsKeyDown(Keys.D1))
             {
                 //Spela alla animationer
-                if (currentWep == Globals.rifle)
-                {
-                    Globals.clipPlayer.play(Globals.rifleClip, 1, 1000, false);
-                }
-                if (currentWep == Globals.pistol)
-                {
-                    Globals.clipPlayer.play(Globals.pistolClip, 2, 1000, false);
-                }
+                Globals.clipPlayer.play(Globals.rifleClip, 1, 1000, false);
+
             }
             if (keyState.IsKeyDown(Keys.R))
             {
                 //Ladda om
-                if (currentWep == Globals.rifle)
-                {
-                    Globals.clipPlayer.play(Globals.rifleClip, 125, 283, false);
-                }
-                if (currentWep == Globals.pistol)
-                {
-                    Globals.clipPlayer.play(Globals.pistolClip, 200, 400, true);
-                }
+                Globals.clipPlayer.play(Globals.rifleClip, 125, 283, false);
             }
             if (keyState.IsKeyDown(Keys.Q))
             {
                 //byt vapen
-                if (currentWep == Globals.rifle)
-                {
-                    Globals.clipPlayer.play(Globals.rifleClip, 340, 379, false);
-                }
-                if (currentWep == Globals.pistol)
-                {
-                    Globals.clipPlayer.play(Globals.pistolClip, 1, 1, false);
-                }
+                Globals.clipPlayer.play(Globals.rifleClip, 340, 379, false);
             }
 
             if (keyState.IsKeyDown(Keys.LeftShift) && isRunning == false)
@@ -126,56 +103,14 @@ namespace ClassLibrary
                 canShoot = false;
                 isRunning = true;
                 //Börja springa
-                if (currentWep == Globals.rifle)
-                {
-                    Globals.clipPlayer.play(Globals.rifleClip, 284, 339, false);
-                }
-                if (currentWep == Globals.pistol)
-                {
-                    Globals.clipPlayer.play(Globals.pistolClip, 200, 200, false);
-                }
+                Globals.clipPlayer.play(Globals.rifleClip, 284, 339, false);
             }
             if (keyState.IsKeyUp(Keys.LeftShift) && isRunning == true)
             {
                 isRunning = false;
                 canShoot = true;
                 //Sluta springa
-                if (currentWep == Globals.pistol)
-                {
-                    Globals.clipPlayer.play(Globals.rifleClip, 309, 340, false);
-                }
-                if (currentWep == Globals.pistol)
-                {
-                    Globals.clipPlayer.play(Globals.pistolClip, 200, 200, false);
-                }
-
-            }
-
-            if (Globals.clipPlayer.inRange(379, 379) && currentWep == Globals.rifle)
-            {
-                ChangeWeapon(Globals.pistol);
-            }
-            if (Globals.clipPlayer.inRange(1, 1) && currentWep == Globals.pistol)
-            {
-                ChangeWeapon(Globals.rifle);
-            }
-        }
-
-        private void ChangeWeapon(Model m)
-        {
-            if (m == Globals.pistol)
-            {
-                currentWep = m;
-                gunPos = pisolPos;
-                Globals.clipPlayer = new ClipPlayer(Globals.pistolSkinningData, 60);
-                Globals.clipPlayer.play(Globals.pistolClip, 2, 200, false);
-            }
-            else if (m == Globals.rifle)
-            {
-                currentWep = m;
-                gunPos = riflePos;
-                Globals.clipPlayer = new ClipPlayer(Globals.rifleSkinningData, 60);
-                Globals.clipPlayer.play(Globals.rifleClip, 1, 105, false);
+                Globals.clipPlayer.play(Globals.rifleClip, 309, 340, false);
             }
         }
 
@@ -190,7 +125,8 @@ namespace ClassLibrary
             DrawOtherPlayer(a, Matrix.Identity);
             //DrawShadow(a, Matrix.Identity);
             base.Game.GraphicsDevice.Clear(ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);//Rensar djupet i bilden
-            DrawGun();
+            //DrawGun();
+            Globals.player.rifle.DrawGun(time);
             spriteBatch.Draw(crossHair, middle, Color.Cyan);
             base.Draw(gameTime);
         }
@@ -206,48 +142,7 @@ namespace ClassLibrary
                 mesh.Draw();
             }
         }
-        private void DrawGun()
-        {
-            KeyboardState keyState = Keyboard.GetState();
-            Matrix world = Matrix.Identity;
-            int amplitude = 0;
-            if (keyState.IsKeyDown(Keys.LeftShift))
-            {
-                amplitude = 7;
-            }
-            else amplitude = 2;
 
-            float sinDisp = amplitude * (float)Math.Sin(time * amplitude) / 30;//sinus displacement
-            float cosDisp = amplitude * (float)Math.Cos(time * amplitude) / 30;//cossinus displacement
-
-            world = world * Matrix.CreateTranslation(gunPos) *
-            Matrix.CreateTranslation(new Vector3(0.15f + cosDisp / 2, -12.2f - Math.Abs(sinDisp), -20 + cosDisp / 3)) *
-            Matrix.CreateTranslation(new Vector3(0f, 0f, Globals.player.rifle.zRecoil)) *
-            Matrix.CreateScale(0.5f, 0.5f, 0.5f) *
-            Matrix.CreateRotationY(MathHelper.Pi) / 2 *
-            Globals.player.camera.rotation *
-            Matrix.CreateTranslation(Globals.player.camera.position + 10 * Globals.player.camera.direction);
-            Matrix[] bones = Globals.clipPlayer.GetSkinTransforms();
-            foreach (ModelMesh mesh in currentWep.Meshes)
-            {
-                foreach (SkinnedEffect effect in mesh.Effects)
-                {
-                    effect.SetBoneTransforms(bones);
-
-                    effect.World = world;
-
-                    effect.View = Globals.player.camera.view;
-                    effect.Projection = Globals.player.camera.projection;
-
-                    effect.EnableDefaultLighting();
-
-                    effect.SpecularColor = new Vector3(0.25f);
-                    effect.SpecularPower = 16;
-                }
-
-                mesh.Draw();
-            }
-        }
         private void DrawOtherPlayer(OtherPlayer otherPlayer, Matrix w)
         {
             Model model = Globals.hampus;

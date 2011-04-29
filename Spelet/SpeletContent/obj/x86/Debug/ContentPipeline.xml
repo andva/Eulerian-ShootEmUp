@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Images\HUD.png</Source>
+      <Name>Images\HUD</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb</Output>
+      <Time>2011-04-08T11:42:32.6379678+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\crosshair1.png</Source>
+      <Name>Images\crosshair1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb</Output>
+      <Time>2011-04-08T11:42:32.6609691+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\SpaceBackground.dds</Source>
+      <Name>Images\SpaceBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb</Output>
+      <Time>2011-04-08T11:42:32.6439681+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\uffizi_cross.dds</Source>
+      <Name>Images\uffizi_cross</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb</Output>
+      <Time>2011-04-08T11:42:33.5000171+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\rutTile.png</Source>
+      <Name>Images\rutTile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\rutTile.xnb</Output>
+      <Time>2011-04-08T11:42:32.8089776+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\floorNormals.png</Source>
+      <Name>Images\floorNormals</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\floorNormals.xnb</Output>
+      <Time>2011-04-08T11:42:32.7259728+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\wallTile.png</Source>
+      <Name>Images\wallTile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\wallTile.xnb</Output>
+      <Time>2011-04-08T11:42:33.5170181+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\normal2.jpg</Source>
+      <Name>Images\normal2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\normal2.xnb</Output>
+      <Time>2011-04-08T11:42:32.7589747+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\floor2.jpg</Source>
+      <Name>Images\floor2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ResizeToPowerOfTwo">True</Data>
+        <Data Key="GenerateMipmaps">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\floor2.xnb</Output>
+      <Time>2011-04-08T11:42:32.6649693+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\color_map.jpg</Source>
+      <Name>Images\color_map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\color_map.xnb</Output>
+      <Time>2011-04-08T11:42:32.6499685+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\height_map.jpg</Source>
+      <Name>Images\height_map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\height_map.xnb</Output>
+      <Time>2011-04-08T11:42:32.7539744+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\normal_map.jpg</Source>
+      <Name>Images\normal_map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\normal_map.xnb</Output>
+      <Time>2011-04-08T11:42:32.7629749+02:00</Time>
+    </Item>
+    <Item>
+      <Source>menuLarge.spritefont</Source>
+      <Name>menuLarge</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb</Output>
+      <Time>2011-04-08T11:42:34.0990513+02:00</Time>
+    </Item>
+    <Item>
+      <Source>menuSmall.spritefont</Source>
+      <Name>menuSmall</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb</Output>
+      <Time>2011-04-08T11:42:34.1080519+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SkySphere.fx</Source>
+      <Name>Effects\SkySphere</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb</Output>
+      <Time>2011-04-08T11:42:32.4209554+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\MapShader.fx</Source>
+      <Name>Effects\MapShader</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb</Output>
+      <Time>2011-04-08T11:42:32.414955+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\parallax_normal_mapping.fx</Source>
+      <Name>Effects\parallax</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb</Output>
+      <Time>2011-04-08T11:42:32.4269557+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\ShadowEffect.fx</Source>
+      <Name>Effects\ShadowEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb</Output>
+      <Time>2011-04-08T11:42:32.4179552+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\gunhandEMBED.fbx</Source>
+      <Name>Models\gunhandEMBED</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb</Output>
+      <Time>2011-04-08T11:42:33.7710326+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\gunhandEMBED_0.xml</Key>
+        <Value>2011-04-29T13:21:22.7392535+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\D92C22BD\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\D92C22BD\gunhandEMBED.fbm\pistolUV1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\HampusEMBED.fbx</Source>
+      <Name>Models\HampusEMBED</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.2</Data>
+        <Data Key="PremultiplyTextureAlpha">False</Data>
+        <Data Key="GenerateMipmaps">False</Data>
+        <Data Key="PremultiplyVertexColors">False</Data>
+        <Data Key="SwapWindingOrder">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb</Output>
+      <Time>2011-04-08T11:42:33.5570203+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\HampusEMBED_0.xml</Key>
+        <Value>2011-04-29T13:21:24.9753814+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B6AE2266\HampusEMBED.fbm\hairtexture3_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B6AE2266\HampusEMBED.fbm\hampusFULLtexture1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\RasmusEMBED.fbx</Source>
+      <Name>Models\RasmusEMBED</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.2</Data>
+        <Data Key="PremultiplyTextureAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb</Output>
+      <Time>2011-04-08T11:42:33.5870221+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\RasmusEMBED_0.xml</Key>
+        <Value>2011-04-29T13:21:27.0795017+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\SphereHighPoly.fbx</Source>
+      <Name>Models\SphereHighPoly</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb</Output>
+      <Time>2011-04-08T11:42:33.5960226+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\SphereHighPoly_0.xml</Key>
+        <Value>2011-04-29T13:21:28.9576091+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\level2.fbx</Source>
+      <Name>Models\level2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">20</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\level2.xnb</Output>
+      <Time>2011-04-08T11:42:33.7760329+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\level2_0.xml</Key>
+        <Value>2011-04-29T13:21:29.1046175+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\swim.fbx</Source>
+      <Name>Models\swim</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\swim.xnb</Output>
+      <Time>2011-04-08T11:42:33.9760443+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\swim_0.xml</Key>
+        <Value>2011-04-29T13:21:32.0367853+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\buggladd.fbx</Source>
+      <Name>Models\buggladd</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\buggladd.xnb</Output>
+      <Time>2011-04-08T11:42:33.7410309+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\buggladd_0.xml</Key>
+        <Value>2011-04-29T13:21:39.6492207+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\riflemove.fbx</Source>
+      <Name>Models\riflemove</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\riflemove.xnb</Output>
+      <Time>2011-04-08T11:42:33.9510429+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\riflemove_0.xml</Key>
+        <Value>2011-04-29T13:21:43.4554384+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\test6.fbx</Source>
+      <Name>Models\test6</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\test6.xnb</Output>
+      <Time>2011-04-08T11:42:34.0340476+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\test6_0.xml</Key>
+        <Value>2011-04-29T13:21:48.2537128+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\test7.fbx</Source>
+      <Name>Models\test7</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\test7.xnb</Output>
+      <Time>2011-04-08T11:42:34.0590491+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\test7_0.xml</Key>
+        <Value>2011-04-29T13:21:54.2560561+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\test8.fbx</Source>
+      <Name>Models\test8</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\test8.xnb</Output>
+      <Time>2011-04-08T11:42:34.0880507+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\test8_0.xml</Key>
+        <Value>2011-04-29T13:21:59.551359+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\animtest1.fbx</Source>
+      <Name>Models\animtest1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\animtest1.xnb</Output>
+      <Time>2011-04-08T11:42:33.6140236+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\animtest1_0.xml</Key>
+        <Value>2011-04-29T13:22:04.2226262+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\testC.fbx</Source>
+      <Name>Models\testC</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\testC.xnb</Output>
+      <Time>2011-04-08T11:42:34.093051+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\testC_0.xml</Key>
+        <Value>2011-04-29T13:22:04.6096483+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\pistolarms1.fbx</Source>
+      <Name>Models\pistolarms1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Parameters>
+        <Data Key="SwapWindingOrder">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\pistolarms1.xnb</Output>
+      <Time>2011-04-08T11:42:33.7980341+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\pistolarms1_0.xml</Key>
+        <Value>2011-04-29T13:22:09.8949506+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\rifleHandsFuck.fbx</Source>
+      <Name>Models\rifleHandsFuck</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHandsFuck.xnb</Output>
+      <Time>2011-04-08T11:42:33.9190411+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\rifleHandsFuck_0.xml</Key>
+        <Value>2011-04-29T13:22:14.1961966+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\rifleHands1.fbx</Source>
+      <Name>Models\rifleHands1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb</Output>
+      <Time>2011-04-08T11:42:33.8720384+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\rifleHands1_0.xml</Key>
+        <Value>2011-04-29T13:22:19.4894994+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\level3.fbx</Source>
+      <Name>Models\level3</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateTangentFrames">True</Data>
+        <Data Key="ResizeTexturesToPowerOfTwo">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\level3.xnb</Output>
+      <Time>2011-04-08T11:42:33.7800331+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\level3_0.xml</Key>
+        <Value>2011-04-29T13:22:20.2615436+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\HampusAnimated1.fbx</Source>
+      <Name>Models\HampusAnimated1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusAnimated1.xnb</Output>
+      <Time>2011-04-08T11:42:33.534019+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\HampusAnimated1_0.xml</Key>
+        <Value>2011-04-29T13:22:25.8538634+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb</Request>
+      <Request>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\gunhandEMBED.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\gunhandEMBED_0.xml</Output>
+      <Time>2011-04-08T11:42:33.7710326+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\D92C22BD\gunhandEMBED.fbm\hampusFULLtexture1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\D92C22BD\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb</Output>
+      <Time>2011-04-29T13:21:21.7971996+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\D92C22BD\gunhandEMBED.fbm\pistolUV1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\D92C22BD\gunhandEMBED.fbm\pistolUV1_0.xnb</Output>
+      <Time>2011-04-29T13:21:21.8262012+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\HampusEMBED.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\HampusEMBED_0.xml</Output>
+      <Time>2011-04-08T11:42:33.5570203+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\B6AE2266\HampusEMBED.fbm\hairtexture3.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">false</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B6AE2266\HampusEMBED.fbm\hairtexture3_0.xnb</Output>
+      <Time>2011-04-29T13:21:24.4993541+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\B6AE2266\HampusEMBED.fbm\hampusFULLtexture1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">false</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B6AE2266\HampusEMBED.fbm\hampusFULLtexture1_0.xnb</Output>
+      <Time>2011-04-29T13:21:24.5483569+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\RasmusEMBED.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\RasmusEMBED_0.xml</Output>
+      <Time>2011-04-08T11:42:33.5870221+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Hair_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb</Output>
+      <Time>2011-04-29T13:21:26.3654609+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Body_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb</Output>
+      <Time>2011-04-29T13:21:26.4534659+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\SphereHighPoly.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\SphereHighPoly_0.xml</Output>
+      <Time>2011-04-08T11:42:33.5960226+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\level2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\level2_0.xml</Output>
+      <Time>2011-04-08T11:42:33.7760329+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\swim.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\swim_0.xml</Output>
+      <Time>2011-04-08T11:42:33.9760443+02:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\Bushmaster ACRTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Output>
+      <Time>2011-04-08T11:42:34.6400823+02:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\arms_texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Output>
+      <Time>2011-04-08T11:42:34.7800903+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\buggladd.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\buggladd_0.xml</Output>
+      <Time>2011-04-08T11:42:33.7410309+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\riflemove.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\riflemove_0.xml</Output>
+      <Time>2011-04-08T11:42:33.9510429+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\test6.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\test6_0.xml</Output>
+      <Time>2011-04-08T11:42:34.0340476+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\test7.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\test7_0.xml</Output>
+      <Time>2011-04-08T11:42:34.0590491+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\test8.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\test8_0.xml</Output>
+      <Time>2011-04-08T11:42:34.0880507+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\animtest1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\animtest1_0.xml</Output>
+      <Time>2011-04-08T11:42:33.6140236+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\testC.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\testC_0.xml</Output>
+      <Time>2011-04-08T11:42:34.093051+02:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\V2_Batman_Cape_D2.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb</Output>
+      <Time>2011-04-08T11:42:34.7680896+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\pistolarms1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\pistolarms1_0.xml</Output>
+      <Time>2011-04-08T11:42:33.7980341+02:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\pistolUV1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb</Output>
+      <Time>2011-04-08T11:42:34.862095+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\rifleHandsFuck.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\rifleHandsFuck_0.xml</Output>
+      <Time>2011-04-08T11:42:33.9190411+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\rifleHands1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\rifleHands1_0.xml</Output>
+      <Time>2011-04-08T11:42:33.8720384+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\level3.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\level3_0.xml</Output>
+      <Time>2011-04-08T11:42:33.7800331+02:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\rutTile.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">true</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb</Output>
+      <Time>2011-04-08T11:42:34.9060975+02:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\wallTile.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">true</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb</Output>
+      <Time>2011-04-08T11:42:34.9210984+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\HampusAnimated1.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\HampusAnimated1_0.xml</Output>
+      <Time>2011-04-08T11:42:33.534019+02:00</Time>
+    </Item>
+    <Item>
+      <Source>images\hairtexture3.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb</Output>
+      <Time>2011-04-08T11:42:32.729973+02:00</Time>
+    </Item>
+    <Item>
+      <Source>images\hampusFULLtexture1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb</Output>
+      <Time>2011-04-08T11:42:32.7499742+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\gunshot.wav</Source>
+      <Name>Audio\gunshot</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb</Output>
+      <Time>2011-04-04T16:24:15.7654264+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\hampusFULLtexture1.png</Source>
+      <Name>Images\hampusTXT</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb</Output>
+      <Time>2011-04-08T11:42:32.7499742+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\heightmap.bmp</Source>
+      <Name>Images\heightmap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb</Output>
+      <Time>2011-01-25T11:17:50.6565844+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2011-04-29T13:20:53.2525669+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\Axel\Documents\Axel\Git_projekt\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll</Key>
+        <Value>2011-04-29T13:20:51.9524926+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-11-07T15:56:11.9913701+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

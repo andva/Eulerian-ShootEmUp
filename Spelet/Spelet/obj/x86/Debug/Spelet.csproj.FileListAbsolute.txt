@@ -1,0 +1,364 @@
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\level2.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\swim.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\buggladd.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\riflemove.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test6.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test7.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test8.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\animtest1.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\testC.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\pistolarms1.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHandsFuck.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\A8D7249A\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\A8D7249A\gunhandEMBED.fbm\pistolUV1_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\847C2443\HampusEMBED.fbm\hairtexture3_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\847C2443\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\853C2450\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\853C2450\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\level2.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\swim.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\buggladd.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\riflemove.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test6.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test7.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test8.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\animtest1.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\testC.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\pistolarms1.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHandsFuck.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\F813131\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\F813131\gunhandEMBED.fbm\pistolUV1_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DE8030DA\HampusEMBED.fbm\hairtexture3_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DE8030DA\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DF4030E7\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DF4030E7\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\level2.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\swim.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\buggladd.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\riflemove.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test6.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test7.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test8.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\animtest1.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\testC.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\pistolarms1.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHandsFuck.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\3C3C2B07\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\3C3C2B07\gunhandEMBED.fbm\pistolUV1_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\11742AB0\HampusEMBED.fbm\hairtexture3_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\11742AB0\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\12342ABD\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\12342ABD\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\level3.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\level3.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\rutTile.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\floorNormals.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\wallTile.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\normal2.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\floor2.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\color_map.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\height_map.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\normal_map.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\rutTile.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\floorNormals.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\wallTile.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\normal2.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\floor2.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\color_map.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\height_map.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\normal_map.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\level2.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\swim.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\buggladd.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\riflemove.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test6.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test7.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\test8.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\animtest1.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\testC.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\pistolarms1.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHandsFuck.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\level3.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\6A4133DF\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\6A4133DF\gunhandEMBED.fbm\pistolUV1_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\36A13388\HampusEMBED.fbm\hairtexture3_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\36A13388\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\37613395\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\37613395\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusAnimated1.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\rutTile.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\floorNormals.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\wallTile.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\normal2.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\floor2.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\color_map.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\height_map.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\normal_map.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusAnimated1.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb
+D:\Dropbox\Dropbox\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusAnimated1.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb
+C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\rutTile.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\floorNormals.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\wallTile.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\normal2.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\floor2.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\color_map.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\height_map.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Images\normal_map.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\level2.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\swim.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\buggladd.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\riflemove.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\test6.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\test7.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\test8.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\animtest1.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\testC.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\pistolarms1.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHandsFuck.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\level3.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusAnimated1.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\FBX\A2CD1B47\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\FBX\A2CD1B47\gunhandEMBED.fbm\pistolUV1_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\FBX\87C51AF0\HampusEMBED.fbm\hairtexture3_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\FBX\87C51AF0\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\FBX\88851AFD\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\FBX\88851AFD\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+D:\Programmering\Euler\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+D:\Programmering\Euler\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Programmering\Euler\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Programmering\Euler\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+D:\Programmering\Euler\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\rutTile.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\floorNormals.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\wallTile.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\normal2.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\floor2.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\color_map.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\height_map.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\normal_map.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\level2.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\swim.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\buggladd.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\riflemove.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\test6.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\test7.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\test8.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\animtest1.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\testC.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\pistolarms1.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHandsFuck.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\level3.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusAnimated1.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\D92C22BD\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\D92C22BD\gunhandEMBED.fbm\pistolUV1_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B6AE2266\HampusEMBED.fbm\hairtexture3_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B6AE2266\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\FBX\B76E2273\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb
+C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb

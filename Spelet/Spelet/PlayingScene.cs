@@ -31,6 +31,7 @@ namespace ClassLibrary
         Matrix shadow;
         Vector3 lightDir1 = new Vector3(1, 1, 1);
 
+
         public PlayingScene(Game game, Texture2D cross, Texture2D HUD)
             : base(game)
         {
@@ -93,34 +94,6 @@ namespace ClassLibrary
                 if (currentWep == Globals.pistol)
                 {
                     Globals.clipPlayer.play(Globals.pistolClip, 2, 1000, false);
-                }
-            }
-            if (CheckClick() && canShoot && isShooting == false)
-            {
-                //Skjutanimation
-                isShooting = true;
-                if (currentWep == Globals.rifle)
-                {
-                    Globals.clipPlayer.play(Globals.rifleClip, 102, 124, true);
-                }
-                if (currentWep == Globals.pistol)
-                {
-                    Globals.clipPlayer.play(Globals.pistolClip, 400, 430, true);
-                }
-
-            }
-            if (!CheckClick() && isShooting == true)
-            {
-                //Sluta skjuta
-                isShooting = false;
-
-                if (currentWep == Globals.rifle)
-                {
-                    Globals.clipPlayer.play(Globals.rifleClip, 116, 124, false);
-                }
-                if (currentWep == Globals.pistol)
-                {
-                    Globals.clipPlayer.play(Globals.pistolClip, 200, 200, false);
                 }
             }
             if (keyState.IsKeyDown(Keys.R))
@@ -212,7 +185,7 @@ namespace ClassLibrary
             base.Game.GraphicsDevice.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
             DrawSkySphere();
             base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.Default; //Polygon culling
-            DrawLevel();
+            level.DrawLevel();
             OtherPlayer a = new OtherPlayer(10, 0, 100, 0, 10, 0);
             DrawOtherPlayer(a, Matrix.Identity);
             //DrawShadow(a, Matrix.Identity);
@@ -221,33 +194,7 @@ namespace ClassLibrary
             spriteBatch.Draw(crossHair, middle, Color.Cyan);
             base.Draw(gameTime);
         }
-        private void DrawLevel()
-        {
-            Model model = level.model;
-            Matrix world = Matrix.Identity;
-            for (int i = 0; i < model.Meshes.Count; i++)
-            {
-                ModelMesh mesh = model.Meshes.ElementAt(i);
-                foreach (Effect effect in mesh.Effects)
-                {
-                    if (i == 0)
-                    {
-                        effect.CurrentTechnique = effect.Techniques["Bump"];
-                        effect.Parameters["N_Texture"].SetValue(level.effectTextures[0]);
-                    }
-                    if (i == 1)
-                    {
-                        effect.CurrentTechnique = effect.Techniques["Basic"];
-                    }
 
-                    effect.Parameters["Texture"].SetValue(Globals.level.mapTexture[i]);
-                    effect.Parameters["Projection"].SetValue(Globals.player.camera.projection);
-                    effect.Parameters["View"].SetValue(Globals.player.camera.view);
-                    effect.Parameters["lightDir1"].SetValue(new Vector3(0, 0, 5));
-                }
-                mesh.Draw();
-            }
-        }
         private void DrawSkySphere()
         {
             Globals.skySphereEffect.Parameters["ViewMatrix"].SetValue(
@@ -278,8 +225,8 @@ namespace ClassLibrary
             Matrix.CreateTranslation(new Vector3(0f, 0f, Globals.player.rifle.zRecoil)) *
             Matrix.CreateScale(0.5f, 0.5f, 0.5f) *
             Matrix.CreateRotationY(MathHelper.Pi) / 2 *
-            Globals.player.camera.rotation * 
-            Matrix.CreateTranslation(Globals.player.camera.position + 10 * Globals.player.camera.rotatedTarget);
+            Globals.player.camera.rotation *
+            Matrix.CreateTranslation(Globals.player.camera.position + 10 * Globals.player.camera.direction);
             Matrix[] bones = Globals.clipPlayer.GetSkinTransforms();
             foreach (ModelMesh mesh in currentWep.Meshes)
             {
@@ -323,7 +270,7 @@ namespace ClassLibrary
             base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.Default;
             base.Game.GraphicsDevice.BlendState = BlendState.Opaque;
             Matrix[] bones = Globals.clipPlayer.GetSkinTransforms(); //FÖRSTÖRS HÄR!! Fixa en till clip-player!
-            for(int i = 0; i < bones.Length; i++)
+            for (int i = 0; i < bones.Length; i++)
             {
                 bones[i] = bones[i] * w;
             }
@@ -362,57 +309,6 @@ namespace ClassLibrary
             }
             base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.Default;
             base.Game.GraphicsDevice.BlendState = BlendState.Opaque;
-
         }
-        private void DrawShadow(OtherPlayer otherPlayer, Matrix w)
-        {
-            Model models = Globals.rasmus;
-            if (otherPlayer.model == Constants.HAMPUS)
-            {
-                models = Globals.hampus;
-            }
-            else if (otherPlayer.model == Constants.RASMUS)
-            {
-                models = Globals.rasmus;
-            }
-            foreach (ModelMesh mesh in models.Meshes)
-            {
-                foreach (ModelMeshPart part in mesh.MeshParts)
-                {
-                    part.Effect = Globals.shadowEffect;
-                }
-            }
-            Matrix[] bones = new Matrix[models.Bones.Count];
-            models.CopyAbsoluteBoneTransformsTo(bones);
-
-            //set render states
-            base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.DepthRead;
-            base.Game.GraphicsDevice.BlendState = BlendState.AlphaBlend;
-
-            Matrix[] shadowBones = new Matrix[bones.Length];
-            w = Matrix.CreateRotationY(otherPlayer.forwardDir) * Matrix.CreateTranslation(otherPlayer.position);
-            for (int i = 0; i < shadowBones.Length; i++)
-            {
-                shadowBones[i] = bones[i] * w * shadow ;
-            }
-
-            foreach (ModelMesh mesh in models.Meshes)
-            {
-                foreach (Effect effect in mesh.Effects)
-                {
-                    effect.CurrentTechnique = effect.Techniques["Shadow"];
-                    effect.Parameters["Bones"].SetValue(shadowBones);
-                    effect.Parameters["View"].SetValue(Globals.player.camera.view);
-                    effect.Parameters["Projection"].SetValue(Globals.player.camera.projection);
-                }
-                mesh.Draw();
-            }
-
-            
-            base.Game.GraphicsDevice.DepthStencilState = DepthStencilState.Default;
-            base.Game.GraphicsDevice.BlendState = BlendState.Opaque;
-        }
-
-
     }
 }

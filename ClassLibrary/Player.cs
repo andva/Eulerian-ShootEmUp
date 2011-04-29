@@ -21,7 +21,7 @@ namespace ClassLibrary
             camera = new Camera(device, getCameraPos());
             model = 0;
             
-            rifle = new Weapon();
+            rifle = new Weapon(camera);
         }
         public Player(float x, float y, float z, Int32 weapon, Int32 identity, GraphicsDevice device)
         {
@@ -32,7 +32,7 @@ namespace ClassLibrary
             camera = new Camera(device, getCameraPos());
             model = 0;
 
-            rifle = new Weapon();
+            rifle = new Weapon(camera);
         }
 
         public void processKeyboardInput(float amount)
@@ -77,7 +77,6 @@ namespace ClassLibrary
         {
             Vector3 rotatedVector = Vector3.Transform(vectorToAdd, camera.rotation);
             Vector3 planeMove = new Vector3(rotatedVector.X, 0, rotatedVector.Z);
-            //position += moveSpeed * rotatedVector;
             if (planeMove != Vector3.Zero)
             {
                 planeMove.Normalize();
@@ -85,6 +84,10 @@ namespace ClassLibrary
 
             //fixa så cameran följer med
             position += moveSpeed * planeMove;
+            if (position.X >= 0 && position.X < Globals.level.width && position.Z >= 0 && position.Z < Globals.level.length)//Fulfix för följa heightmap
+            {
+                position.Y = Globals.level.heightData[(int)Math.Abs(position.X), (int)Math.Abs(position.Z)];
+            }
             camera.position = getCameraPos();
             camera.updateViewMatrix();
         }
@@ -94,29 +97,9 @@ namespace ClassLibrary
             return position + new Vector3(0, headPos, 0);
         }
 
-        //Kollar om spelaren skjuter, amount kan användas för 
-        //att lägga på en timer på hur många skott per sekund spelaren kan skjuta
-        //denna klass bör vara i en vapenklass sen? för olika timers för olika vapen osv.
-        public void checkIfPlayerFire(float amount)
-        {
-            MouseState currentMouseState = Mouse.GetState();
-            bulletTimer += amount;
-            if (bulletTimer >= 0.07f) bulletTimer = 0;
-
-            if (currentMouseState.LeftButton == ButtonState.Pressed && bulletTimer == 0 )//simulera rekyl
-            {
-                //Bullets.add(new Bullet(camera.pos, camera.direction))
-                
-                //ligger i camera just nu eftersom den lägger rekylen på cameran
-                camera.addRecoilToCamera();
-                rifle.addRecoilToWeapon();
-            }
-        }
-
         public void updatePlayer(float amount)
         {
-            rifle.update(amount);//Behöver en mer allmän kod för vapen så denna funkar för pistol och rifle mm
-            checkIfPlayerFire(amount);
+            rifle.update(amount);
 
             camera.updateCamera(amount);
             processKeyboardInput(amount);

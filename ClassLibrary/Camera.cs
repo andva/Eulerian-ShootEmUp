@@ -14,8 +14,9 @@ namespace ClassLibrary
     public class Camera
     {
         public Vector3 position;
-        public Vector3 rotatedTarget;
+        public Vector3 direction;
         public Matrix rotation;
+        public Vector3 up;
 
         public float leftrightRot;
         public float updownRot;
@@ -45,12 +46,11 @@ namespace ClassLibrary
         {
             rotation = Matrix.CreateRotationX(updownRot) * Matrix.CreateRotationY(leftrightRot);            
             Vector3 originalTarget = new Vector3(0, 0, -1);
-            rotatedTarget = Vector3.Transform(originalTarget, rotation);
-            Vector3 finalTarget = position + rotatedTarget;
-            double a = (double)rotatedTarget.X;
+            direction = Vector3.Transform(originalTarget, rotation);
+            Vector3 finalTarget = position + direction;
             Vector3 originalUpVector = new Vector3(0, 1, 0);
-            Vector3 rotatedUpVector = Vector3.Transform(originalUpVector, rotation);
-            view = Matrix.CreateLookAt(position, finalTarget, rotatedUpVector);
+            up = Vector3.Transform(originalUpVector, rotation);
+            view = Matrix.CreateLookAt(position, finalTarget, up);
         }
 
         public void processMouseInput(float amount)

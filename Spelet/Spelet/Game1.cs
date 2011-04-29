@@ -60,7 +60,7 @@ namespace Spelet
         Effect skySphereEffect, mapEffect, shadowEffect;
         Texture2D[] mapTexture = new Texture2D[2];
         Texture2D normalMap, heightMap;
-        public Model skySphere, rifleModel, pistolModel, rasmus, hampus, level, currentWep;
+        public Model skySphere, rifleModel, pistolModel, rasmus, hampus, currentWep;
 
         Texture2D crossHair, HUD;
         Texture2D startBackgroundTexture;
@@ -73,6 +73,10 @@ namespace Spelet
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+            //init ljud
+            Globals.audioManager = new AudioManager(this);
+            Components.Add(Globals.audioManager);
         }
 
 
@@ -174,15 +178,18 @@ namespace Spelet
             Texture2D[] mEffect = new Texture2D[2];
             mEffect[0] = Content.Load<Texture2D>("Images/normal_map");
             mEffect[1] = Content.Load<Texture2D>("Images/height_map");
-            level = Content.Load<Model>("Models/level3");
-            foreach (ModelMesh mesh in level.Meshes)
+            Texture2D heightMap = Content.Load<Texture2D>("Images/heightmap");
+
+            Model levelModel = Content.Load<Model>("Models/level3");
+            foreach (ModelMesh mesh in levelModel.Meshes)
             {
                 foreach (ModelMeshPart part in mesh.MeshParts)
                 {
                     part.Effect = mapEffect;
                 }
             }
-            Globals.level.effectTextures = mEffect;
+
+            Globals.level = new Level(levelModel, mapTexture, mEffect, mapEffect, heightMap);
         }
         private void LoadKillers()
         {
@@ -221,10 +228,7 @@ namespace Spelet
             Globals.clipPlayer = clipPlayer;
             Globals.pistolSkinningData = pistolSkinningData;
             Globals.rifleSkinningData = rifleSkinningData;
-            Globals.level.mapTexture = mapTexture;
-            Globals.level.model = level;
             Globals.shadowEffect = shadowEffect;
-            Globals.levelEffect = mapEffect;
             Globals.skysphere = skySphere;
             Globals.skySphereEffect = skySphereEffect;
         }

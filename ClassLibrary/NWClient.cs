@@ -68,6 +68,8 @@ namespace ClassLibrary
 
             player = new Player(new Vector3(0, 0, 0), device);
             Globals.player = player;
+
+            Globals.audioManager.attachCameraToAudio(player.camera);
         }
         /// <summary>
         /// Försöker ansluta till lokal server

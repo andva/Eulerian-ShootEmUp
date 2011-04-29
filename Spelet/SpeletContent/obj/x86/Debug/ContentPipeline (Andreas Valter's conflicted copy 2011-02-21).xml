@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Images\HUD.png</Source>
+      <Name>Images\HUD</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb</Output>
+      <Time>2011-02-13T21:40:02+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\crosshair1.png</Source>
+      <Name>Images\crosshair1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb</Output>
+      <Time>2011-02-09T11:36:48+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\SpaceBackground.dds</Source>
+      <Name>Images\SpaceBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb</Output>
+      <Time>2006-10-30T00:50:56+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\uffizi_cross.dds</Source>
+      <Name>Images\uffizi_cross</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb</Output>
+      <Time>2010-08-26T14:57:36+02:00</Time>
+    </Item>
+    <Item>
+      <Source>menuLarge.spritefont</Source>
+      <Name>menuLarge</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb</Output>
+      <Time>2011-02-08T23:05:19.553+01:00</Time>
+    </Item>
+    <Item>
+      <Source>menuSmall.spritefont</Source>
+      <Name>menuSmall</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb</Output>
+      <Time>2011-01-31T19:28:00.39545+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Effects\SkySphere.fx</Source>
+      <Name>Effects\SkySphere</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb</Output>
+      <Time>2010-08-26T14:57:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\gunhandEMBED.fbx</Source>
+      <Name>Models\gunhandEMBED</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb</Output>
+      <Time>2011-02-09T09:25:45+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\gunhandEMBED_0.xml</Key>
+        <Value>2011-02-21T21:14:39.3812+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\F813131\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb</Request>
+      <Request>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\F813131\gunhandEMBED.fbm\pistolUV1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\HampusEMBED.fbx</Source>
+      <Name>Models\HampusEMBED</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.2</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb</Output>
+      <Time>2011-02-05T15:01:52+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\HampusEMBED_0.xml</Key>
+        <Value>2011-02-21T21:14:40.6982+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DE8030DA\HampusEMBED.fbm\hairtexture3_0.xnb</Request>
+      <Request>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DE8030DA\HampusEMBED.fbm\hampusFULLtexture1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\RasmusEMBED.fbx</Source>
+      <Name>Models\RasmusEMBED</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.2</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb</Output>
+      <Time>2011-02-05T14:54:29+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\RasmusEMBED_0.xml</Key>
+        <Value>2011-02-21T21:14:41.9992+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DF4030E7\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb</Request>
+      <Request>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DF4030E7\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\SphereHighPoly.fbx</Source>
+      <Name>Models\SphereHighPoly</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb</Output>
+      <Time>2011-02-13T14:44:31.4206+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\SphereHighPoly_0.xml</Key>
+        <Value>2011-02-21T21:14:43.2982+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\riflearms.fbx</Source>
+      <Name>Models\riflearms</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.8</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\riflearms.xnb</Output>
+      <Time>2011-02-12T00:26:14+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\riflearms_0.xml</Key>
+        <Value>2011-02-21T21:14:43.7612+01:00</Value>
+      </Dependency>
+      <Request>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\7CE53014\riflearms.fbm\arms_texture_0.xnb</Request>
+      <Request>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\7CE53014\riflearms.fbm\Bushmaster ACRTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\level2.fbx</Source>
+      <Name>Models\level2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">20</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\level2.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\swim.fbx</Source>
+      <Name>Models\swim</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\Models\swim.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\gunhandEMBED.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\gunhandEMBED_0.xml</Output>
+      <Time>2011-02-09T09:25:45+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\F813131\gunhandEMBED.fbm\hampusFULLtexture1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\F813131\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb</Output>
+      <Time>2011-02-21T21:12:02.6062+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\F813131\gunhandEMBED.fbm\pistolUV1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\F813131\gunhandEMBED.fbm\pistolUV1_0.xnb</Output>
+      <Time>2011-02-21T21:14:39.1662+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\HampusEMBED.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\HampusEMBED_0.xml</Output>
+      <Time>2011-02-05T15:01:52+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\DE8030DA\HampusEMBED.fbm\hairtexture3.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DE8030DA\HampusEMBED.fbm\hairtexture3_0.xnb</Output>
+      <Time>2011-02-21T21:14:40.5152+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\DE8030DA\HampusEMBED.fbm\hampusFULLtexture1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DE8030DA\HampusEMBED.fbm\hampusFULLtexture1_0.xnb</Output>
+      <Time>2011-02-21T21:14:40.5182+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\RasmusEMBED.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\RasmusEMBED_0.xml</Output>
+      <Time>2011-02-05T14:54:29+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\DF4030E7\RasmusEMBED.fbm\Rasmus_Hair_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DF4030E7\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb</Output>
+      <Time>2011-02-21T21:14:41.6802+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\DF4030E7\RasmusEMBED.fbm\Rasmus_Body_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\DF4030E7\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb</Output>
+      <Time>2011-02-21T21:14:41.6882+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\SphereHighPoly.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\SphereHighPoly_0.xml</Output>
+      <Time>2011-02-13T14:44:31.4206+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\riflearms.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\riflearms_0.xml</Output>
+      <Time>2011-02-12T00:26:14+01:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\7CE53014\riflearms.fbm\arms_texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\7CE53014\riflearms.fbm\arms_texture_0.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\7CE53014\riflearms.fbm\Bushmaster ACRTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\FBX\7CE53014\riflearms.fbm\Bushmaster ACRTexture_0.xnb</Output>
+      <Time>0001-01-01T00:00:00</Time>
+    </Item>
+    <BuildSuccessful>false</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\SpeletContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\SpeletContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\Spelet\Spelet\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2011-02-21T21:12:00.5672+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\Andreas\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll</Key>
+        <Value>2011-02-21T21:12:00.2092+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-11-11T09:42:01.3484949+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

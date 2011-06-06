@@ -44,9 +44,9 @@ namespace ClassLibrary
 
         public void updateViewMatrix()
         {
-            rotation = Matrix.CreateRotationX(updownRot) * Matrix.CreateRotationY(leftrightRot);            
-            Vector3 originalTarget = new Vector3(0, 0, -1);
-            direction = Vector3.Transform(originalTarget, rotation);
+            rotation = Matrix.CreateRotationX(updownRot) * Matrix.CreateRotationY(leftrightRot);
+            Vector3 originalDirection = Vector3.Forward;
+            direction = Vector3.Transform(originalDirection, rotation);
             Vector3 finalTarget = position + direction;
             Vector3 originalUpVector = new Vector3(0, 1, 0);
             up = Vector3.Transform(originalUpVector, rotation);
@@ -92,11 +92,6 @@ namespace ClassLibrary
         public void updateCamera(float amount)
         {
             processMouseInput(amount);
-        }
-
-        public float GetForwardDir()
-        {
-            return leftrightRot;
         }
     }
 }

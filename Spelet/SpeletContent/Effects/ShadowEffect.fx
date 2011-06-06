@@ -13,32 +13,54 @@ float Kr = 1;
 bool useSpecMap = false;
 
 texture Texture;
-sampler C_Sampler = sampler_state {
- Texture = <Texture>; MinFilter = Linear; MagFilter = Linear;  MipFilter = Linear; };
+sampler C_Sampler = sampler_state 
+{
+	Texture = <Texture>; 
+	MinFilter = Linear; 
+	MagFilter = Linear;  
+	MipFilter = Linear; 
+};
  
 texture N_Texture;
-sampler N_Sampler = sampler_state {
- Texture = <N_Texture>; MinFilter = Linear; MagFilter = Linear;  MipFilter = Linear; };
+sampler N_Sampler = sampler_state 
+{
+	Texture = <N_Texture>; 
+	MinFilter = Linear; 
+	MagFilter = Linear;  
+	MipFilter = Linear; 
+ };
 
 texture Env_Texture;
-sampler Env_Sampler = sampler_state {
- Texture = <Env_Texture>; MinFilter = Linear; MagFilter = Linear;  MipFilter = Linear; }; 
+sampler Env_Sampler = sampler_state 
+{
+	Texture = <Env_Texture>; 
+	MinFilter = Linear; 
+	MagFilter = Linear;  
+	MipFilter = Linear; 
+}; 
  
 texture S_Texture;
-sampler S_Sampler = sampler_state {
- Texture = <S_Texture>; MinFilter = Linear; MagFilter = Linear;  MipFilter = Linear; }; 
+sampler S_Sampler = sampler_state 
+{
+	Texture = <S_Texture>; 
+	MinFilter = Linear; 
+	MagFilter = Linear;  
+	MipFilter = Linear; 
+}; 
 
 texture G_Texture;
-sampler G_Sampler = sampler_state {
- Texture = <G_Texture>; MinFilter = Linear; MagFilter = Linear;  MipFilter = Linear; }; 
+sampler G_Sampler = sampler_state 
+{
+ Texture = <G_Texture>; MinFilter = Linear; MagFilter = Linear;  MipFilter = Linear; 
+ }; 
 
 
 struct VS_INPUT 
 {
 	float4 Position : POSITION0;
 	float2 TexCoord : TEXCOORD0;
-  float3 Normal : NORMAL0; 
-  float3 Tangent : TANGENT0;
+	float3 Normal : NORMAL0; 
+	float3 Tangent : TANGENT0;
 	float4 BoneIndices : BLENDINDICES0;
 	float4 BoneWeights : BLENDWEIGHT0;
 };

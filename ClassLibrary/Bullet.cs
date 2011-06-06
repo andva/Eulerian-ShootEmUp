@@ -10,8 +10,9 @@ namespace ClassLibrary
     {
         public Int32 id;
         public Vector3 dir;
+        public Vector3 emitter;
 
-        public Bullet(Vector3 d, Int32 i)
+        public Bullet(Vector3 emitterPos, Vector3 d, Int32 i)
         {
             id = i;
             dir = d;

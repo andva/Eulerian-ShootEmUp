@@ -26,6 +26,8 @@ namespace ClassLibrary
         public Boolean connected = false;
         GraphicsDevice device;
         bool internetConnection = false;
+        Int16 oldStatus = 1;
+        Int32 oldKiller = -1;
 
 
         /// <summary>
@@ -68,6 +70,7 @@ namespace ClassLibrary
 
             player = new Player(new Vector3(0, 0, 0), device);
             Globals.player = player;
+            Globals.players = new OtherPlayer[Constants.MAXPLAYERS];
 
             Globals.audioManager.attachCameraToAudio(player.camera);
         }
@@ -87,6 +90,7 @@ namespace ClassLibrary
             if (internetConnection)
             {
                 client.DiscoverKnownPeer(iP, Constants.PORT);
+                //client.DiscoverKnownPeer(iP, Constants.PORT);
                 GetMsgs();
             }
             
@@ -116,7 +120,10 @@ namespace ClassLibrary
                                 //Ny anslutning
                                 case Constants.NewConnection:
                                     players = new OtherPlayer[Constants.MAXPLAYERS];
+                                    Globals.players = players;
                                     player = Package.MsgToPlayer(im, device);
+                                    Console.WriteLine("Constants.NewConnection:" + player.model);
+                                    Globals.player = player;
                                     connected = true;
                                     break;
 
@@ -131,9 +138,25 @@ namespace ClassLibrary
                                     break;
 
                                 //Någon har skjutit
-                                case Constants.Bullet:
-                                    Bullet b = Package.MsgToBullet(im);
-                                    b.CheckHits(player, players);
+                                case Constants.HitSomeone:
+                                    Int32 k = im.ReadInt32();
+                                    Int32 shooter = im.ReadInt32();
+                                    if (k == Globals.player.id)
+                                    {
+                                        Globals.player.GotHit(10, shooter);
+                                    }
+                                    break;
+
+                                case Constants.Status:
+                                    Int32 iii = im.ReadInt32();
+                                    Int16 st = im.ReadInt16();
+                                    if(Globals.players[iii] != null)
+                                        Globals.players[iii].activity = st;
+                                    break;
+                                case Constants.RewardKiller:
+                                    /*Int32 jj = im.ReadInt32();
+                                    if (Globals.player.id == jj)
+                                        Globals.player.killingspree = true;*/
                                     break;
                             }
                             break;
@@ -148,14 +171,61 @@ namespace ClassLibrary
         /// lägg i update
         /// </summary>
         public void UpdatePos(float timeDifference)
-        {   
-            if (connected && internetConnection)
+        {
+            if (Globals.players != null)
             {
-                player.updatePlayer(timeDifference);
-                om = client.CreateMessage();
-                om.Write(Constants.PlayerUpdate);
-                Package.DataToOm(om, player);
-                client.SendMessage(om, NetDeliveryMethod.UnreliableSequenced);
+                foreach (OtherPlayer op in Globals.players)
+                {
+                    if (op != null)
+                    {
+                        if (connected && internetConnection)
+                        {
+                            if (op.hit)
+                            {
+                                om = client.CreateMessage();
+                                om.Write(Constants.HitSomeone);
+                                om.Write(op.id);
+                                om.Write(Globals.player.id);
+                                Console.WriteLine(Globals.player.id);
+                                client.SendMessage(om, NetDeliveryMethod.UnreliableSequenced);
+                                op.hit = false;
+                            }
+                            if (Globals.player.activity != oldStatus)
+                            {
+                                om = client.CreateMessage();
+                                om.Write(Constants.Status);
+                                om.Write(Globals.player.id);
+                                om.Write(Globals.player.activity);
+                                client.SendMessage(om, NetDeliveryMethod.UnreliableSequenced);
+                                oldStatus = Globals.player.activity;
+                            }
+                            /*if (Globals.player.killer != -1 && Globals.player.killer != oldKiller)
+                            {
+                                om = client.CreateMessage();
+                                om.Write(Constants.RewardKiller);
+                                om.Write(Globals.player.killer);
+                                client.SendMessage(om, NetDeliveryMethod.Unreliable);
+                                oldKiller = Globals.player.killer;
+                            }*/
+                            
+                        }
+                    }
+                }
+                if (connected && internetConnection)
+                {
+                    om = client.CreateMessage();
+                    om.Write(Constants.PlayerUpdate);
+                    Package.PlayerToOm(om, Globals.player);
+                    client.SendMessage(om, NetDeliveryMethod.UnreliableSequenced);
+                }
+            }
+            else
+            {
+                //Console.WriteLine("players = null!");
+                if (Globals.players == null)
+                {
+                    Console.WriteLine("G.players = null!");
+                }
             }
         }
 
@@ -164,9 +234,8 @@ namespace ClassLibrary
         /// </summary>
         public void GunMsg(Vector2 mPos)
         {
-            Vector2 bulletDirection = mPos - player.GetPosition2();
             NetOutgoingMessage bullet = client.CreateMessage();
-            Package.SendBullet(bullet, bulletDirection.X, bulletDirection.Y, player.GetId());
+
             client.SendMessage(bullet, NetDeliveryMethod.Unreliable);
         }
 
@@ -196,6 +265,10 @@ namespace ClassLibrary
             {
                 internetConnection = false; // host not reachable.
             }
+        }
+        public OtherPlayer who(int id)
+        {
+            return players[id];
         }
     }
 }

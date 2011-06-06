@@ -23,9 +23,8 @@ namespace Spelet
         GraphicsDevice device;
         SpriteBatch spriteBatch;
         NWClient nwClient;
-        SpriteFont smallFont, largeFont;
+        SpriteFont smallFont, largeFont, deathFont;
         Vector3 lightDir1 = new Vector3(1, 1, 1);
-        
 
         //Startmeny
         StartScene startScene;
@@ -43,24 +42,22 @@ namespace Spelet
         ClipPlayer clipPlayer;
 
         SkinningData rifleSkinningData;
-        SkinningData pistolSkinningData;
+        SkinningData hampusSkinningData, valterSkinningData, axelSkinningData, rasmusSkinningData;
 
         //Klass för animationsklipp
         AnimationClip rifleClip;
-        AnimationClip pistolClip;
 
         float fps;
 
         //Translationsvektor för vapnet
-        //Vector3 gunPos = new Vector3(1 / 3, 0, 2);
         //Borde läggas i vapenklass!
-        Vector3 riflePos = new Vector3(0.3f, 0.1f, 2f);
-        Vector3 pisolPos = new Vector3(0.3f, -1.0f, 1.5f);
+       Vector3 riflePos = new Vector3(0.3f, 0.1f, 2f);
         Vector3 gunPos;
         Effect skySphereEffect, mapEffect, shadowEffect;
         Texture2D[] mapTexture = new Texture2D[2];
-        Texture2D normalMap, heightMap;
-        public Model skySphere, rifleModel, pistolModel, rasmus, hampus, currentWep;
+        Texture2D[] hampusTexture = new Texture2D[2];
+        Texture2D[] rasmusTexture = new Texture2D[2];
+        public Model skySphere, rifleModel, pistolModel, rasmus, hampus, currentWep, valter, axel;
 
         Texture2D crossHair, HUD;
         Texture2D startBackgroundTexture;
@@ -86,10 +83,10 @@ namespace Spelet
             //Sätter upplösning och fullskärmsläge
             graphics.PreferredBackBufferWidth = Constants.SCRWIDTH;
             graphics.PreferredBackBufferHeight = Constants.SCRHEIGHT;
-            graphics.IsFullScreen = false;
-            graphics.PreferMultiSampling = true;
+            graphics.IsFullScreen = true;
+            //graphics.PreferMultiSampling = true;
             graphics.ApplyChanges();
-            Window.Title = "Valter är bäst, såklart!!!!";
+            Window.Title = "Deathmatch";
             this.IsMouseVisible = true;
 
             base.Initialize();
@@ -108,7 +105,15 @@ namespace Spelet
             nwClient = new NWClient(device);
             LoadModels();
             LoadScenes();
+
+            //TA BORT SEN (bara till för att synka heightmap)
+            Globals.effect = Content.Load<Effect>("effects"); //används till rita ut heightmap onö
+
+            loadMuzzleFlash();
+
+            loadBloodBillboard();
         }
+
         private void LoadScenes()
         {
             //Laddar scenes och hämtar all content som behövs
@@ -116,7 +121,8 @@ namespace Spelet
             //Dessa är bland annat startmenyn och själva spelläget
             smallFont = Content.Load<SpriteFont>("menuSmall");
             largeFont = Content.Load<SpriteFont>("menuLarge");
-            startBackgroundTexture = Content.Load<Texture2D>("images/SpaceBackground");
+            Globals.font = smallFont;
+            startBackgroundTexture = Content.Load<Texture2D>("images/MainMenuFinal");
 
             //Skapar en startscen där smallfont är fonten som används när man inte har
             //musen över en länk och largefont är för vald font. StartBack.. är scenens
@@ -138,6 +144,7 @@ namespace Spelet
             startScene.Show();
             activeScene = startScene;
         }
+
         private void LoadModels()
         {
             LoadSkySphere();
@@ -150,13 +157,49 @@ namespace Spelet
         {
             crossHair = Content.Load<Texture2D>("Images/crosshair1");
             HUD = Content.Load<Texture2D>("Images/HUD");
+            SpriteFont hudFont = Content.Load<SpriteFont>("hudFont");
+            Texture2D gotHitTexture = Content.Load<Texture2D>("Images/bloodHit");
+            Globals.gotHitTexture = gotHitTexture;
+            Globals.hud = new HUD(spriteBatch, hudFont);
+            SpriteFont deathFont = Content.Load<SpriteFont>("death");
+            Globals.deathFont = deathFont;
         }
+
+        private void loadMuzzleFlash()
+        {
+            Texture2D[] flash = new Texture2D[24];
+            for (int i = 0; i < 24; i++)
+            {
+                if(i < 10)
+                    flash[i] = Content.Load<Texture2D>("Images/muzzleflash/Muzzle_0000" + i.ToString());
+                else
+                    flash[i] = Content.Load<Texture2D>("Images/muzzleflash/Muzzle_000" + i.ToString());
+            }
+            
+            Globals.muzzleflash = new MuzzleFlash(spriteBatch, flash);
+        }
+
+        private void loadBloodBillboard()
+        {
+            Texture2D[] texture = new Texture2D[64];
+            for (int i = 0; i < 24; i++)
+            {
+                if (i < 10)
+                    texture[i] = Content.Load<Texture2D>("Images/bloodsplat/Blood_0000" + i.ToString());
+                else
+                    texture[i] = Content.Load<Texture2D>("Images/bloodsplat/Blood_000" + i.ToString());
+            }
+
+            Globals.blood = new BloodList(texture);
+            Globals.device = device;
+        }
+
         private void LoadSkySphere()
         {
 
             skySphereEffect = Content.Load<Effect>("Effects/SkySphere");
             skySphere = Content.Load<Model>("Models/SphereHighPoly");
-            TextureCube SkyboxTexture = Content.Load<TextureCube>("Images/uffizi_cross");
+            TextureCube SkyboxTexture = Content.Load<TextureCube>("Images/sky_cube");
             skySphereEffect.Parameters["ViewMatrix"].SetValue(nwClient.player.camera.view);
             skySphereEffect.Parameters["ProjectionMatrix"].SetValue(nwClient.player.camera.projection);
             skySphereEffect.Parameters["SkyboxTexture"].SetValue(SkyboxTexture);
@@ -172,40 +215,40 @@ namespace Spelet
         }
         private void LoadMap()
         {
-            mapEffect = Content.Load<Effect>("Effects/MapShader");
+            Texture2D heightMap = Content.Load<Texture2D>("Images/heightmap3fix");
 
-            mapTexture[0] = Content.Load<Texture2D>("Images/color_map");
-            mapTexture[1] = Content.Load<Texture2D>("Images/wallTile");
-            Texture2D[] mEffect = new Texture2D[2];
-            mEffect[0] = Content.Load<Texture2D>("Images/normal_map");
-            mEffect[1] = Content.Load<Texture2D>("Images/height_map");
-            Texture2D heightMap = Content.Load<Texture2D>("Images/heightmap");
-
-            Model levelModel = Content.Load<Model>("Models/level3");
-            foreach (ModelMesh mesh in levelModel.Meshes)
+            Model levelModel = Content.Load<Model>("Models/Map");
+            /*foreach (ModelMesh mesh in levelModel.Meshes)
             {
                 foreach (ModelMeshPart part in mesh.MeshParts)
                 {
                     part.Effect = mapEffect;
                 }
-            }
+            }*/
 
-            Globals.level = new Level(levelModel, mapTexture, mEffect, mapEffect, heightMap);
+            Globals.level = new Level(device, levelModel, mapEffect, heightMap);
         }
         private void LoadKillers()
         {
-            rasmus = Content.Load<Model>("Models/RasmusEMBED");
-            hampus = Content.Load<Model>("Models/HampusEMBED");
+            rasmus = Content.Load<Model>("Models/rasmusFinal");
+            hampus = Content.Load<Model>("Models/hampusFinal");
+            valter = Content.Load<Model>("Models/valterFinal");
+            axel = Content.Load<Model>("Models/axelFinal5");
             rifleModel = Content.Load<Model>("Models/rifleHands1");
-            pistolModel = Content.Load<Model>("Models/pistolarms1");
-
             gunPos = riflePos;
             currentWep = rifleModel;
 
-            pistolSkinningData = pistolModel.Tag as SkinningData;
-            if (pistolSkinningData == null)
+            hampusSkinningData = hampus.Tag as SkinningData;
+            rasmusSkinningData = rasmus.Tag as SkinningData;
+            axelSkinningData = axel.Tag as SkinningData;
+            valterSkinningData = valter.Tag as SkinningData;
+            if (hampusSkinningData == null)
                 throw new InvalidOperationException
                     ("This model does not contain a SkinningData tag. Har du satt SkinnedModelProcessor? ");
+            Globals.hampusSkinningData = hampusSkinningData;
+            Globals.rasmusSkinningData = rasmusSkinningData;
+            Globals.axelSkinningData = axelSkinningData;
+            Globals.valterSkinningData = valterSkinningData;
             rifleSkinningData = rifleModel.Tag as SkinningData;
             if (rifleSkinningData == null)
                 throw new InvalidOperationException
@@ -213,25 +256,26 @@ namespace Spelet
 
             clipPlayer = new ClipPlayer(rifleSkinningData, fps);
             rifleClip = rifleSkinningData.AnimationClips["Take 001"];
-            pistolClip = pistolSkinningData.AnimationClips["Take 001"];
-            
-            shadowEffect = Content.Load<Effect>("Effects/ShadowEffect");
-           
+
+            shadowEffect = Content.Load<Effect>("Effects/ShadowEffect"); 
         }
+
+
         private void LoadGlobals()
         {
             Globals.rifleClip = rifleClip;
-            Globals.pistolClip = pistolClip;
             Globals.rifle = rifleModel;
             Globals.hampus = hampus;
+            Globals.valter = valter;
+            Globals.axel = axel;
             Globals.rasmus = rasmus;
-            Globals.pistol = pistolModel;
             Globals.clipPlayer = clipPlayer;
-            Globals.pistolSkinningData = pistolSkinningData;
             Globals.rifleSkinningData = rifleSkinningData;
-            Globals.shadowEffect = shadowEffect;
+            //Globals.shadowEffect = shadowEffect;
             Globals.skysphere = skySphere;
             Globals.skySphereEffect = skySphereEffect;
+            //Globals.hampusTexture = hampusTexture;
+            
         }
         #endregion
         
@@ -244,8 +288,6 @@ namespace Spelet
 
             nwClient.UpdatePos(timeDifference);
             nwClient.GetMsgs();
-            
-
 
             HandleScenesInput(gameTime);
 
@@ -258,50 +300,6 @@ namespace Spelet
             spriteBatch.Begin();
             base.Draw(gameTime);
             spriteBatch.End();
-        }
-        private void DrawStationary(OtherPlayer otherPlayer, Matrix world)
-        {
-            /*Model models = rasmus;
-            if (otherPlayer.model == Constants.HAMPUS)
-            {
-                models = hampus;
-            }
-            else if (otherPlayer.model == Constants.RASMUS)
-            {
-                models = rasmus;
-            }
-            
-            world = Matrix.CreateRotationY(otherPlayer.forwardDir)*Matrix.CreateTranslation(otherPlayer.position);
-            
-            for (int i = 1; i < models.Meshes.Count; i++)
-            {
-                ModelMesh mesh = models.Meshes[i];
-                foreach (BasicEffect effect in mesh.Effects)
-                {
-                    effect.EnableDefaultLighting();
-                    effect.PreferPerPixelLighting = true;
-                    effect.World = world;
-                    // Use the matrices provided by the game camera
-                    effect.View = nwClient.player.camera.view;
-                    effect.Projection = nwClient.player.camera.projection;
-                    effect.SpecularColor = new Vector3(0.25f);
-                    effect.SpecularPower = 16;
-                }
-                mesh.Draw();
-            }
-            ModelMesh me = models.Meshes[0];
-            foreach (BasicEffect effect in me.Effects)
-            {
-                effect.EnableDefaultLighting();
-                effect.PreferPerPixelLighting = true;
-                effect.World = world;
-                // Use the matrices provided by the game camera
-                effect.View = nwClient.player.camera.view;
-                effect.Projection = nwClient.player.camera.projection;
-                effect.SpecularColor = new Vector3(0.25f);
-                effect.SpecularPower = 16;
-            }
-            me.Draw();*/
         }
         #endregion
 

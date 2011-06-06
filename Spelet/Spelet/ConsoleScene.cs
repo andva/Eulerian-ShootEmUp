@@ -30,8 +30,8 @@ namespace ClassLibrary
             uptext = new String[] { "Update servers", "Back" };
             servers = new TextMenuComponent(game, smallFont, largeFont);
             UpdateServerList();
-            //Components.Add(new ImageComponent(game, background,
-             //                               ImageComponent.DrawMode.Center));
+            Components.Add(new ImageComponent(game, background,
+                                            ImageComponent.DrawMode.Center));
             
             Components.Add(servers);
 

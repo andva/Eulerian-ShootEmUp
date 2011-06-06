@@ -54,3 +54,31 @@ C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb

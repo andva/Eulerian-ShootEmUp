@@ -40,3 +40,33 @@ C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\obj\Xbo
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.dll
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModel\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModel\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\obj\Xbox 360\Debug\SkinnedModel.pdb

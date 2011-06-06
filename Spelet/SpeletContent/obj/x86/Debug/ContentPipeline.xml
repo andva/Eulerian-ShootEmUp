@@ -7,8 +7,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb</Output>
       <Time>2011-02-13T21:40:02+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\sky_cube.dds</Source>
+      <Name>Images\sky_cube</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\sky_cube.xnb</Output>
+      <Time>2011-02-09T18:54:02+01:00</Time>
     </Item>
     <Item>
       <Source>Images\crosshair1.png</Source>
@@ -16,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb</Output>
       <Time>2011-02-09T11:36:48+01:00</Time>
     </Item>
     <Item>
@@ -25,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb</Output>
       <Time>2006-10-30T00:50:56+01:00</Time>
     </Item>
     <Item>
@@ -34,97 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb</Output>
       <Time>2010-08-26T14:57:36+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\rutTile.png</Source>
-      <Name>Images\rutTile</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="GenerateMipmaps">True</Data>
-        <Data Key="ResizeToPowerOfTwo">True</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\rutTile.xnb</Output>
-      <Time>2011-03-03T22:05:58.97545+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\floorNormals.png</Source>
-      <Name>Images\floorNormals</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="GenerateMipmaps">True</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\floorNormals.xnb</Output>
-      <Time>2011-03-03T22:30:34.67945+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\wallTile.png</Source>
-      <Name>Images\wallTile</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="GenerateMipmaps">True</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\wallTile.xnb</Output>
-      <Time>2011-03-03T22:39:31.61545+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\normal2.jpg</Source>
-      <Name>Images\normal2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ResizeToPowerOfTwo">True</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\normal2.xnb</Output>
-      <Time>2011-03-07T15:58:16.9640003+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\floor2.jpg</Source>
-      <Name>Images\floor2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ResizeToPowerOfTwo">True</Data>
-        <Data Key="GenerateMipmaps">True</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\floor2.xnb</Output>
-      <Time>2011-03-07T16:01:01.5580003+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\color_map.jpg</Source>
-      <Name>Images\color_map</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\color_map.xnb</Output>
-      <Time>2010-05-27T00:41:36+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\height_map.jpg</Source>
-      <Name>Images\height_map</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\height_map.xnb</Output>
-      <Time>2010-05-27T00:41:36+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Images\normal_map.jpg</Source>
-      <Name>Images\normal_map</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\normal_map.xnb</Output>
-      <Time>2010-05-27T00:41:36+02:00</Time>
     </Item>
     <Item>
       <Source>Images\hampusFULLtexture1.png</Source>
@@ -132,17 +52,863 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb</Output>
       <Time>2011-01-23T15:50:14+01:00</Time>
     </Item>
     <Item>
-      <Source>Images\heightmap.bmp</Source>
+      <Source>Images\hairtexture3.png</Source>
+      <Name>Images\hairtexture3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hairtexture3.xnb</Output>
+      <Time>2011-01-23T23:07:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00000.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00000</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00000.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00001.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00001.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00002.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00002.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00003.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00003.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00004.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00004.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00005.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00005</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00005.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00006.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00006</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00006.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00007.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00007</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00007.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00008.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00008</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00008.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00009.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00009</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00009.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00010.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00010</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00010.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00011.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00011</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00011.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00012.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00012</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00012.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00013.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00013</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00013.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00014.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00014</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00014.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00015.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00015</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00015.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00016.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00016</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00016.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00017.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00017</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00017.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00018.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00018</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00018.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00019.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00019</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00019.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00020.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00020</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00020.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00021.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00021</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00021.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00022.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00022</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00022.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\muzzleflash\Muzzle_00023.png</Source>
+      <Name>Images\muzzleflash\Muzzle_00023</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00023.xnb</Output>
+      <Time>2011-06-01T18:25:00+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\heightmap.png</Source>
       <Name>Images\heightmap</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb</Output>
-      <Time>2011-04-29T21:34:03.0392+02:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb</Output>
+      <Time>2011-06-01T19:24:51+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\heightmap3fix.png</Source>
+      <Name>Images\heightmap3fix</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap3fix.xnb</Output>
+      <Time>2011-06-01T22:32:29.6292+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\blood.png</Source>
+      <Name>Images\blood</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\blood.xnb</Output>
+      <Time>2011-06-02T12:20:09+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00000.png</Source>
+      <Name>Images\bloodsplat\Blood_00000</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00000.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00001.png</Source>
+      <Name>Images\bloodsplat\Blood_00001</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00001.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00002.png</Source>
+      <Name>Images\bloodsplat\Blood_00002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00002.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00003.png</Source>
+      <Name>Images\bloodsplat\Blood_00003</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00003.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00004.png</Source>
+      <Name>Images\bloodsplat\Blood_00004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00004.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00005.png</Source>
+      <Name>Images\bloodsplat\Blood_00005</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00005.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00006.png</Source>
+      <Name>Images\bloodsplat\Blood_00006</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00006.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00007.png</Source>
+      <Name>Images\bloodsplat\Blood_00007</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00007.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00008.png</Source>
+      <Name>Images\bloodsplat\Blood_00008</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00008.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00009.png</Source>
+      <Name>Images\bloodsplat\Blood_00009</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00009.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00010.png</Source>
+      <Name>Images\bloodsplat\Blood_00010</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00010.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00011.png</Source>
+      <Name>Images\bloodsplat\Blood_00011</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00011.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00012.png</Source>
+      <Name>Images\bloodsplat\Blood_00012</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00012.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00013.png</Source>
+      <Name>Images\bloodsplat\Blood_00013</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00013.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00014.png</Source>
+      <Name>Images\bloodsplat\Blood_00014</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00014.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00015.png</Source>
+      <Name>Images\bloodsplat\Blood_00015</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00015.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00016.png</Source>
+      <Name>Images\bloodsplat\Blood_00016</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00016.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00017.png</Source>
+      <Name>Images\bloodsplat\Blood_00017</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00017.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00018.png</Source>
+      <Name>Images\bloodsplat\Blood_00018</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00018.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00019.png</Source>
+      <Name>Images\bloodsplat\Blood_00019</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00019.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00020.png</Source>
+      <Name>Images\bloodsplat\Blood_00020</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00020.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00021.png</Source>
+      <Name>Images\bloodsplat\Blood_00021</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00021.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00022.png</Source>
+      <Name>Images\bloodsplat\Blood_00022</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00022.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00023.png</Source>
+      <Name>Images\bloodsplat\Blood_00023</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00023.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00024.png</Source>
+      <Name>Images\bloodsplat\Blood_00024</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00024.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00025.png</Source>
+      <Name>Images\bloodsplat\Blood_00025</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00025.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00026.png</Source>
+      <Name>Images\bloodsplat\Blood_00026</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00026.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00027.png</Source>
+      <Name>Images\bloodsplat\Blood_00027</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00027.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00028.png</Source>
+      <Name>Images\bloodsplat\Blood_00028</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00028.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00029.png</Source>
+      <Name>Images\bloodsplat\Blood_00029</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00029.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00030.png</Source>
+      <Name>Images\bloodsplat\Blood_00030</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00030.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00031.png</Source>
+      <Name>Images\bloodsplat\Blood_00031</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00031.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00032.png</Source>
+      <Name>Images\bloodsplat\Blood_00032</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00032.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00033.png</Source>
+      <Name>Images\bloodsplat\Blood_00033</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00033.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00034.png</Source>
+      <Name>Images\bloodsplat\Blood_00034</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00034.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00035.png</Source>
+      <Name>Images\bloodsplat\Blood_00035</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00035.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00036.png</Source>
+      <Name>Images\bloodsplat\Blood_00036</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00036.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00037.png</Source>
+      <Name>Images\bloodsplat\Blood_00037</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00037.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00038.png</Source>
+      <Name>Images\bloodsplat\Blood_00038</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00038.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00039.png</Source>
+      <Name>Images\bloodsplat\Blood_00039</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00039.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00040.png</Source>
+      <Name>Images\bloodsplat\Blood_00040</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00040.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00041.png</Source>
+      <Name>Images\bloodsplat\Blood_00041</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00041.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00042.png</Source>
+      <Name>Images\bloodsplat\Blood_00042</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00042.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00043.png</Source>
+      <Name>Images\bloodsplat\Blood_00043</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00043.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00044.png</Source>
+      <Name>Images\bloodsplat\Blood_00044</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00044.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00045.png</Source>
+      <Name>Images\bloodsplat\Blood_00045</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00045.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00046.png</Source>
+      <Name>Images\bloodsplat\Blood_00046</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00046.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00047.png</Source>
+      <Name>Images\bloodsplat\Blood_00047</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00047.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00048.png</Source>
+      <Name>Images\bloodsplat\Blood_00048</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00048.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00049.png</Source>
+      <Name>Images\bloodsplat\Blood_00049</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00049.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00050.png</Source>
+      <Name>Images\bloodsplat\Blood_00050</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00050.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00051.png</Source>
+      <Name>Images\bloodsplat\Blood_00051</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00051.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00052.png</Source>
+      <Name>Images\bloodsplat\Blood_00052</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00052.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00053.png</Source>
+      <Name>Images\bloodsplat\Blood_00053</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00053.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00054.png</Source>
+      <Name>Images\bloodsplat\Blood_00054</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00054.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00055.png</Source>
+      <Name>Images\bloodsplat\Blood_00055</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00055.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00056.png</Source>
+      <Name>Images\bloodsplat\Blood_00056</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00056.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00057.png</Source>
+      <Name>Images\bloodsplat\Blood_00057</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00057.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00058.png</Source>
+      <Name>Images\bloodsplat\Blood_00058</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00058.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00059.png</Source>
+      <Name>Images\bloodsplat\Blood_00059</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00059.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00060.png</Source>
+      <Name>Images\bloodsplat\Blood_00060</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00060.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00061.png</Source>
+      <Name>Images\bloodsplat\Blood_00061</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00061.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00062.png</Source>
+      <Name>Images\bloodsplat\Blood_00062</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00062.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodsplat\Blood_00063.png</Source>
+      <Name>Images\bloodsplat\Blood_00063</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00063.xnb</Output>
+      <Time>2011-06-02T13:28:47+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodHit.png</Source>
+      <Name>Images\bloodHit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodHit.xnb</Output>
+      <Time>2011-06-02T19:01:28.3802+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\MainMenuFinal.png</Source>
+      <Name>Images\MainMenuFinal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\MainMenuFinal.xnb</Output>
+      <Time>2011-06-02T19:23:07.0292+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bloodHit2.png</Source>
+      <Name>Images\bloodHit2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodHit2.xnb</Output>
+      <Time>2011-06-02T20:20:19.9292+02:00</Time>
     </Item>
     <Item>
       <Source>menuLarge.spritefont</Source>
@@ -150,8 +916,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb</Output>
-      <Time>2011-02-08T23:05:19.553+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb</Output>
+      <Time>2011-06-02T20:03:33.5342+02:00</Time>
     </Item>
     <Item>
       <Source>menuSmall.spritefont</Source>
@@ -159,8 +925,26 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb</Output>
-      <Time>2011-01-31T19:28:00.39545+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb</Output>
+      <Time>2011-06-02T20:03:09.2052+02:00</Time>
+    </Item>
+    <Item>
+      <Source>hudFont.spritefont</Source>
+      <Name>hudFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\hudFont.xnb</Output>
+      <Time>2011-06-01T09:32:43+02:00</Time>
+    </Item>
+    <Item>
+      <Source>death.spritefont</Source>
+      <Name>death</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\death.xnb</Output>
+      <Time>2011-06-03T00:55:11.9972+02:00</Time>
     </Item>
     <Item>
       <Source>Effects\SkySphere.fx</Source>
@@ -168,7 +952,7 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb</Output>
       <Time>2010-08-26T14:57:34+02:00</Time>
     </Item>
     <Item>
@@ -177,8 +961,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb</Output>
-      <Time>2011-03-07T16:06:14.7550003+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb</Output>
+      <Time>2011-03-07T16:06:14+01:00</Time>
     </Item>
     <Item>
       <Source>Effects\parallax_normal_mapping.fx</Source>
@@ -186,8 +970,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb</Output>
-      <Time>2011-03-07T17:31:37.3992503+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb</Output>
+      <Time>2011-03-07T17:31:37+01:00</Time>
     </Item>
     <Item>
       <Source>Effects\ShadowEffect.fx</Source>
@@ -195,45 +979,17 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb</Output>
-      <Time>2011-03-07T19:12:37.0272503+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb</Output>
+      <Time>2011-05-29T18:15:00+02:00</Time>
     </Item>
     <Item>
-      <Source>Models\gunhandEMBED.fbx</Source>
-      <Name>Models\gunhandEMBED</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
+      <Source>effects.fx</Source>
+      <Name>effects</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb</Output>
-      <Time>2011-02-09T09:25:45+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\gunhandEMBED_0.xml</Key>
-        <Value>2011-04-29T21:39:06.6932+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\ACDD2A3F\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\ACDD2A3F\gunhandEMBED.fbm\pistolUV1_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\HampusEMBED.fbx</Source>
-      <Name>Models\HampusEMBED</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Parameters>
-        <Data Key="Scale">0.2</Data>
-        <Data Key="PremultiplyTextureAlpha">False</Data>
-        <Data Key="GenerateMipmaps">False</Data>
-        <Data Key="PremultiplyVertexColors">False</Data>
-        <Data Key="SwapWindingOrder">True</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb</Output>
-      <Time>2011-02-05T15:01:52+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\HampusEMBED_0.xml</Key>
-        <Value>2011-04-29T21:39:08.0842+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\82DD29E8\HampusEMBED.fbm\hairtexture3_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\82DD29E8\HampusEMBED.fbm\hampusFULLtexture1_0.xnb</Request>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\effects.xnb</Output>
+      <Time>2011-01-25T11:51:41+01:00</Time>
     </Item>
     <Item>
       <Source>Models\RasmusEMBED.fbx</Source>
@@ -245,14 +1001,14 @@
         <Data Key="PremultiplyTextureAlpha">False</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb</Output>
       <Time>2011-02-05T14:54:29+01:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Models\RasmusEMBED_0.xml</Key>
-        <Value>2011-04-29T21:39:09.1342+02:00</Value>
+        <Value>2011-06-06T21:20:08.045+02:00</Value>
       </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF9F32ED\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF9F32ED\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb</Request>
     </Item>
     <Item>
       <Source>Models\SphereHighPoly.fbx</Source>
@@ -260,180 +1016,12 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb</Output>
-      <Time>2011-02-13T14:44:31.4206+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb</Output>
+      <Time>2011-02-13T14:44:31+01:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Models\SphereHighPoly_0.xml</Key>
-        <Value>2011-04-29T21:39:10.4632+02:00</Value>
+        <Value>2011-06-06T21:20:10.041+02:00</Value>
       </Dependency>
-    </Item>
-    <Item>
-      <Source>Models\level2.fbx</Source>
-      <Name>Models\level2</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Parameters>
-        <Data Key="Scale">20</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\level2.xnb</Output>
-      <Time>2011-02-05T16:10:53+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\level2_0.xml</Key>
-        <Value>2011-04-29T21:39:10.5792+02:00</Value>
-      </Dependency>
-    </Item>
-    <Item>
-      <Source>Models\swim.fbx</Source>
-      <Name>Models\swim</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\swim.xnb</Output>
-      <Time>2011-02-20T03:14:58.079+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\swim_0.xml</Key>
-        <Value>2011-04-29T21:39:12.6842+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\buggladd.fbx</Source>
-      <Name>Models\buggladd</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\buggladd.xnb</Output>
-      <Time>2011-02-23T00:14:49+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\buggladd_0.xml</Key>
-        <Value>2011-04-29T21:39:17.4432+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\riflemove.fbx</Source>
-      <Name>Models\riflemove</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\riflemove.xnb</Output>
-      <Time>2011-02-24T15:31:06+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\riflemove_0.xml</Key>
-        <Value>2011-04-29T21:39:20.9262+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\test6.fbx</Source>
-      <Name>Models\test6</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\test6.xnb</Output>
-      <Time>2011-02-27T23:02:21+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\test6_0.xml</Key>
-        <Value>2011-04-29T21:39:23.8402+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\test7.fbx</Source>
-      <Name>Models\test7</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\test7.xnb</Output>
-      <Time>2011-02-27T23:28:38+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\test7_0.xml</Key>
-        <Value>2011-04-29T21:39:26.7452+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\test8.fbx</Source>
-      <Name>Models\test8</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\test8.xnb</Output>
-      <Time>2011-02-27T23:48:50+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\test8_0.xml</Key>
-        <Value>2011-04-29T21:39:29.6482+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\animtest1.fbx</Source>
-      <Name>Models\animtest1</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\animtest1.xnb</Output>
-      <Time>2011-03-01T20:34:24+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\animtest1_0.xml</Key>
-        <Value>2011-04-29T21:39:32.4042+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\testC.fbx</Source>
-      <Name>Models\testC</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\testC.xnb</Output>
-      <Time>2011-03-01T20:27:41+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\testC_0.xml</Key>
-        <Value>2011-04-29T21:39:32.6002+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\pistolarms1.fbx</Source>
-      <Name>Models\pistolarms1</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Parameters>
-        <Data Key="SwapWindingOrder">True</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\pistolarms1.xnb</Output>
-      <Time>2011-03-01T22:36:48+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\pistolarms1_0.xml</Key>
-        <Value>2011-04-29T21:39:36.7822+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\rifleHandsFuck.fbx</Source>
-      <Name>Models\rifleHandsFuck</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>SkinnedModelProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHandsFuck.xnb</Output>
-      <Time>2011-03-02T17:13:52+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\rifleHandsFuck_0.xml</Key>
-        <Value>2011-04-29T21:39:39.8802+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
     </Item>
     <Item>
       <Source>Models\rifleHands1.fbx</Source>
@@ -441,48 +1029,117 @@
       <Importer>FbxImporter</Importer>
       <Processor>SkinnedModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb</Output>
       <Time>2011-03-02T23:16:33+01:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Models\rifleHands1_0.xml</Key>
-        <Value>2011-04-29T21:39:43.5082+02:00</Value>
+        <Value>2011-06-06T21:20:15.976+02:00</Value>
       </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Request>
     </Item>
     <Item>
-      <Source>Models\level3.fbx</Source>
-      <Name>Models\level3</Name>
-      <Importer>FbxImporter</Importer>
-      <Processor>ModelProcessor</Processor>
-      <Parameters>
-        <Data Key="GenerateTangentFrames">True</Data>
-        <Data Key="ResizeTexturesToPowerOfTwo">True</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\level3.xnb</Output>
-      <Time>2011-03-03T19:42:45+01:00</Time>
-      <Dependency>
-        <Key>obj\x86\Debug\Models\level3_0.xml</Key>
-        <Value>2011-04-29T21:39:43.7612+02:00</Value>
-      </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb</Request>
-    </Item>
-    <Item>
-      <Source>Models\HampusAnimated1.fbx</Source>
-      <Name>Models\HampusAnimated1</Name>
+      <Source>Models\hampusdeath2.fbx</Source>
+      <Name>Models\hampusdeath2</Name>
       <Importer>FbxImporter</Importer>
       <Processor>SkinnedModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusAnimated1.xnb</Output>
-      <Time>2011-03-09T17:09:10+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusdeath2.xnb</Output>
+      <Time>2011-06-01T16:18:11+02:00</Time>
       <Dependency>
-        <Key>obj\x86\Debug\Models\HampusAnimated1_0.xml</Key>
-        <Value>2011-04-29T21:39:48.2842+02:00</Value>
+        <Key>obj\x86\Debug\Models\hampusdeath2_0.xml</Key>
+        <Value>2011-06-06T21:20:27.548+02:00</Value>
       </Dependency>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb</Request>
-      <Request>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E172331B\hampusdeath2.fbm\hairtexture3_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E172331B\hampusdeath2.fbm\hampusFULLtexture1_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E172331B\hampusdeath2.fbm\Bushmaster ACRTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\Map.fbx</Source>
+      <Name>Models\Map</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\Map.xnb</Output>
+      <Time>2011-06-02T16:24:15+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\Map_0.xml</Key>
+        <Value>2011-06-06T21:20:32.952+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\walltexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\pillartexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\symbolstexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\tilestexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\altartexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\groundtexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\vasetexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\bushtexture2_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\bushtexture1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\hampusFinal.fbx</Source>
+      <Name>Models\hampusFinal</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusFinal.xnb</Output>
+      <Time>2011-06-01T22:28:37.2222+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\hampusFinal_0.xml</Key>
+        <Value>2011-06-06T21:20:55.185+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF2C32ED\hampusFinal.fbm\hairtexture3_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF2C32ED\hampusFinal.fbm\hampusFULLtexture1_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF2C32ED\hampusFinal.fbm\Bushmaster ACRTexture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\rasmusFinal.fbx</Source>
+      <Name>Models\rasmusFinal</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rasmusFinal.xnb</Output>
+      <Time>2011-06-01T22:29:01.9252+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\rasmusFinal_0.xml</Key>
+        <Value>2011-06-06T21:21:07.48+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AFEC32FA\rasmusFinal.fbm\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AFEC32FA\rasmusFinal.fbm\Rasmus_Hair_Texture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AFEC32FA\rasmusFinal.fbm\Rasmus_Body_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\valterFinal.fbx</Source>
+      <Name>Models\valterFinal</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\valterFinal.xnb</Output>
+      <Time>2011-06-02T15:38:23+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\valterFinal_0.xml</Key>
+        <Value>2011-06-06T21:21:19.67+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF6732ED\valterFinal.fbm\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF6732ED\valterFinal.fbm\Rasmus_Hair_Texture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF6732ED\valterFinal.fbm\valter_Body_Texture_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Models\axelFinal5.fbx</Source>
+      <Name>Models\axelFinal5</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\axelFinal5.xnb</Output>
+      <Time>2011-06-02T23:12:55+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\axelFinal5_0.xml</Key>
+        <Value>2011-06-06T21:21:46.648+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\Bushmaster ACRTexture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\axelbody_texture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\axel_hair_texture_0.xnb</Request>
+      <Request>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\helmet_0.xnb</Request>
     </Item>
     <Item>
       <Source>Audio\gunshot.wav</Source>
@@ -490,86 +1147,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb</Output>
-      <Time>2011-04-29T21:34:03.0392+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\gunhandEMBED.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\gunhandEMBED_0.xml</Output>
-      <Time>2011-02-09T09:25:45+01:00</Time>
-    </Item>
-    <Item>
-      <Source>obj\x86\Debug\FBX\ACDD2A3F\gunhandEMBED.fbm\hampusFULLtexture1.png</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\ACDD2A3F\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb</Output>
-      <Time>2011-04-29T21:39:06.2122+02:00</Time>
-    </Item>
-    <Item>
-      <Source>obj\x86\Debug\FBX\ACDD2A3F\gunhandEMBED.fbm\pistolUV1.png</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\ACDD2A3F\gunhandEMBED.fbm\pistolUV1_0.xnb</Output>
-      <Time>2011-04-29T21:39:06.2152+02:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\HampusEMBED.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\HampusEMBED_0.xml</Output>
-      <Time>2011-02-05T15:01:52+01:00</Time>
-    </Item>
-    <Item>
-      <Source>obj\x86\Debug\FBX\82DD29E8\HampusEMBED.fbm\hairtexture3.png</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">false</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">false</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\82DD29E8\HampusEMBED.fbm\hairtexture3_0.xnb</Output>
-      <Time>2011-04-29T21:39:07.8312+02:00</Time>
-    </Item>
-    <Item>
-      <Source>obj\x86\Debug\FBX\82DD29E8\HampusEMBED.fbm\hampusFULLtexture1.png</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">false</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">false</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\82DD29E8\HampusEMBED.fbm\hampusFULLtexture1_0.xnb</Output>
-      <Time>2011-04-29T21:39:07.8342+02:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb</Output>
+      <Time>2011-04-29T21:34:03+02:00</Time>
     </Item>
     <Item>
       <Source>Models\RasmusEMBED.fbx</Source>
@@ -579,7 +1158,7 @@
       <Time>2011-02-05T14:54:29+01:00</Time>
     </Item>
     <Item>
-      <Source>obj\x86\Debug\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Hair_Texture.png</Source>
+      <Source>obj\x86\Debug\FBX\AF9F32ED\RasmusEMBED.fbm\Rasmus_Hair_Texture.png</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -591,11 +1170,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb</Output>
-      <Time>2011-04-29T21:39:08.8112+02:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF9F32ED\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb</Output>
+      <Time>2011-06-06T21:20:07.3+02:00</Time>
     </Item>
     <Item>
-      <Source>obj\x86\Debug\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Body_Texture.png</Source>
+      <Source>obj\x86\Debug\FBX\AF9F32ED\RasmusEMBED.fbm\Rasmus_Body_Texture.png</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -607,29 +1186,22 @@
         <Data Key="PremultiplyAlpha" Type="bool">false</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\FBX\839D29F5\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb</Output>
-      <Time>2011-04-29T21:39:08.8172+02:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF9F32ED\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb</Output>
+      <Time>2011-06-06T21:20:07.363+02:00</Time>
     </Item>
     <Item>
       <Source>Models\SphereHighPoly.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Models\SphereHighPoly_0.xml</Output>
-      <Time>2011-02-13T14:44:31.4206+01:00</Time>
+      <Time>2011-02-13T14:44:31+01:00</Time>
     </Item>
     <Item>
-      <Source>Models\level2.fbx</Source>
+      <Source>Models\rifleHands1.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\level2_0.xml</Output>
-      <Time>2011-02-05T16:10:53+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\swim.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\swim_0.xml</Output>
-      <Time>2011-02-20T03:14:58.079+01:00</Time>
+      <Output>obj\x86\Debug\Models\rifleHands1_0.xml</Output>
+      <Time>2011-03-02T23:16:33+01:00</Time>
     </Item>
     <Item>
       <Source>textures\Bushmaster ACRTexture.png</Source>
@@ -644,7 +1216,7 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb</Output>
       <Time>2011-02-11T23:35:03+01:00</Time>
     </Item>
     <Item>
@@ -660,60 +1232,18 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Output>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb</Output>
       <Time>2011-02-11T23:35:03+01:00</Time>
     </Item>
     <Item>
-      <Source>Models\buggladd.fbx</Source>
+      <Source>Models\hampusdeath2.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\buggladd_0.xml</Output>
-      <Time>2011-02-23T00:14:49+01:00</Time>
+      <Output>obj\x86\Debug\Models\hampusdeath2_0.xml</Output>
+      <Time>2011-06-01T16:18:11+02:00</Time>
     </Item>
     <Item>
-      <Source>Models\riflemove.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\riflemove_0.xml</Output>
-      <Time>2011-02-24T15:31:06+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\test6.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\test6_0.xml</Output>
-      <Time>2011-02-27T23:02:21+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\test7.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\test7_0.xml</Output>
-      <Time>2011-02-27T23:28:38+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\test8.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\test8_0.xml</Output>
-      <Time>2011-02-27T23:48:50+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\animtest1.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\animtest1_0.xml</Output>
-      <Time>2011-03-01T20:34:24+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\testC.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\testC_0.xml</Output>
-      <Time>2011-03-01T20:27:41+01:00</Time>
-    </Item>
-    <Item>
-      <Source>textures\V2_Batman_Cape_D2.tga</Source>
+      <Source>obj\x86\Debug\FBX\E172331B\hampusdeath2.fbm\hairtexture3.png</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -725,18 +1255,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\V2_Batman_Cape_D2_0.xnb</Output>
-      <Time>2011-01-02T17:38:22+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E172331B\hampusdeath2.fbm\hairtexture3_0.xnb</Output>
+      <Time>2011-06-06T21:20:20.674+02:00</Time>
     </Item>
     <Item>
-      <Source>Models\pistolarms1.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\pistolarms1_0.xml</Output>
-      <Time>2011-03-01T22:36:48+01:00</Time>
-    </Item>
-    <Item>
-      <Source>textures\pistolUV1.png</Source>
+      <Source>obj\x86\Debug\FBX\E172331B\hampusdeath2.fbm\hampusFULLtexture1.png</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -748,71 +1271,11 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\pistolUV1_0.xnb</Output>
-      <Time>2011-01-19T22:37:14+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E172331B\hampusdeath2.fbm\hampusFULLtexture1_0.xnb</Output>
+      <Time>2011-06-06T21:20:20.72+02:00</Time>
     </Item>
     <Item>
-      <Source>Models\rifleHandsFuck.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\rifleHandsFuck_0.xml</Output>
-      <Time>2011-03-02T17:13:52+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\rifleHands1.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\rifleHands1_0.xml</Output>
-      <Time>2011-03-02T23:16:33+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\level3.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\level3_0.xml</Output>
-      <Time>2011-03-03T19:42:45+01:00</Time>
-    </Item>
-    <Item>
-      <Source>textures\rutTile.png</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">true</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb</Output>
-      <Time>2011-03-03T19:40:17+01:00</Time>
-    </Item>
-    <Item>
-      <Source>textures\wallTile.png</Source>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Parameters>
-        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
-        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
-        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
-        <Data Key="GenerateMipmaps" Type="bool">true</Data>
-        <Data Key="ResizeToPowerOfTwo" Type="bool">true</Data>
-        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
-      </Parameters>
-      <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb</Output>
-      <Time>2011-03-03T19:27:31+01:00</Time>
-    </Item>
-    <Item>
-      <Source>Models\HampusAnimated1.fbx</Source>
-      <Importer>FbxImporter</Importer>
-      <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>obj\x86\Debug\Models\HampusAnimated1_0.xml</Output>
-      <Time>2011-03-09T17:09:10+01:00</Time>
-    </Item>
-    <Item>
-      <Source>images\hairtexture3.png</Source>
+      <Source>obj\x86\Debug\FBX\E172331B\hampusdeath2.fbm\Bushmaster ACRTexture.png</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -824,11 +1287,18 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb</Output>
-      <Time>2011-01-23T23:07:26+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E172331B\hampusdeath2.fbm\Bushmaster ACRTexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:20.808+02:00</Time>
     </Item>
     <Item>
-      <Source>images\hampusFULLtexture1.png</Source>
+      <Source>Models\Map.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\Map_0.xml</Output>
+      <Time>2011-06-02T16:24:15+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\21602F93\Map.fbm\walltexture.png</Source>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Parameters>
@@ -840,28 +1310,392 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb</Output>
-      <Time>2011-01-23T15:50:14+01:00</Time>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\walltexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:30.863+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\21602F93\Map.fbm\pillartexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\pillartexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:30.892+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\21602F93\Map.fbm\symbolstexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\symbolstexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:30.957+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\21602F93\Map.fbm\tilestexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\tilestexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:31.001+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\21602F93\Map.fbm\altartexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\altartexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:31.025+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\21602F93\Map.fbm\groundtexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\groundtexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:31.27+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\21602F93\Map.fbm\vasetexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\vasetexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:31.334+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\21602F93\Map.fbm\bushtexture2.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\bushtexture2_0.xnb</Output>
+      <Time>2011-06-06T21:20:31.757+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\21602F93\Map.fbm\bushtexture1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\bushtexture1_0.xnb</Output>
+      <Time>2011-06-06T21:20:31.782+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\hampusFinal.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\hampusFinal_0.xml</Output>
+      <Time>2011-06-01T22:28:37.2222+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AF2C32ED\hampusFinal.fbm\hairtexture3.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF2C32ED\hampusFinal.fbm\hairtexture3_0.xnb</Output>
+      <Time>2011-06-06T21:20:47.297+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AF2C32ED\hampusFinal.fbm\hampusFULLtexture1.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF2C32ED\hampusFinal.fbm\hampusFULLtexture1_0.xnb</Output>
+      <Time>2011-06-06T21:20:47.332+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AF2C32ED\hampusFinal.fbm\Bushmaster ACRTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF2C32ED\hampusFinal.fbm\Bushmaster ACRTexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:47.411+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\rasmusFinal.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\rasmusFinal_0.xml</Output>
+      <Time>2011-06-01T22:29:01.9252+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AFEC32FA\rasmusFinal.fbm\Bushmaster ACRTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AFEC32FA\rasmusFinal.fbm\Bushmaster ACRTexture_0.xnb</Output>
+      <Time>2011-06-06T21:20:58.155+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AFEC32FA\rasmusFinal.fbm\Rasmus_Hair_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AFEC32FA\rasmusFinal.fbm\Rasmus_Hair_Texture_0.xnb</Output>
+      <Time>2011-06-06T21:20:58.161+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AFEC32FA\rasmusFinal.fbm\Rasmus_Body_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AFEC32FA\rasmusFinal.fbm\Rasmus_Body_Texture_0.xnb</Output>
+      <Time>2011-06-06T21:20:58.179+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\valterFinal.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\valterFinal_0.xml</Output>
+      <Time>2011-06-02T15:38:23+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AF6732ED\valterFinal.fbm\Bushmaster ACRTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF6732ED\valterFinal.fbm\Bushmaster ACRTexture_0.xnb</Output>
+      <Time>2011-06-06T21:21:10.387+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AF6732ED\valterFinal.fbm\Rasmus_Hair_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF6732ED\valterFinal.fbm\Rasmus_Hair_Texture_0.xnb</Output>
+      <Time>2011-06-06T21:21:10.423+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\AF6732ED\valterFinal.fbm\valter_Body_Texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF6732ED\valterFinal.fbm\valter_Body_Texture_0.xnb</Output>
+      <Time>2011-06-06T21:21:10.439+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\axelFinal5.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\axelFinal5_0.xml</Output>
+      <Time>2011-06-02T23:12:55+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\7A6A323E\axelFinal5.fbm\Bushmaster ACRTexture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\Bushmaster ACRTexture_0.xnb</Output>
+      <Time>2011-06-06T21:21:23.153+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\7A6A323E\axelFinal5.fbm\axelbody_texture.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\axelbody_texture_0.xnb</Output>
+      <Time>2011-06-06T21:21:23.21+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\7A6A323E\axelFinal5.fbm\axel_hair_texture.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\axel_hair_texture_0.xnb</Output>
+      <Time>2011-06-06T21:21:23.307+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\7A6A323E\axelFinal5.fbm\helmet.png</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\helmet_0.xnb</Output>
+      <Time>2011-06-06T21:21:23.31+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
-      <TargetProfile>Reach</TargetProfile>
+      <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\SpeletContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\SpeletContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
-        <Value>2011-04-29T21:38:56.6472+02:00</Value>
+        <Key>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2011-05-28T16:39:30+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll</Key>
-        <Value>2011-04-29T21:38:56.3452+02:00</Value>
+        <Key>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\SkinnedModel\bin\Xbox 360\Debug\SkinnedModel.dll</Key>
+        <Value>2011-05-28T16:39:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>

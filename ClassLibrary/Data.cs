@@ -85,17 +85,9 @@ namespace ClassLibrary
         {
             position.Z = a;
         }
-        public void ChangeLifeStatus(Boolean l)
-        {
-            alive = l;
-        }
         public Vector3 GetPosition()
         {
             return position;
-        }
-        public Vector2 GetPosition2()
-        {
-            return new Vector2(position.X, position.Z);
         }
         public float GetXpos()
         {
@@ -109,79 +101,11 @@ namespace ClassLibrary
         {
             return position.Z;
         }
-        public string GetXposString()
-        {
-            string s;
-            s = PosToString(this.GetXpos());
-            return s;
-        }
-        public string GetYposString()
-        {
-            string s;
-            s = PosToString(this.GetYpos());
-            return s;
-        }
-        public string GetZposString()
-        {
-            string s;
-            s = PosToString(this.GetZpos());
-            return s;
-        }
-        private string PosToString(float c)
-        {
-            String r = "";
-            if (c > 9)
-            {
-                if (c > 99)
-                {
-                    if (c > 999)
-                    {
-                        r = c.ToString().Substring(0, 3);
-                    }
-                    else
-                    {
-                        r = c.ToString();
-                    }
-                }
-                else
-                {
-                    r = "0" + c.ToString();
-                }
-            }
-            else
-            {
-                r = "00" + c.ToString();
-            }
-            return r;
-        }
+
         public string IdToString()
         {
             return id.ToString();
         }
-        public string CurrentWeaponToString()
-        {
-            if (weapon == Constants.GUNMACHINE)
-            {
-                return "Machinegun";
-            }
-            else
-            {
-                return "Gun";
-            }
-            
-        }
-        public Boolean isAlive()
-        {
-            return alive;
-        }
-        public String isAliveToString()
-        {
-            String a = "N";
-            if (alive)
-            {
-                a = "Y";
-            }
-            return a;
-        }
+
     }
 }

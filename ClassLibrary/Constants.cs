@@ -17,22 +17,34 @@ namespace ClassLibrary
         public const string phpServers = "SERVERLIST";
         public const string phpAddServer = "NEWSERVER";
 
-        public const int SCRWIDTH = 800;
-        public const int SCRHEIGHT = 600;
+        public const int HEADMAX = 15;
+        public const int HEADMIN = 9;
+
+        public const int SCRWIDTH = 1024;
+        public const int SCRHEIGHT = 768;
 
         public const int HAMPUS = 0;
         public const int RASMUS = 1;
+        public const int AXEL = 2;
+        public const int VALTER = 3;
+
+        
+        public const Int16 WALKING = 0;
+        public const Int16 RUNNING = 1;
+        public const Int16 CROUCHING = 2;
+        public const Int16 CROUCHWALKING = 3;
+        public const Int16 STANDING = 4;
+        public const Int16 DEAD = 5;
+
 
         public const Int32 NewConnection    = 1;
         public const Int32 ClientDisconnect = 2;
         public const Int32 PlayerUpdate     = 3;
-        public const Int32 Bullet           = 4;
+        public const Int32 HitSomeone       = 4;
+        public const Int32 RewardKiller = 5;
         public const Int32 Status           = 9;
 
-        public const Int32 GUNPISTOL = 0;
-        public const Int32 GUNMACHINE = 1;
-
-        public const float BOLLRADIE          = 64;
+        public const float BOLLRADIE = 8;
         public const float NearClip = 1.0f;
         public const float FarClip = 1000.0f;
         public const float ViewAngle = 45.0f;

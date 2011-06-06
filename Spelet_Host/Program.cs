@@ -66,12 +66,34 @@ namespace Spelet_Host
                         {
                             PlayerLeft(msg);
                         }
+                        else if (type == Constants.HitSomeone)
+                        {
+                            SendHit(msg);
+                        }
+                        else if (type == Constants.Status)
+                        {
+                            UpdateStatus(msg);
+                        }
+                        else if (type == Constants.RewardKiller)
+                        {
+
+                        }
                         break;
                 }
                 server.Recycle(msg);
             }
         }
-
+        private void rewardK(NetIncomingMessage msg)
+        {
+            List<NetConnection> all = server.Connections; // Listar alla spelare
+            all.Remove(msg.SenderConnection);
+            int id = msg.ReadInt32();
+            Console.WriteLine("Player " + id + " killed someone!");
+            NetOutgoingMessage om = server.CreateMessage();
+            om.Write(Constants.RewardKiller);
+            om.Write(id);
+            server.SendMessage(om, all, NetDeliveryMethod.Unreliable, 0);
+        }
         static void SayHello()
         {
             Console.WriteLine("Welcome to the gameserver!");
@@ -113,31 +135,42 @@ namespace Spelet_Host
 
         static void Brodcast(NetIncomingMessage msg)
         {
-            OtherPlayer player = Package.MsgToOtherPlayer(msg);
+            OtherPlayer player = Package.MsgToOtherPlayers(msg);
             List<NetConnection> all = server.Connections; // Listar alla spelare
             all.Remove(msg.SenderConnection);
             NetOutgoingMessage om = server.CreateMessage();
             om.Write(Constants.PlayerUpdate);
-            Package.DataToOm(om, player);
+            Package.PlayerToOm(om, player);
             server.SendMessage(om, all, NetDeliveryMethod.UnreliableSequenced, 0);
         }
-
-        static void BulletMsgs(NetIncomingMessage msg)
+        static void SendHit(NetIncomingMessage msg)
         {
-            List<NetConnection> all = server.Connections; // Get other players
+            int a = msg.ReadInt32();
+            int hitter = msg.ReadInt32();
+            List<NetConnection> all = server.Connections; // Listar alla spelare
             all.Remove(msg.SenderConnection);
-
-            Bullet b = Package.MsgToBullet(msg);
             NetOutgoingMessage om = server.CreateMessage();
-            om.Write(Constants.Bullet);
-            Package.SendBullet(om, b);
+            om.Write(Constants.HitSomeone);
+            om.Write(a);
+            om.Write(hitter);
+            server.SendMessage(om, all, NetDeliveryMethod.Unreliable,0);
+        }
+        static void UpdateStatus(NetIncomingMessage msg)
+        {
+            Int32 id = msg.ReadInt32();
+            Int16 status = msg.ReadInt16();
+            List<NetConnection> all = server.Connections; // Listar alla spelare
+            all.Remove(msg.SenderConnection);
+            NetOutgoingMessage om = server.CreateMessage();
+            om.Write(Constants.Status);
+            om.Write(id);
+            om.Write(status);
             server.SendMessage(om, all, NetDeliveryMethod.UnreliableSequenced, 0);
         }
-
         public static int FindOpenSlot(Boolean[] openSlots)
         {
             int s = -1;
-            for (int i = 0; i < Constants.MAXPLAYERS; i++)
+            for (int i = 1; i < Constants.MAXPLAYERS; i++)
             {
                 if (openSlots[i])
                 {
@@ -151,7 +184,7 @@ namespace Spelet_Host
         private static int CountConnected()
         {
             int s = 0;
-            for (int i = 0; i < Constants.MAXPLAYERS; i++)
+            for (int i = 1; i < Constants.MAXPLAYERS; i++)
             {
                 if (!openSlots[i])
                 {
@@ -194,22 +227,20 @@ namespace Spelet_Host
         {
             Console.WriteLine("Sending initial data");
             Random random = new Random();
-            float xr = random.Next(-500, 500);
-            float zr = random.Next(-500, 500);
-            Vector3 initialPosition = new Vector3(xr, 0, zr);
-
+            Vector3 initialPosition = new Vector3(100, 70, 100);
+            Int16 model = (Int16)random.Next(0, 4);
+            //model = 2;
             int a = FindOpenSlot(openSlots);
             if (a >= 0)
             {
                 openSlots[a] = false;
             }
-            OtherPlayer player = new OtherPlayer(initialPosition.X, initialPosition.Y, initialPosition.Z, Constants.GUNMACHINE, a, 4);
-            player.forwardDir = 3;
+            OtherPlayer player = new OtherPlayer(initialPosition.X, initialPosition.Y, initialPosition.Z, a, 0,0, false);
             NetOutgoingMessage om = server.CreateMessage();
-
+            Console.WriteLine("Random val: " + model.ToString());
+            player.model = model;
             om.Write(Constants.NewConnection);
-            Package.DataToOm(om, player);
-            Console.WriteLine(Package.DataToString(player));
+            Package.PlayerToOm(om, player);
             server.SendMessage(om, receiver, NetDeliveryMethod.Unreliable);
             Console.WriteLine(String.Format("Player {0} connected", player.IdToString()));
             players[a] = player;

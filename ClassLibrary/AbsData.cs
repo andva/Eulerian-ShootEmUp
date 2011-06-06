@@ -14,22 +14,28 @@ namespace ClassLibrary
         public Int32 id;
         public Int32 weapon;
         public Boolean alive;
-        public Int16 model;
-        public float forwardDir;
+        public Int32 model;
+        public float xr, yr;
         public BoundingSphere boundingSphere;
-        public String name;
-        public float moveSpeed = 1f;
-        public const int HEADMAX = 15;
-        public const int HEADMIN = 9;
-        public const float SITSPEAD = 0.5f;
-        public float headPos = HEADMAX;
+        public BoundingBox boundingBox;
+        //public String name;
+        public float moveSpeed = 50f;
+        public Int16 hp = 100;
+        public Boolean hit = false;
+        public Boolean hitMe = false;
+        public Int16 activity = 0;
+        public const float SITSPEAD = 30f;
+        public float headPos = Constants.HEADMAX;
+        public int killer;
 
         public AbsData()
         {
             alive = true;
             position = Vector3.Zero;
             weapon = 1;
-            model = 0;
+            Vector3 boundingPos = this.GetPosition();
+            boundingPos.Y += Convert.ToInt16(headPos/2);
+            boundingSphere = new BoundingSphere(boundingPos, Constants.BOLLRADIE);
         }
         public AbsData(Vector3 p, Int32 w, Int32 i)
         {
@@ -37,29 +43,25 @@ namespace ClassLibrary
             ChangeWeapon(w);
             id = i;
             alive = true;
-            model = 0;
+            boundingSphere = new BoundingSphere(this.GetPosition(), Constants.BOLLRADIE);
         }
         public AbsData(Player d)
         {
             ChangePosition(d.GetPosition());
             ChangeWeapon(weapon);
-            id = d.GetId();
+            id = d.id;
             alive = true;
-            model = 0;
+            boundingSphere = new BoundingSphere(this.GetPosition(), Constants.BOLLRADIE);
         }
         public AbsData(Vector3 pos, GraphicsDevice device)
         {
             position = pos;
-            model = 0;
+            boundingSphere = new BoundingSphere(this.GetPosition(), Constants.BOLLRADIE);
         }
 
         public void ChangeWeapon(Int32 w)
         {
             weapon = w;
-        }
-        public int GetId()
-        {
-            return id;
         }
         public void ChangePosition(Vector3 newPosition)
         {
@@ -73,33 +75,35 @@ namespace ClassLibrary
             position.Y = y;
             position.Z = z;
         }
-        public void ChangePositionX(float a)
+
+        public void GotHit(Int16 hpw, Int32 shtr)
         {
-            position.X = a;
-        }
-        public void ChangePositionY(float a)
-        {
-            position.Y = a;
-        }
-        public void ChangePositionZ(float a)
-        {
-            position.Z = a;
+            if (hp != 0)
+            {
+                hp -= hpw;
+                hitMe = true;
+            }
+            if (hp <= 0)
+            {
+                if (hp + 10 > 0)
+                    killer = shtr;
+                activity = Constants.DEAD;
+                alive = false;
+                
+            }
         }
         public void ChangeLifeStatus(Boolean l)
         {
             alive = l;
         }
-        public void ChangeForwardDir(float dir)
+        public void ChangeForwardDir(float xro, float yro)
         {
-            forwardDir = dir;
+            xr = xro;
+            yr = yro;
         }
         public Vector3 GetPosition()
         {
             return position;
-        }
-        public Vector2 GetPosition2()
-        {
-            return new Vector2(position.X, position.Z);
         }
         public float GetXpos()
         {
@@ -113,79 +117,10 @@ namespace ClassLibrary
         {
             return position.Z;
         }
-        public string GetXposString()
-        {
-            string s;
-            s = PosToString(this.GetXpos());
-            return s;
-        }
-        public string GetYposString()
-        {
-            string s;
-            s = PosToString(this.GetYpos());
-            return s;
-        }
-        public string GetZposString()
-        {
-            string s;
-            s = PosToString(this.GetZpos());
-            return s;
-        }
-        private string PosToString(float c)
-        {
-            String r = "";
-            if (c > 9)
-            {
-                if (c > 99)
-                {
-                    if (c > 999)
-                    {
-                        r = c.ToString().Substring(0, 3);
-                    }
-                    else
-                    {
-                        r = c.ToString();
-                    }
-                }
-                else
-                {
-                    r = "0" + c.ToString();
-                }
-            }
-            else
-            {
-                r = "00" + c.ToString();
-            }
-            return r;
-        }
+
         public string IdToString()
         {
             return id.ToString();
-        }
-        public string CurrentWeaponToString()
-        {
-            if (weapon == Constants.GUNMACHINE)
-            {
-                return "Machinegun";
-            }
-            else
-            {
-                return "Gun";
-            }
-            
-        }
-        public Boolean isAlive()
-        {
-            return alive;
-        }
-        public String isAliveToString()
-        {
-            String a = "N";
-            if (alive)
-            {
-                a = "Y";
-            }
-            return a;
         }
     }
 }

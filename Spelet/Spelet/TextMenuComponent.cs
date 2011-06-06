@@ -15,7 +15,7 @@ namespace ClassLibrary
         // Fonts
         protected readonly SpriteFont regularFont, selectedFont;
         // Colors
-        protected Color regularColor = Color.White, selectedColor = Color.Red;
+        protected Color regularColor = new Color(180, 180, 180), selectedColor = Color.White;
         // Menu Position
         protected Vector2 position = new Vector2();
         // Items

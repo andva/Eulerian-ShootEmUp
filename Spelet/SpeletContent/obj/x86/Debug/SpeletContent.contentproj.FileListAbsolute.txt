@@ -5,3 +5,9 @@ C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik
 D:\Programmering\Euler\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Axel\Documents\Axel\Git_projekt\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\SpeletContent\obj\x86\Debug\ResolveAssemblyReference.cache

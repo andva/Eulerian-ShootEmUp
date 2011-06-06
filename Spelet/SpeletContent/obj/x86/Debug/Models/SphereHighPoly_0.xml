@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>pSphere1</Name>
     <Identity>
-      <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\SphereHighPoly.fbx</SourceFilename>
+      <SourceFilename>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\SpeletContent\Models\SphereHighPoly.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -26,7 +26,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>lambert1</Name>
       <Identity>
-        <SourceFilename>C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\SpeletContent\Models\SphereHighPoly.fbx</SourceFilename>
+        <SourceFilename>C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\SpeletContent\Models\SphereHighPoly.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

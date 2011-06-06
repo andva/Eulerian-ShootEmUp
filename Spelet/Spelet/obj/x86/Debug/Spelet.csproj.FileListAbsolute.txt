@@ -428,3 +428,775 @@ C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\obj\x8
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\obj\x86\Debug\Spelet.exe
 C:\Users\Valter\Desktop\Programmering\C#\Eulerian-ShootEmUp\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\rutTile.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\floorNormals.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\wallTile.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\normal2.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\floor2.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\color_map.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\height_map.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\normal_map.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Models\level3.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusAnimated1.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\FBX\CAE42A23\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\FBX\CAE42A23\gunhandEMBED.fbm\pistolUV1_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\FBX\A10029CC\HampusEMBED.fbm\hairtexture3_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\FBX\A10029CC\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\FBX\A1C029D9\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\FBX\A1C029D9\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\images\hairtexture3_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Content\images\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_v05\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\61733247\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\61733247\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF9F32ED\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF9F32ED\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hairtexture3.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hairtexture3.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\sky_cube.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\37383029\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\37383029\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\hudFont.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\effects.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\hudFont.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\effects.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\rutTile.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\floorNormals.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\wallTile.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\normal2.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\floor2.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\color_map.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\height_map.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\normal_map.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hairtexture3.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\sky_cube.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\hudFont.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\effects.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\gunhandEMBED.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\HampusEMBED.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\level3.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\Map_002.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\Map_003.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\BB92638\gunhandEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\BB92638\gunhandEMBED.fbm\pistolUV1_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E5B125E1\HampusEMBED.fbm\hairtexture3_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E5B125E1\HampusEMBED.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E67125EE\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E67125EE\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\rutTile_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\wallTile_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B332385\Map_002.fbm\walltexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B332385\Map_002.fbm\pillartexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B332385\Map_002.fbm\symbolstexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B332385\Map_002.fbm\tilestexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B332385\Map_002.fbm\altartexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B332385\Map_002.fbm\groundtexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B332385\Map_002.fbm\vasetexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B382386\Map_003.fbm\walltexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B382386\Map_003.fbm\pillartexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B382386\Map_003.fbm\symbolstexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B382386\Map_003.fbm\tilestexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B382386\Map_003.fbm\altartexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B382386\Map_003.fbm\groundtexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\4B382386\Map_003.fbm\vasetexture_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\walkcyclehampus.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\830127A3\walkcyclehampus.fbm\hairtexture3_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\830127A3\walkcyclehampus.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Valter\Desktop\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\830127A3\walkcyclehampus.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusdeath2.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E172331B\hampusdeath2.fbm\hairtexture3_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E172331B\hampusdeath2.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E172331B\hampusdeath2.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusdeath2.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\66473057\hampusdeath2.fbm\hairtexture3_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\66473057\hampusdeath2.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\66473057\hampusdeath2.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00000.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00001.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00002.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00003.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00004.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00005.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00006.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00007.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00008.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00009.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00010.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00011.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00012.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00013.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00014.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00015.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00016.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00017.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00018.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00019.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00020.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00021.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00022.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00023.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hairtexture3.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\sky_cube.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00000.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00001.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00002.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00003.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00004.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00005.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00006.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00007.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00008.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00009.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00010.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00011.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00012.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00013.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00014.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00015.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00016.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00017.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00018.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00019.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00020.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00021.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00022.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00023.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\hudFont.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\effects.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusdeath2.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\92A03275\hampusdeath2.fbm\hairtexture3_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\92A03275\hampusdeath2.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\92A03275\hampusdeath2.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\Map.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\D8552EED\Map.fbm\walltexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\D8552EED\Map.fbm\pillartexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\D8552EED\Map.fbm\symbolstexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\D8552EED\Map.fbm\tilestexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\D8552EED\Map.fbm\altartexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\D8552EED\Map.fbm\groundtexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\D8552EED\Map.fbm\vasetexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap3fix.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00000.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00001.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00002.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00003.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00004.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00005.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00006.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00007.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00008.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00009.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00010.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00011.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00012.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00013.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00014.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00015.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00016.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00017.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00018.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00019.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00020.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00021.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00022.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00023.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap3fix.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\Map.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\walltexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\pillartexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\symbolstexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\tilestexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\altartexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\groundtexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\vasetexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusFinal.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rasmusFinal.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF2C32ED\hampusFinal.fbm\hairtexture3_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF2C32ED\hampusFinal.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF2C32ED\hampusFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AFEC32FA\rasmusFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AFEC32FA\rasmusFinal.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AFEC32FA\rasmusFinal.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap3fix.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\Map.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusFinal.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rasmusFinal.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\BF0A2CCF\Map.fbm\walltexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\BF0A2CCF\Map.fbm\pillartexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\BF0A2CCF\Map.fbm\symbolstexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\BF0A2CCF\Map.fbm\tilestexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\BF0A2CCF\Map.fbm\altartexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\BF0A2CCF\Map.fbm\groundtexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\BF0A2CCF\Map.fbm\vasetexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\36C53029\hampusFinal.fbm\hairtexture3_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\36C53029\hampusFinal.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\36C53029\hampusFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\37853036\rasmusFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\37853036\rasmusFinal.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\37853036\rasmusFinal.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\blood.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00000.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00001.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00002.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00003.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00004.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00005.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00006.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00007.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00008.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00009.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00010.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00011.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00012.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00013.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00014.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00015.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00016.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00017.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00018.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00019.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00020.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00021.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00022.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00023.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00024.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00025.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00026.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00027.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00028.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00029.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00030.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00031.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00032.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00033.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00034.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00035.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00036.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00037.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00038.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00039.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00040.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00041.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00042.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00043.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00044.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00045.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00046.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00047.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00048.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00049.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00050.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00051.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00052.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00053.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00054.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00055.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00056.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00057.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00058.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00059.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00060.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00061.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00062.xnb
+C:\Users\Axel\Documents\Axel\campus\TNM061_3D_kurs\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00063.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\blood.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00000.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00001.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00002.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00003.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00004.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00005.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00006.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00007.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00008.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00009.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00010.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00011.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00012.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00013.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00014.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00015.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00016.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00017.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00018.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00019.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00020.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00021.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00022.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00023.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00024.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00025.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00026.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00027.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00028.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00029.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00030.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00031.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00032.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00033.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00034.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00035.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00036.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00037.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00038.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00039.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00040.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00041.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00042.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00043.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00044.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00045.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00046.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00047.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00048.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00049.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00050.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00051.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00052.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00053.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00054.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00055.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00056.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00057.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00058.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00059.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00060.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00061.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00062.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00063.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\sky_cube.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\bushtexture2_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\21602F93\Map.fbm\bushtexture1_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\valterFinal.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF6732ED\valterFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF6732ED\valterFinal.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\AF6732ED\valterFinal.fbm\valter_Body_Texture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodHit.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\MainMenuFinal.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodHit2.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\axelFinal5.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\axelbody_texture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\axel_hair_texture_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\7A6A323E\axelFinal5.fbm\helmet_0.xnb
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\death.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\blood.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00000.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00001.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00002.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00003.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00004.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00005.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00006.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00007.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00008.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00009.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00010.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00011.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00012.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00013.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00014.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00015.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00016.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00017.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00018.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00019.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00020.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00021.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00022.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00023.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00024.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00025.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00026.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00027.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00028.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00029.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00030.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00031.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00032.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00033.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00034.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00035.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00036.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00037.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00038.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00039.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00040.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00041.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00042.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00043.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00044.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00045.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00046.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00047.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00048.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00049.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00050.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00051.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00052.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00053.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00054.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00055.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00056.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00057.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00058.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00059.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00060.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00061.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00062.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00063.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodHit.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\MainMenuFinal.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodHit2.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\death.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusFinal.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rasmusFinal.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\valterFinal.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\axelFinal5.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\D8552EED\Map.fbm\bushtexture2_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\D8552EED\Map.fbm\bushtexture1_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\61003247\hampusFinal.fbm\hairtexture3_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\61003247\hampusFinal.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\61003247\hampusFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\61C03254\rasmusFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\61C03254\rasmusFinal.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\61C03254\rasmusFinal.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\613B3247\valterFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\613B3247\valterFinal.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\613B3247\valterFinal.fbm\valter_Body_Texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\2CE43198\axelFinal5.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\2CE43198\axelFinal5.fbm\axelbody_texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\2CE43198\axelFinal5.fbm\axel_hair_texture_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\2CE43198\axelFinal5.fbm\helmet_0.xnb
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.exe.manifest
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.application
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.exe.manifest
+C:\Users\Axel\Documents\My Dropbox\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.application
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.exe.manifest
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.application
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.exe.manifest
+C:\Users\Valter\Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.application
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\HUD.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\sky_cube.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\crosshair1.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\SpaceBackground.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\uffizi_cross.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hampusTXT.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\hairtexture3.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00000.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00001.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00002.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00003.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00004.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00005.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00006.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00007.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00008.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00009.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00010.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00011.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00012.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00013.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00014.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00015.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00016.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00017.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00018.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00019.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00020.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00021.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00022.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\muzzleflash\Muzzle_00023.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\heightmap3fix.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\blood.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00000.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00001.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00002.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00003.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00004.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00005.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00006.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00007.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00008.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00009.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00010.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00011.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00012.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00013.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00014.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00015.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00016.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00017.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00018.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00019.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00020.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00021.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00022.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00023.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00024.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00025.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00026.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00027.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00028.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00029.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00030.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00031.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00032.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00033.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00034.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00035.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00036.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00037.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00038.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00039.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00040.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00041.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00042.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00043.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00044.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00045.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00046.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00047.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00048.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00049.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00050.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00051.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00052.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00053.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00054.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00055.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00056.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00057.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00058.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00059.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00060.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00061.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00062.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodsplat\Blood_00063.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodHit.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\MainMenuFinal.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Images\bloodHit2.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuLarge.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\menuSmall.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\hudFont.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\death.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\SkySphere.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\MapShader.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\parallax.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Effects\ShadowEffect.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\effects.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\RasmusEMBED.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\SphereHighPoly.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rifleHands1.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusdeath2.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\Map.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\hampusFinal.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\rasmusFinal.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\valterFinal.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Models\axelFinal5.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\Audio\gunshot.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\25DF3B1F\RasmusEMBED.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\25DF3B1F\RasmusEMBED.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\Bushmaster ACRTexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\textures\arms_texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\5FE43B4D\hampusdeath2.fbm\hairtexture3_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\5FE43B4D\hampusdeath2.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\5FE43B4D\hampusdeath2.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\560137C5\Map.fbm\walltexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\560137C5\Map.fbm\pillartexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\560137C5\Map.fbm\symbolstexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\560137C5\Map.fbm\tilestexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\560137C5\Map.fbm\altartexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\560137C5\Map.fbm\groundtexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\560137C5\Map.fbm\vasetexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\560137C5\Map.fbm\bushtexture2_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\560137C5\Map.fbm\bushtexture1_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\256C3B1F\hampusFinal.fbm\hairtexture3_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\256C3B1F\hampusFinal.fbm\hampusFULLtexture1_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\256C3B1F\hampusFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\262C3B2C\rasmusFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\262C3B2C\rasmusFinal.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\262C3B2C\rasmusFinal.fbm\Rasmus_Body_Texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\25A73B1F\valterFinal.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\25A73B1F\valterFinal.fbm\Rasmus_Hair_Texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\25A73B1F\valterFinal.fbm\valter_Body_Texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E8693A70\axelFinal5.fbm\Bushmaster ACRTexture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E8693A70\axelFinal5.fbm\axelbody_texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E8693A70\axelFinal5.fbm\axel_hair_texture_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Content\FBX\E8693A70\axelFinal5.fbm\helmet_0.xnb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.exe.manifest
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.application
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.exe
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Spelet.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.dll
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\ClassLibrary.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.pdb
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\bin\x86\Debug\Lidgren.Network.xml
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.exe.manifest
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.application
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.exe
+C:\Users\Andreas Valter\Documents\My Dropbox\Skolarbeten\TNM065 - 3D-Datorgrafik\Spelet_senaste_versionen\Spelet\Spelet\obj\x86\Debug\Spelet.pdb
